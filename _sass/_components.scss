@@ -30,13 +30,14 @@
 
 .btn--outline {
   background: transparent;
-  border-color: currentColor;
-  color: $color-navy-950;
+  border-color: $color-cream-border;
+  color: $color-ink;
 }
 
 .btn--outline:hover {
-  background: $color-navy-950;
-  color: $color-white;
+  background: $color-surface-alt;
+  border-color: $color-accent;
+  color: $color-ink;
 }
 
 .btn--on-dark {
@@ -100,7 +101,7 @@
 }
 
 .value-card {
-  background: $color-white;
+  background: $color-surface;
   border: 1px solid $color-cream-border;
   border-radius: $radius-lg;
   padding: $space-5;
@@ -139,7 +140,7 @@
 .post-card {
   display: flex;
   flex-direction: column;
-  background: $color-white;
+  background: $color-surface;
   border: 1px solid $color-cream-border;
   border-radius: $radius-lg;
   padding: $space-5;
@@ -158,8 +159,8 @@
 
 .category-tag {
   display: inline-block;
-  background: $color-paper-alt;
-  color: $color-navy-800;
+  background: $color-surface-alt;
+  color: $color-ink;
   border: 1px solid $color-cream-border;
   border-radius: 999px;
   padding: 0.2em 0.75em;
@@ -171,8 +172,9 @@
 }
 
 .category-tag:hover {
-  background: $color-navy-950;
-  color: $color-white;
+  background: $color-accent;
+  color: $color-accent-contrast;
+  border-color: $color-accent;
 }
 
 .post-card h3 {
@@ -181,12 +183,12 @@
 }
 
 .post-card h3 a {
-  color: $color-navy-950;
+  color: $color-ink;
   text-decoration: none;
 }
 
 .post-card h3 a:hover {
-  color: $color-accent-dark;
+  color: $color-accent;
 }
 
 .post-card p {
@@ -258,12 +260,12 @@
   border-radius: $radius-sm;
   border: 1px solid $color-cream-border;
   text-decoration: none;
-  color: $color-navy-950;
+  color: $color-ink;
   font-weight: 600;
 }
 
 .pagination button {
-  background: $color-white;
+  background: $color-surface;
   font: inherit;
   font-size: $fs-md;
   cursor: pointer;
@@ -271,8 +273,9 @@
 
 .pagination a:hover,
 .pagination button:not(:disabled):hover {
-  background: $color-navy-950;
-  color: $color-white;
+  background: $color-accent;
+  color: $color-accent-contrast;
+  border-color: $color-accent;
 }
 
 .pagination .is-disabled,
@@ -378,7 +381,7 @@
   min-height: $touch-target;
   border: 1px solid $color-slate-400;
   border-radius: $radius-sm;
-  background: $color-white;
+  background: $color-surface;
   color: $color-ink;
 }
 
@@ -417,8 +420,8 @@
 }
 
 .advisory {
-  border: 2px solid $color-navy-800;
-  background: $color-navy-950;
+  border: 2px solid $color-accent;
+  background: $color-surface-alt;
   color: $color-white;
   border-radius: $radius-md;
   padding: $space-4 $space-5;
@@ -461,7 +464,7 @@
 // -----------------------------------------------------------------------
 .callout {
   border: 1px solid $color-cream-border;
-  background: $color-white;
+  background: $color-surface;
   border-radius: $radius-lg;
   padding: $space-6;
   text-align: center;
@@ -486,7 +489,7 @@
 }
 
 .placeholder-box strong {
-  color: $color-navy-800;
+  color: $color-ink;
 }
 
 .breadcrumb {

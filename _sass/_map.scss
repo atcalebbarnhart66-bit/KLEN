@@ -29,6 +29,8 @@
   min-height: $touch-target;
   border: 1px solid $color-slate-400;
   border-radius: $radius-sm;
+  background: $color-surface;
+  color: $color-ink;
 }
 
 .map-search__count {
@@ -54,7 +56,8 @@
   min-height: $touch-target;
   border: 1px solid $color-slate-400;
   border-radius: $radius-sm;
-  background: $color-white;
+  background: $color-surface;
+  color: $color-ink;
 }
 
 @media (min-width: $breakpoint-lg) {
@@ -67,7 +70,7 @@
 }
 
 .map-panel {
-  background: $color-white;
+  background: $color-surface;
   border: 1px solid $color-cream-border;
   border-radius: $radius-lg;
   padding: $space-4;
@@ -99,13 +102,14 @@
 
 .ks-map path:focus-visible {
   outline: none;
-  stroke: $color-navy-950;
+  stroke: $color-white;
   stroke-width: 2.5;
 }
 
 .ks-map path.is-selected {
   fill: $color-map-fill-selected;
-  stroke: $color-navy-950;
+  stroke: $color-map-selected-stroke;
+  stroke-width: 1.5;
 }
 
 .ks-map path.is-match {
@@ -118,7 +122,7 @@
 }
 
 .detail-panel {
-  background: $color-white;
+  background: $color-surface;
   border: 1px solid $color-cream-border;
   border-radius: $radius-lg;
   padding: $space-5;
@@ -174,7 +178,7 @@
 
 .agency-list .agency-name {
   font-weight: 700;
-  color: $color-navy-950;
+  color: $color-ink;
 }
 
 .agency-list a.agency-name {
@@ -233,7 +237,7 @@
   border: 1px solid $color-cream-border;
   border-radius: $radius-md;
   padding: $space-3;
-  background: $color-white;
+  background: $color-surface;
 }
 
 .county-directory__item h3 {

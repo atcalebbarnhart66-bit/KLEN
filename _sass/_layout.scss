@@ -34,8 +34,9 @@ main {
 // Header / nav
 // -----------------------------------------------------------------------
 .site-header {
-  background: $color-navy-950;
+  background: $color-surface;
   color: $color-white;
+  border-bottom: 1px solid $color-cream-border;
   position: relative;
 }
 
@@ -193,7 +194,8 @@ main {
 // Footer
 // -----------------------------------------------------------------------
 .site-footer {
-  background: $color-navy-950;
+  background: $color-paper-alt;
+  border-top: 1px solid $color-cream-border;
   color: rgba($color-white, 0.82);
   margin-top: $space-8;
 }

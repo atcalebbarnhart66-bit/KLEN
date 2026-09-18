@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
   font-weight: 700;
   line-height: $line-height-tight;
-  color: $color-navy-950;
+  color: $color-ink;
   margin: 0 0 $space-4;
 }
 
@@ -89,8 +89,9 @@ code {
 }
 
 pre {
-  background: $color-navy-950;
-  color: #e7ecf3;
+  background: $color-surface;
+  color: $color-ink;
+  border: 1px solid $color-cream-border;
   padding: $space-4;
   border-radius: $radius-md;
   overflow-x: auto;
@@ -147,8 +148,8 @@ th {
   position: absolute;
   left: $space-3;
   top: -60px;
-  background: $color-navy-950;
-  color: $color-white;
+  background: $color-accent;
+  color: $color-accent-contrast;
   padding: $space-3 $space-4;
   border-radius: $radius-sm;
   z-index: 1000;

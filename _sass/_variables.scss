@@ -1,39 +1,42 @@
 // KLEN design tokens
 // -----------------------------------------------------------------------
-// Palette: deep navy/slate primary, warm neutral background, single
-// reserved accent (a muted gold/amber) used only for links, focus and
-// interactive map states.
+// Dark-first palette: near-black navy background, elevated dark
+// surfaces for cards/panels, a single bright warm-gold accent used for
+// links, focus states, and calls to action. Inspired by modern dark
+// developer-tool UIs (Supabase et al.) while keeping KLEN's own navy +
+// gold identity rather than borrowing another brand's colors outright.
 
-$color-navy-950: #0f1a2b;
-$color-navy-900: #16233a;
-$color-navy-800: #1f3350;
-$color-navy-700: #2b4568;
-$color-navy-600: #3c5a80;
-$color-slate-500: #5b6b7f;
-$color-slate-400: #7c8a9c;
+$color-navy-950: #0a0d13;   // page background -- near-black, faint navy tint
+$color-navy-900: #0d1119;   // alternate section background
+$color-navy-800: #121722;   // card / panel surface
+$color-navy-700: #1a212c;   // elevated surface (hover, inputs)
+$color-navy-600: #232b3a;   // borders, dividers
+$color-slate-500: #97a3b5;  // secondary text
+$color-slate-400: #6b7686;  // tertiary / placeholder text
 
-$color-paper: #f6f3ec;      // warm neutral background
-$color-paper-alt: #ede8db;  // slightly deeper warm neutral for panels
-$color-cream-border: #ded5bf;
+$color-paper: $color-navy-950;   // page background
+$color-paper-alt: $color-navy-900; // alt section background
+$color-cream-border: $color-navy-600;
 
 $color-white: #ffffff;
-$color-ink: #1b1f27;        // near-black body text on paper
-$color-ink-soft: #3e4552;
+$color-ink: #e7ebf2;        // primary body text (soft white, not pure)
+$color-ink-soft: $color-slate-500;
 
-$color-accent: #b3792b;       // warm reserved accent (amber/bronze)
-$color-accent-dark: #8f5f1f;
-$color-accent-contrast: #ffffff;
+$color-accent: #eab04a;       // bright warm gold -- pops on dark surfaces
+$color-accent-dark: #d99b2b;  // hover/pressed state (still light enough to read)
+$color-accent-contrast: $color-navy-950; // dark text on top of bright accent fills
 
-$color-map-fill: #d9d0ba;
-$color-map-fill-hover: #c9bd9c;
+$color-map-fill: #3a4a66;
+$color-map-fill-hover: #56698c;
 $color-map-fill-selected: $color-accent;
-$color-map-stroke: #7c7358;
-$color-map-match: #7b9e87;
+$color-map-stroke: #8598bd;         // 3.07:1 against map-fill -- meets WCAG 1.4.11 non-text contrast for county boundaries
+$color-map-match: #4fae82;
+$color-map-selected-stroke: $color-navy-950; // dark outline on the bright accent fill reads far better than white would
 
-$color-success-bg: #eaf3ec;
-$color-success-border: #4d7c5a;
-$color-error: #a3362a;
-$color-error-bg: #fbeceb;
+$color-success-bg: #12261c;
+$color-success-border: #3f9468;
+$color-error: #ff8a7a;
+$color-error-bg: #2a1512;
 
 // Typography
 $font-heading: "Iowan Old Style", "Palatino Linotype", "Georgia", "Times New Roman", serif;
@@ -77,3 +80,9 @@ $breakpoint-xl: 1200px;
 
 $focus-ring: 3px solid $color-accent;
 $touch-target: 44px;
+
+// Surface tokens used for card/panel backgrounds (was $color-white in the
+// light theme). Kept as separate names from $color-white because
+// $color-white is still used verbatim for text-on-dark contexts.
+$color-surface: $color-navy-800;
+$color-surface-alt: $color-navy-700;
