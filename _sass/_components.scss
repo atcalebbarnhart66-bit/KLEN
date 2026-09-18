@@ -561,3 +561,59 @@
 .breadcrumb a {
   color: $color-slate-500;
 }
+
+// -----------------------------------------------------------------------
+// External news (auto-aggregated, keyword-matched, not authored by KLEN)
+// -----------------------------------------------------------------------
+.external-news {
+  margin-top: $space-7;
+  padding-top: $space-6;
+  border-top: 1px solid $color-cream-border;
+}
+
+.external-news__disclaimer {
+  color: $color-ink-soft;
+  font-size: $fs-sm;
+  max-width: $max-width-prose;
+  margin-bottom: $space-5;
+}
+
+.external-news__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.external-news__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: $space-2;
+  padding: $space-3 0;
+  border-bottom: 1px solid $color-cream-border;
+}
+
+.external-news__item a {
+  font-weight: 600;
+}
+
+.external-news__meta {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+}
+
+.external-badge {
+  display: inline-block;
+  background: $color-paper-alt;
+  border: 1px solid $color-slate-400;
+  color: $color-slate-500;
+  border-radius: 999px;
+  padding: 0.1em 0.6em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

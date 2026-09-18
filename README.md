@@ -219,7 +219,54 @@ other files need to change.
 
 ---
 
-## 5. How to preview the site locally
+## 5. How the "From Around the State" external news feed works
+
+The News page has a section, below your own posts, that automatically
+links to outside news articles mentioning Kansas law enforcement. KLEN
+does not write these &mdash; they're gathered by keyword search and
+clearly labeled "External" with a disclaimer, linking out to the
+original source rather than reproducing it.
+
+**How it works:** a scheduled GitHub Action (`.github/workflows/fetch-
+external-news.yml`) runs once a day, executes `scripts/
+fetch_external_news.py` (which searches Google News RSS for a list of
+keywords, no API key required), and commits the results to `_data/
+external_news.yml`. That commit triggers a normal site rebuild, the same
+as any other change.
+
+**This only runs automatically on your default branch** (normally
+`main`) &mdash; GitHub does not fire scheduled Actions on other branches.
+If nothing is showing up, confirm this workflow has been merged to your
+default branch and that Actions are enabled for the repository (Settings
+&rarr; Actions).
+
+**To change what it looks for:** open `scripts/fetch_external_news.py`
+and edit the `KEYWORDS` list near the top. Each entry is a search phrase
+(e.g. `"Kansas sheriff"`); the feed runs every keyword and merges the
+results, so you can be as broad or specific as you like.
+
+**To change how often it runs:** edit the `cron` line in `.github/
+workflows/fetch-external-news.yml`. It's currently set to once a day.
+
+**To run it manually** (without waiting for the schedule): go to the
+repository's **Actions** tab on GitHub, select "Fetch external news,"
+and click **Run workflow**.
+
+**To turn it off entirely:** delete `.github/workflows/fetch-external-
+news.yml`, or disable the workflow from the Actions tab. The News page
+will simply stop showing the section once `_data/external_news.yml` is
+empty or removed &mdash; no other changes are needed.
+
+**A note on trust:** this feed is unvetted by design &mdash; it's a
+keyword match, not editorial judgment. Don't treat an article showing up
+here as KLEN's endorsement of its accuracy. If this concerns you, the
+safest change is to have the workflow open a pull request instead of
+pushing directly, so a person reviews the list before it goes live; ask
+a developer to wire that up if you want it.
+
+---
+
+## 6. How to preview the site locally
 
 You'll need [Ruby](https://www.ruby-lang.org/) installed once. Then, from
 this folder:
@@ -235,7 +282,7 @@ manually).
 
 ---
 
-## 6. How to publish
+## 7. How to publish
 
 This site publishes automatically through GitHub Pages whenever you push
 to the `main` branch (or whichever branch your repository's Pages
@@ -284,7 +331,10 @@ _sass/            Hand-written CSS, split into partials
 assets/           Compiled CSS entry point, JavaScript, images, favicon
 _posts/           News articles (see section 1 above)
 _data/agencies.yml  All county and agency data (see section 2 above)
+_data/external_news.yml  Auto-generated external news links (see section 5)
 _agencies/        Generated county pages live here once you turn one on
+.github/workflows/fetch-external-news.yml  Daily external news job
+scripts/fetch_external_news.py  What that job runs (see section 5)
 index.html        Home page
 news/index.html   News listing (paginated, with category filtering)
 blog.html         Blog placeholder page

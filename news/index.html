@@ -64,6 +64,31 @@ description: Reverse-chronological news and commentary for Kansas law enforcemen
       </nav>
     </div>
   </div>
+
+  {% if site.data.external_news and site.data.external_news.size > 0 %}
+  <section class="external-news" aria-labelledby="external-news-heading">
+    <h2 id="external-news-heading">From Around the State</h2>
+    <p class="external-news__disclaimer">
+      These are links to articles from other news outlets that mention
+      Kansas law enforcement, gathered automatically by keyword. KLEN did
+      not write, fact-check, or endorse them &mdash; read them with that in
+      mind, and follow the link to each outlet for the full story.
+    </p>
+    <ul class="external-news__list">
+      {% for article in site.data.external_news %}
+      <li class="external-news__item">
+        <span class="external-badge">External</span>
+        <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+        <span class="external-news__meta">
+          {% if article.source and article.source != "" %}{{ article.source }}{% endif %}
+          {% if article.published and article.published != "" %} &middot; {{ article.published }}{% endif %}
+          <span class="visually-hidden">(opens in a new tab)</span>
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 </div>
 
 <script>

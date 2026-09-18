@@ -9,3 +9,5 @@ Gemfile.lock
 *.swp
 .vscode/
 node_modules/
+__pycache__/
+*.pyc

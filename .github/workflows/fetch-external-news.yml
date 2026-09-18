@@ -1,0 +1,44 @@
+name: Fetch external news
+
+# Runs scripts/fetch_external_news.py on a schedule to refresh
+# _data/external_news.yml from Google News RSS, then commits and pushes
+# the result if anything changed. See README.md for the full explanation.
+#
+# NOTE: GitHub only fires the `schedule` trigger on the repository's
+# default branch. If this file lives on a non-default branch, merge it to
+# your default branch (main) for the schedule to actually run.
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # daily at 12:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch external news
+        run: python3 scripts/fetch_external_news.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "klen-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _data/external_news.yml
+          if git diff --cached --quiet; then
+            echo "No changes to external news."
+          else
+            git commit -m "Update external news feed [automated]"
+            git push
+          fi
