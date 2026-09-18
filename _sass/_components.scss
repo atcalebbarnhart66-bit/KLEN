@@ -19,13 +19,13 @@
 }
 
 .btn--primary {
-  background: $color-accent;
-  color: $color-accent-contrast;
+  background: $color-secondary;
+  color: $color-secondary-contrast;
 }
 
 .btn--primary:hover {
-  background: $color-accent-dark;
-  color: $color-accent-contrast;
+  background: $color-secondary-dark;
+  color: $color-secondary-contrast;
 }
 
 .btn--outline {
@@ -36,7 +36,7 @@
 
 .btn--outline:hover {
   background: $color-surface-alt;
-  border-color: $color-accent;
+  border-color: $color-secondary;
   color: $color-ink;
 }
 
@@ -273,9 +273,9 @@
 
 .pagination a:hover,
 .pagination button:not(:disabled):hover {
-  background: $color-accent;
-  color: $color-accent-contrast;
-  border-color: $color-accent;
+  background: $color-secondary;
+  color: $color-secondary-contrast;
+  border-color: $color-secondary;
 }
 
 .pagination .is-disabled,

@@ -1,35 +1,43 @@
 // KLEN design tokens
 // -----------------------------------------------------------------------
-// Dark-first palette: near-black navy background, elevated dark
-// surfaces for cards/panels, a single bright warm-gold accent used for
-// links, focus states, and calls to action. Inspired by modern dark
-// developer-tool UIs (Supabase et al.) while keeping KLEN's own navy +
-// gold identity rather than borrowing another brand's colors outright.
+// Dark-first palette: neutral near-black/gray background (not navy-
+// tinted), elevated gray surfaces for cards/panels, a warm-gold accent
+// for links/focus/highlights, and a blue secondary color for buttons
+// and other primary actions. Inspired by modern dark developer-tool
+// UIs (Supabase et al.) while keeping KLEN's own identity rather than
+// borrowing another brand's colors outright.
 
-$color-navy-950: #0a0d13;   // page background -- near-black, faint navy tint
-$color-navy-900: #0d1119;   // alternate section background
-$color-navy-800: #121722;   // card / panel surface
-$color-navy-700: #1a212c;   // elevated surface (hover, inputs)
-$color-navy-600: #232b3a;   // borders, dividers
-$color-slate-500: #97a3b5;  // secondary text
-$color-slate-400: #6b7686;  // tertiary / placeholder text
+$color-navy-950: #0a0a0b;   // page background -- neutral near-black
+$color-navy-900: #131315;   // alternate section background
+$color-navy-800: #1c1c1f;   // card / panel surface
+$color-navy-700: #26262a;   // elevated surface (hover, inputs)
+$color-navy-600: #3a3a3f;   // borders, dividers
+$color-slate-500: #a3a3a8;  // secondary text
+$color-slate-400: #737378;  // tertiary / placeholder text
 
 $color-paper: $color-navy-950;   // page background
 $color-paper-alt: $color-navy-900; // alt section background
 $color-cream-border: $color-navy-600;
 
 $color-white: #ffffff;
-$color-ink: #e7ebf2;        // primary body text (soft white, not pure)
+$color-ink: #ececee;        // primary body text (neutral off-white, not pure)
 $color-ink-soft: $color-slate-500;
 
-$color-accent: #eab04a;       // bright warm gold -- pops on dark surfaces
+// Primary accent: warm gold, used for links, focus rings, badges, and
+// the map's selected-county fill.
+$color-accent: #eab04a;
 $color-accent-dark: #d99b2b;  // hover/pressed state (still light enough to read)
 $color-accent-contrast: $color-navy-950; // dark text on top of bright accent fills
 
-$color-map-fill: #3a4a66;
-$color-map-fill-hover: #56698c;
+// Secondary accent: blue, used for buttons and other primary actions.
+$color-secondary: #2563eb;
+$color-secondary-dark: #1d4ed8;  // hover/pressed state
+$color-secondary-contrast: #ffffff; // white text on top of the blue
+
+$color-map-fill: #2c2c31;
+$color-map-fill-hover: #47474e;
 $color-map-fill-selected: $color-accent;
-$color-map-stroke: #8598bd;         // 3.07:1 against map-fill -- meets WCAG 1.4.11 non-text contrast for county boundaries
+$color-map-stroke: #7d7d85;         // 3.4:1 against map-fill -- meets WCAG 1.4.11 non-text contrast for county boundaries
 $color-map-match: #4fae82;
 $color-map-selected-stroke: $color-navy-950; // dark outline on the bright accent fill reads far better than white would
 
