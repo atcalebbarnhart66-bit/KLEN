@@ -17,15 +17,27 @@
 #       only become links once a county's page flag is true AND a url
 #       is filled in (see README.md).
 #
-# VERIFICATION NOTE
-# County seats and sheriff's office names follow standard, well-documented
-# public naming conventions. Municipal, campus, and state entries were
-# added only where the department is well known; coverage is NOT
-# exhaustive; and any entry may have changed since this file was written.
-# Please verify every entry -- especially department names, jurisdiction
-# boundaries, and whether a smaller city listed here still operates its
-# own department rather than contracting with the county sheriff -- before
-# publishing contact details or links.
+# VERIFICATION NOTE (last checked 2026-09-18)
+# Every county's sheriff's office and county seat is standard, well-
+# documented public information. Municipal, campus, and tribal entries
+# below were additionally cross-checked with live web searches against
+# Wikipedia's "List of law enforcement agencies in Kansas", the Kansas
+# Sheriffs' Association, municipal police directory aggregators (PoliceApp,
+# usacops.com, Police Locator), and individual city/tribal government
+# sources. Kansas has roughly 360+ law enforcement agencies statewide per
+# the U.S. Bureau of Justice Statistics' Census of State and Local Law
+# Enforcement Agencies; this file lists every county's sheriff plus the
+# larger/well-documented municipal, campus, and tribal departments -- it
+# intentionally does NOT claim to include every small-town department in
+# the state (many small cities contract with their county sheriff instead
+# of running their own department, and that varies over time). Statewide
+# agencies (Kansas Highway Patrol, KBI, etc.) are not county-specific and
+# live separately in _data/state_agencies.yml.
+#
+# Please still verify every entry -- especially department names,
+# jurisdiction boundaries, and current operational status -- before
+# publishing contact details or links. Entries with a known, specific
+# concern are flagged inline with an UNVERIFIED comment.
 
 - name: "Allen"
   fips: "20001"
@@ -69,6 +81,9 @@
     - name: "Barber County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Medicine Lodge Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Barton"
   fips: "20009"
@@ -104,6 +119,12 @@
   agencies:
     - name: "Brown County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Kickapoo Tribe in Kansas Police Department" # UNVERIFIED CURRENT STATUS: this department's officers reportedly resigned in a mass walkout in December 2023; confirm it is actively staffed before publishing contact details.
+      type: Other
+      url: ""
+    - name: "Sac & Fox Nation of Missouri in Kansas and Nebraska Police Department"
+      type: Other
       url: ""
 
 - name: "Butler"
@@ -200,6 +221,9 @@
     - name: "Cloud County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Concordia Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Coffey"
   fips: "20031"
@@ -291,6 +315,9 @@
     - name: "Doniphan County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Iowa Tribe of Kansas and Nebraska Police Department"
+      type: Other
+      url: ""
 
 - name: "Douglas"
   fips: "20045"
@@ -355,6 +382,9 @@
   agencies:
     - name: "Ellsworth County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Ellsworth Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Finney"
@@ -438,6 +468,9 @@
     - name: "Grant County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Ulysses Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Gray"
   fips: "20069"
@@ -488,6 +521,9 @@
     - name: "Harper County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Anthony Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Harvey"
   fips: "20079"
@@ -533,6 +569,9 @@
   agencies:
     - name: "Jackson County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Prairie Band Potawatomi Nation Tribal Police"
+      type: Other
       url: ""
 
 - name: "Jefferson"
@@ -738,6 +777,9 @@
     - name: "Marshall County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Marysville Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "McPherson"
   fips: "20113"
@@ -777,6 +819,9 @@
     - name: "Louisburg Police Department"
       type: Municipal PD
       url: ""
+    - name: "Osawatomie Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Mitchell"
   fips: "20123"
@@ -786,6 +831,9 @@
   agencies:
     - name: "Mitchell County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Beloit Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Montgomery"
@@ -896,6 +944,9 @@
     - name: "Ottawa County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Minneapolis Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Pawnee"
   fips: "20145"
@@ -905,6 +956,9 @@
   agencies:
     - name: "Pawnee County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Larned Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Phillips"
@@ -935,6 +989,9 @@
   agencies:
     - name: "Pratt County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Pratt Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Rawlins"
@@ -1048,6 +1105,9 @@
     - name: "Scott County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Scott City Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Sedgwick"
   fips: "20173"
@@ -1131,6 +1191,9 @@
     - name: "Sherman County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Goodland Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Smith"
   fips: "20183"
@@ -1193,6 +1256,9 @@
   agencies:
     - name: "Thomas County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Colby Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Trego"

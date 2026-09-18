@@ -44,6 +44,24 @@ description: An interactive, county-by-county reference of Kansas law enforcemen
     </div>
   </div>
 
+  <section class="county-directory" aria-label="Statewide Kansas law enforcement agencies">
+    <h2>State &amp; Regional Agencies</h2>
+    <p>These agencies operate statewide rather than within a single county.</p>
+    <ul class="agency-list">
+      {% for agency in site.data.state_agencies %}
+      <li>
+        {% if agency.url and agency.url != "" %}
+          <a class="agency-name" href="{{ agency.url }}">{{ agency.name }}</a>
+        {% else %}
+          <span class="agency-name">{{ agency.name }}</span>
+        {% endif %}
+        <span class="agency-type">State</span>
+        {% if agency.note %}<br><span class="detail-panel__meta">{{ agency.note }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
   <section class="county-directory" aria-label="Complete list of Kansas counties and their agencies">
     <h2>All Counties &amp; Agencies</h2>
     <p>This is a complete, non-visual listing of every Kansas county and its agencies on file &mdash; equivalent to the map above.</p>

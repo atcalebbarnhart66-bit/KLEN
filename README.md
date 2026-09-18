@@ -70,9 +70,26 @@ new categories automatically show up in the News page's category filter.
 
 ## 2. How to add or edit an agency
 
-All agency and county data lives in one file: `_data/agencies.yml`. This
-single file powers the interactive map, the detail panel, and the full
-list on the Agency Information page.
+Agency data lives in two files:
+
+- `_data/agencies.yml` &mdash; every county's sheriff's office plus known
+  municipal, campus, and tribal departments. This file powers the
+  interactive map, the detail panel, and the full county-by-county list
+  on the Agency Information page.
+- `_data/state_agencies.yml` &mdash; statewide agencies that aren't tied
+  to one county (Kansas Highway Patrol, KBI, and similar). This powers
+  the "State & Regional Agencies" section on the same page. Each entry
+  has `name`, `note` (a short description shown under the name), and
+  `url`.
+
+Both files were built from a mix of standard public reference data and
+live web searches on 2026-09-18 (Wikipedia's "List of law enforcement
+agencies in Kansas," the Kansas Sheriffs' Association, and municipal
+directory sites). Kansas has roughly 360+ law enforcement agencies
+statewide, and this file does not claim to list every small-town
+department &mdash; see the comment at the top of `_data/agencies.yml` for
+what was and wasn't verified, and confirm anything flagged `UNVERIFIED`
+before publishing it.
 
 Each county looks like this:
 
