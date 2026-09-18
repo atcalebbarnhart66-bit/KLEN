@@ -1,0 +1,253 @@
+.agency-explorer {
+  display: grid;
+  gap: $space-6;
+}
+
+.map-search {
+  margin-bottom: $space-5;
+}
+
+.map-search label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: $space-2;
+}
+
+.map-search__row {
+  display: flex;
+  gap: $space-2;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.map-search input[type="search"] {
+  flex: 1;
+  min-width: 200px;
+  font: inherit;
+  font-size: $fs-md;
+  padding: $space-3;
+  min-height: $touch-target;
+  border: 1px solid $color-slate-400;
+  border-radius: $radius-sm;
+}
+
+.map-search__count {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+}
+
+.mobile-county-select {
+  margin-bottom: $space-5;
+}
+
+.mobile-county-select label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: $space-2;
+}
+
+.mobile-county-select select {
+  width: 100%;
+  font: inherit;
+  font-size: $fs-md;
+  padding: $space-3;
+  min-height: $touch-target;
+  border: 1px solid $color-slate-400;
+  border-radius: $radius-sm;
+  background: $color-white;
+}
+
+@media (min-width: $breakpoint-lg) {
+  .agency-explorer__grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: $space-6;
+    align-items: start;
+  }
+}
+
+.map-panel {
+  background: $color-white;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-lg;
+  padding: $space-4;
+}
+
+.map-panel svg {
+  width: 100%;
+  height: auto;
+}
+
+.ks-map path {
+  fill: $color-map-fill;
+  stroke: $color-map-stroke;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill 0.12s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ks-map path {
+    transition: none;
+  }
+}
+
+.ks-map path:hover,
+.ks-map path:focus-visible {
+  fill: $color-map-fill-hover;
+}
+
+.ks-map path:focus-visible {
+  outline: none;
+  stroke: $color-navy-950;
+  stroke-width: 2.5;
+}
+
+.ks-map path.is-selected {
+  fill: $color-map-fill-selected;
+  stroke: $color-navy-950;
+}
+
+.ks-map path.is-match {
+  stroke: $color-accent-dark;
+  stroke-width: 2.5;
+}
+
+.ks-map path.is-dimmed {
+  opacity: 0.35;
+}
+
+.detail-panel {
+  background: $color-white;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-lg;
+  padding: $space-5;
+  min-height: 200px;
+}
+
+.detail-panel__header {
+  border-bottom: 1px solid $color-cream-border;
+  padding-bottom: $space-4;
+  margin-bottom: $space-4;
+}
+
+.detail-panel__eyebrow {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: $space-1;
+}
+
+.detail-panel__title {
+  font-size: $fs-xl;
+  margin-bottom: $space-2;
+}
+
+.detail-panel__meta {
+  color: $color-ink-soft;
+  font-size: $fs-sm;
+}
+
+.detail-panel__state {
+  display: inline-block;
+  font-size: $fs-sm;
+  font-weight: 700;
+  color: $color-accent-dark;
+  margin-bottom: $space-3;
+}
+
+.agency-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.agency-list li {
+  padding: $space-3 0;
+  border-bottom: 1px solid $color-cream-border;
+}
+
+.agency-list li:last-child {
+  border-bottom: none;
+}
+
+.agency-list .agency-name {
+  font-weight: 700;
+  color: $color-navy-950;
+}
+
+.agency-list a.agency-name {
+  text-decoration: none;
+}
+
+.agency-list a.agency-name:hover {
+  color: $color-accent-dark;
+}
+
+.agency-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: $color-slate-500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-left: $space-2;
+}
+
+.detail-panel__empty {
+  color: $color-slate-500;
+}
+
+// -----------------------------------------------------------------------
+// Full accessible list below the map
+// -----------------------------------------------------------------------
+.county-directory {
+  margin-top: $space-7;
+}
+
+.county-directory__grid {
+  display: grid;
+  gap: $space-5;
+  margin-top: $space-5;
+}
+
+@media (min-width: $breakpoint-md) {
+  .county-directory__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .county-directory__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.county-directory__item {
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-md;
+  padding: $space-4;
+  background: $color-white;
+}
+
+.county-directory__item h3 {
+  font-size: $fs-md;
+  margin-bottom: $space-1;
+}
+
+.county-directory__item .county-seat {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+  margin-bottom: $space-3;
+}
+
+.county-directory__item ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: $fs-sm;
+}
+
+.county-directory__item li {
+  padding: $space-1 0;
+}

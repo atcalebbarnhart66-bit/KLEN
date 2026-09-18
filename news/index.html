@@ -1,0 +1,102 @@
+---
+layout: default
+title: News
+permalink: /news/
+paginate_path_base: /news/
+description: Reverse-chronological news and commentary for Kansas law enforcement, covering training, legislation, and officer safety.
+---
+<div class="page-header">
+  <div class="wrap">
+    <h1>News</h1>
+    <p>Reporting and commentary relevant to Kansas law enforcement &mdash; training, legislation, officer safety, and more.</p>
+  </div>
+</div>
+
+<div class="wrap section">
+  <div class="news-layout">
+    <aside class="filter-panel" aria-label="Filter news by category">
+      <h2>Categories</h2>
+      <ul id="category-filter">
+        <li><a href="{{ '/news/' | relative_url }}" data-category="all" aria-current="true">All News</a></li>
+        {% assign cats = site.categories | sort %}
+        {% for cat in cats %}
+        <li><a href="{{ '/news/' | relative_url }}?category={{ cat[0] | slugify }}" data-category="{{ cat[0] | slugify }}">{{ cat[0] }} <span aria-hidden="true">({{ cat[1] | size }})</span></a></li>
+        {% endfor %}
+      </ul>
+      <p><a href="{{ '/news/feed.xml' | relative_url }}">Subscribe via RSS</a></p>
+    </aside>
+
+    <div>
+      <ul class="news-list" id="news-list" role="list">
+        {% for post in paginator.posts %}
+        <li>
+          <article class="post-card" data-category="{{ post.category | slugify }}">
+            <div class="post-card__body">
+              <div class="post-card__meta">
+                <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+                <span aria-hidden="true">&middot;</span>
+                <span>By {{ post.author | default: site.author }}</span>
+                <a class="category-tag" href="{{ '/news/' | relative_url }}?category={{ post.category | slugify }}">{{ post.category }}</a>
+              </div>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+              <a class="post-card__link" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+            </div>
+          </article>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <p id="no-results" class="detail-panel__empty" hidden>No articles found in this category on the current page.</p>
+
+      <nav class="pagination" aria-label="News pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+        {% else %}
+          <span class="is-disabled">&larr; Newer</span>
+        {% endif %}
+        <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+        {% else %}
+          <span class="is-disabled">Older &rarr;</span>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var params = new URLSearchParams(window.location.search);
+  var category = params.get("category");
+  if (!category) return;
+
+  var links = document.querySelectorAll("#category-filter a");
+  links.forEach(function (link) {
+    var match = link.getAttribute("data-category") === category;
+    if (match) {
+      link.setAttribute("aria-current", "true");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  });
+
+  var cards = document.querySelectorAll("#news-list [data-category]");
+  var visibleCount = 0;
+  cards.forEach(function (card) {
+    if (card.getAttribute("data-category") === category) {
+      card.closest("li").hidden = false;
+      visibleCount++;
+    } else {
+      card.closest("li").hidden = true;
+    }
+  });
+
+  var noResults = document.getElementById("no-results");
+  if (noResults) {
+    noResults.hidden = visibleCount !== 0;
+  }
+})();
+</script>

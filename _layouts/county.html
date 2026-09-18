@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign county = site.data.agencies | where: "slug", page.slug | first %}
+<article>
+  <div class="page-header">
+    <div class="wrap prose">
+      <p class="breadcrumb"><a href="{{ '/agencies/' | relative_url }}">Agency Information</a></p>
+      <h1>{{ county.name }} County</h1>
+      <p>County seat: {{ county.seat }} &middot; {{ county.agencies | size }} agencies on file</p>
+    </div>
+  </div>
+
+  <div class="wrap section">
+    <div class="prose">
+      <h2>Agencies</h2>
+      <ul class="agency-list">
+        {% for agency in county.agencies %}
+        <li>
+          {% if agency.url and agency.url != "" %}
+            <a class="agency-name" href="{{ agency.url }}">{{ agency.name }}</a>
+          {% else %}
+            <span class="agency-name">{{ agency.name }}</span>
+          {% endif %}
+          <span class="agency-type">{{ agency.type }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Contact Information</h2>
+      <div class="placeholder-box">
+        <p><strong>Placeholder &mdash; to be completed.</strong> Add mailing address, non-emergency phone number, and public information contact for {{ county.name }} County agencies here.</p>
+      </div>
+
+      <h2>Social Media</h2>
+      <div class="placeholder-box">
+        <p><strong>Placeholder &mdash; to be completed.</strong> Add links to official Facebook, X/Twitter, or other verified social media accounts for {{ county.name }} County agencies here.</p>
+      </div>
+    </div>
+  </div>
+</article>

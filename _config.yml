@@ -1,0 +1,77 @@
+title: Kansas Law Enforcement Network
+short_name: KLEN
+description: >-
+  KLEN connects Kansas law enforcement professionals with news, agency
+  reference information, and a direct line to the network.
+author: Kansas Law Enforcement Network
+
+# ---------------------------------------------------------------------------
+# URL SETTINGS
+# ---------------------------------------------------------------------------
+# This repository is deployed at https://<username>.github.io/KLEN/, i.e. a
+# GitHub Pages "project site" served from a subpath. `baseurl` below is set
+# to "/KLEN" to match. If you later:
+#
+#   1) Move this site to a repo named exactly "<your-username>.github.io"
+#      (a GitHub Pages "user/organization site" served at the domain root),
+#      OR
+#   2) Attach a custom domain to this repository (via a CNAME file and your
+#      DNS settings),
+#
+# ...then set `baseurl: ""` (empty string) and update `url` below to your
+# new root address (e.g. "https://yourusername.github.io" or
+# "https://www.yourdomain.org"). Every internal link in this site is built
+# with the `relative_url` / `absolute_url` Liquid filters, so this is the
+# only place you need to make that change.
+url: "https://atcalebbarnhart66-bit.github.io"
+baseurl: "/KLEN"
+
+contact_email: atcalebbarnhart66@gmail.com
+
+# ---------------------------------------------------------------------------
+# BUILD SETTINGS
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /news/:year/:month/:day/:title/
+
+collections:
+  agencies:
+    output: true
+    permalink: /agencies/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: agencies
+    values:
+      layout: county
+
+paginate: 10
+paginate_path: "/news/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+feed:
+  path: news/feed.xml
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor

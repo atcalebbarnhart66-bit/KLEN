@@ -1,0 +1,1285 @@
+# _data/agencies.yml
+#
+# Single source of truth for the Agency Information map and county pages.
+# Structure: a list of all 105 Kansas counties, each with its agencies.
+#
+# FIELDS PER COUNTY
+#   name  - county name
+#   fips  - 5-digit FIPS code (source: U.S. Census Bureau)
+#   slug  - used to build the county's URL, /agencies/<slug>/
+#   seat  - county seat city
+#   page  - true generates a page at /agencies/<slug>/, false does not.
+#           Every county is false by default. See README.md for how to
+#           turn a county page on.
+#   agencies - list of { name, type, url }
+#       type is one of: Sheriff, Municipal PD, Campus, State, Other
+#       url is intentionally left blank on every entry. Agency names
+#       only become links once a county's page flag is true AND a url
+#       is filled in (see README.md).
+#
+# VERIFICATION NOTE
+# County seats and sheriff's office names follow standard, well-documented
+# public naming conventions. Municipal, campus, and state entries were
+# added only where the department is well known; coverage is NOT
+# exhaustive; and any entry may have changed since this file was written.
+# Please verify every entry -- especially department names, jurisdiction
+# boundaries, and whether a smaller city listed here still operates its
+# own department rather than contracting with the county sheriff -- before
+# publishing contact details or links.
+
+- name: "Allen"
+  fips: "20001"
+  slug: "allen"
+  seat: "Iola"
+  page: false
+  agencies:
+    - name: "Allen County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Anderson"
+  fips: "20003"
+  slug: "anderson"
+  seat: "Garnett"
+  page: false
+  agencies:
+    - name: "Anderson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Atchison"
+  fips: "20005"
+  slug: "atchison"
+  seat: "Atchison"
+  page: false
+  agencies:
+    - name: "Atchison County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Atchison Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Barber"
+  fips: "20007"
+  slug: "barber"
+  seat: "Medicine Lodge"
+  page: false
+  agencies:
+    - name: "Barber County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Barton"
+  fips: "20009"
+  slug: "barton"
+  seat: "Great Bend"
+  page: false
+  agencies:
+    - name: "Barton County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Great Bend Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Bourbon"
+  fips: "20011"
+  slug: "bourbon"
+  seat: "Fort Scott"
+  page: false
+  agencies:
+    - name: "Bourbon County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Fort Scott Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Brown"
+  fips: "20013"
+  slug: "brown"
+  seat: "Hiawatha"
+  page: false
+  agencies:
+    - name: "Brown County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Butler"
+  fips: "20015"
+  slug: "butler"
+  seat: "El Dorado"
+  page: false
+  agencies:
+    - name: "Butler County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "El Dorado Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Augusta Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Andover Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Chase"
+  fips: "20017"
+  slug: "chase"
+  seat: "Cottonwood Falls"
+  page: false
+  agencies:
+    - name: "Chase County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Chautauqua"
+  fips: "20019"
+  slug: "chautauqua"
+  seat: "Sedan"
+  page: false
+  agencies:
+    - name: "Chautauqua County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Cherokee"
+  fips: "20021"
+  slug: "cherokee"
+  seat: "Columbus"
+  page: false
+  agencies:
+    - name: "Cherokee County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Columbus Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Baxter Springs Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Cheyenne"
+  fips: "20023"
+  slug: "cheyenne"
+  seat: "St. Francis"
+  page: false
+  agencies:
+    - name: "Cheyenne County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Clark"
+  fips: "20025"
+  slug: "clark"
+  seat: "Ashland"
+  page: false
+  agencies:
+    - name: "Clark County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Clay"
+  fips: "20027"
+  slug: "clay"
+  seat: "Clay Center"
+  page: false
+  agencies:
+    - name: "Clay County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Cloud"
+  fips: "20029"
+  slug: "cloud"
+  seat: "Concordia"
+  page: false
+  agencies:
+    - name: "Cloud County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Coffey"
+  fips: "20031"
+  slug: "coffey"
+  seat: "Burlington"
+  page: false
+  agencies:
+    - name: "Coffey County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Comanche"
+  fips: "20033"
+  slug: "comanche"
+  seat: "Coldwater"
+  page: false
+  agencies:
+    - name: "Comanche County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Cowley"
+  fips: "20035"
+  slug: "cowley"
+  seat: "Winfield"
+  page: false
+  agencies:
+    - name: "Cowley County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Winfield Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Arkansas City Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Crawford"
+  fips: "20037"
+  slug: "crawford"
+  seat: "Girard"
+  page: false
+  agencies:
+    - name: "Crawford County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Pittsburg Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Girard Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Pittsburg State University Police Department"
+      type: Campus
+      url: ""
+
+- name: "Decatur"
+  fips: "20039"
+  slug: "decatur"
+  seat: "Oberlin"
+  page: false
+  agencies:
+    - name: "Decatur County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Dickinson"
+  fips: "20041"
+  slug: "dickinson"
+  seat: "Abilene"
+  page: false
+  agencies:
+    - name: "Dickinson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Abilene Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Herington Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Doniphan"
+  fips: "20043"
+  slug: "doniphan"
+  seat: "Troy"
+  page: false
+  agencies:
+    - name: "Doniphan County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Douglas"
+  fips: "20045"
+  slug: "douglas"
+  seat: "Lawrence"
+  page: false
+  agencies:
+    - name: "Douglas County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Lawrence Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Eudora Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "University of Kansas Police Department"
+      type: Campus
+      url: ""
+
+- name: "Edwards"
+  fips: "20047"
+  slug: "edwards"
+  seat: "Kinsley"
+  page: false
+  agencies:
+    - name: "Edwards County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Elk"
+  fips: "20049"
+  slug: "elk"
+  seat: "Howard"
+  page: false
+  agencies:
+    - name: "Elk County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Ellis"
+  fips: "20051"
+  slug: "ellis"
+  seat: "Hays"
+  page: false
+  agencies:
+    - name: "Ellis County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Hays Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Fort Hays State University Police Department"
+      type: Campus
+      url: ""
+
+- name: "Ellsworth"
+  fips: "20053"
+  slug: "ellsworth"
+  seat: "Ellsworth"
+  page: false
+  agencies:
+    - name: "Ellsworth County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Finney"
+  fips: "20055"
+  slug: "finney"
+  seat: "Garden City"
+  page: false
+  agencies:
+    - name: "Finney County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Garden City Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Ford"
+  fips: "20057"
+  slug: "ford"
+  seat: "Dodge City"
+  page: false
+  agencies:
+    - name: "Ford County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Dodge City Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Franklin"
+  fips: "20059"
+  slug: "franklin"
+  seat: "Ottawa"
+  page: false
+  agencies:
+    - name: "Franklin County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Ottawa Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Geary"
+  fips: "20061"
+  slug: "geary"
+  seat: "Junction City"
+  page: false
+  agencies:
+    - name: "Geary County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Junction City Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Gove"
+  fips: "20063"
+  slug: "gove"
+  seat: "Gove City"
+  page: false
+  agencies:
+    - name: "Gove County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Graham"
+  fips: "20065"
+  slug: "graham"
+  seat: "Hill City"
+  page: false
+  agencies:
+    - name: "Graham County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Grant"
+  fips: "20067"
+  slug: "grant"
+  seat: "Ulysses"
+  page: false
+  agencies:
+    - name: "Grant County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Gray"
+  fips: "20069"
+  slug: "gray"
+  seat: "Cimarron"
+  page: false
+  agencies:
+    - name: "Gray County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Greeley"
+  fips: "20071"
+  slug: "greeley"
+  seat: "Tribune"
+  page: false
+  agencies:
+    - name: "Greeley County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Greenwood"
+  fips: "20073"
+  slug: "greenwood"
+  seat: "Eureka"
+  page: false
+  agencies:
+    - name: "Greenwood County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Hamilton"
+  fips: "20075"
+  slug: "hamilton"
+  seat: "Syracuse"
+  page: false
+  agencies:
+    - name: "Hamilton County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Harper"
+  fips: "20077"
+  slug: "harper"
+  seat: "Anthony"
+  page: false
+  agencies:
+    - name: "Harper County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Harvey"
+  fips: "20079"
+  slug: "harvey"
+  seat: "Newton"
+  page: false
+  agencies:
+    - name: "Harvey County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Newton Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "North Newton Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Haskell"
+  fips: "20081"
+  slug: "haskell"
+  seat: "Sublette"
+  page: false
+  agencies:
+    - name: "Haskell County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Hodgeman"
+  fips: "20083"
+  slug: "hodgeman"
+  seat: "Jetmore"
+  page: false
+  agencies:
+    - name: "Hodgeman County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Jackson"
+  fips: "20085"
+  slug: "jackson"
+  seat: "Holton"
+  page: false
+  agencies:
+    - name: "Jackson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Jefferson"
+  fips: "20087"
+  slug: "jefferson"
+  seat: "Oskaloosa"
+  page: false
+  agencies:
+    - name: "Jefferson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Jewell"
+  fips: "20089"
+  slug: "jewell"
+  seat: "Mankato"
+  page: false
+  agencies:
+    - name: "Jewell County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Johnson"
+  fips: "20091"
+  slug: "johnson"
+  seat: "Olathe"
+  page: false
+  agencies:
+    - name: "Johnson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Overland Park Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Olathe Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Shawnee Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Lenexa Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Leawood Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Prairie Village Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Gardner Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Mission Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Merriam Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Roeland Park Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Spring Hill Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Kearny"
+  fips: "20093"
+  slug: "kearny"
+  seat: "Lakin"
+  page: false
+  agencies:
+    - name: "Kearny County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Kingman"
+  fips: "20095"
+  slug: "kingman"
+  seat: "Kingman"
+  page: false
+  agencies:
+    - name: "Kingman County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Kiowa"
+  fips: "20097"
+  slug: "kiowa"
+  seat: "Greensburg"
+  page: false
+  agencies:
+    - name: "Kiowa County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Labette"
+  fips: "20099"
+  slug: "labette"
+  seat: "Oswego"
+  page: false
+  agencies:
+    - name: "Labette County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Parsons Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Altamont Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Lane"
+  fips: "20101"
+  slug: "lane"
+  seat: "Dighton"
+  page: false
+  agencies:
+    - name: "Lane County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Leavenworth"
+  fips: "20103"
+  slug: "leavenworth"
+  seat: "Leavenworth"
+  page: false
+  agencies:
+    - name: "Leavenworth County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Leavenworth Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Lansing Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Basehor Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Lincoln"
+  fips: "20105"
+  slug: "lincoln"
+  seat: "Lincoln"
+  page: false
+  agencies:
+    - name: "Lincoln County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Linn"
+  fips: "20107"
+  slug: "linn"
+  seat: "Mound City"
+  page: false
+  agencies:
+    - name: "Linn County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Logan"
+  fips: "20109"
+  slug: "logan"
+  seat: "Oakley"
+  page: false
+  agencies:
+    - name: "Logan County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Lyon"
+  fips: "20111"
+  slug: "lyon"
+  seat: "Emporia"
+  page: false
+  agencies:
+    - name: "Lyon County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Emporia Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Emporia State University Police & Safety"
+      type: Campus
+      url: ""
+
+- name: "Marion"
+  fips: "20115"
+  slug: "marion"
+  seat: "Marion"
+  page: false
+  agencies:
+    - name: "Marion County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Marshall"
+  fips: "20117"
+  slug: "marshall"
+  seat: "Marysville"
+  page: false
+  agencies:
+    - name: "Marshall County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "McPherson"
+  fips: "20113"
+  slug: "mcpherson"
+  seat: "McPherson"
+  page: false
+  agencies:
+    - name: "McPherson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "McPherson Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Meade"
+  fips: "20119"
+  slug: "meade"
+  seat: "Meade"
+  page: false
+  agencies:
+    - name: "Meade County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Miami"
+  fips: "20121"
+  slug: "miami"
+  seat: "Paola"
+  page: false
+  agencies:
+    - name: "Miami County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Paola Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Louisburg Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Mitchell"
+  fips: "20123"
+  slug: "mitchell"
+  seat: "Beloit"
+  page: false
+  agencies:
+    - name: "Mitchell County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Montgomery"
+  fips: "20125"
+  slug: "montgomery"
+  seat: "Independence"
+  page: false
+  agencies:
+    - name: "Montgomery County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Independence Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Coffeyville Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Morris"
+  fips: "20127"
+  slug: "morris"
+  seat: "Council Grove"
+  page: false
+  agencies:
+    - name: "Morris County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Morton"
+  fips: "20129"
+  slug: "morton"
+  seat: "Elkhart"
+  page: false
+  agencies:
+    - name: "Morton County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Nemaha"
+  fips: "20131"
+  slug: "nemaha"
+  seat: "Seneca"
+  page: false
+  agencies:
+    - name: "Nemaha County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Neosho"
+  fips: "20133"
+  slug: "neosho"
+  seat: "Erie"
+  page: false
+  agencies:
+    - name: "Neosho County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Chanute Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Ness"
+  fips: "20135"
+  slug: "ness"
+  seat: "Ness City"
+  page: false
+  agencies:
+    - name: "Ness County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Norton"
+  fips: "20137"
+  slug: "norton"
+  seat: "Norton"
+  page: false
+  agencies:
+    - name: "Norton County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Osage"
+  fips: "20139"
+  slug: "osage"
+  seat: "Lyndon"
+  page: false
+  agencies:
+    - name: "Osage County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Osborne"
+  fips: "20141"
+  slug: "osborne"
+  seat: "Osborne"
+  page: false
+  agencies:
+    - name: "Osborne County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Ottawa"
+  fips: "20143"
+  slug: "ottawa"
+  seat: "Minneapolis"
+  page: false
+  agencies:
+    - name: "Ottawa County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Pawnee"
+  fips: "20145"
+  slug: "pawnee"
+  seat: "Larned"
+  page: false
+  agencies:
+    - name: "Pawnee County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Phillips"
+  fips: "20147"
+  slug: "phillips"
+  seat: "Phillipsburg"
+  page: false
+  agencies:
+    - name: "Phillips County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Pottawatomie"
+  fips: "20149"
+  slug: "pottawatomie"
+  seat: "Westmoreland"
+  page: false
+  agencies:
+    - name: "Pottawatomie County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Pratt"
+  fips: "20151"
+  slug: "pratt"
+  seat: "Pratt"
+  page: false
+  agencies:
+    - name: "Pratt County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Rawlins"
+  fips: "20153"
+  slug: "rawlins"
+  seat: "Atwood"
+  page: false
+  agencies:
+    - name: "Rawlins County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Reno"
+  fips: "20155"
+  slug: "reno"
+  seat: "Hutchinson"
+  page: false
+  agencies:
+    - name: "Reno County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Hutchinson Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Republic"
+  fips: "20157"
+  slug: "republic"
+  seat: "Belleville"
+  page: false
+  agencies:
+    - name: "Republic County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Rice"
+  fips: "20159"
+  slug: "rice"
+  seat: "Lyons"
+  page: false
+  agencies:
+    - name: "Rice County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Riley"
+  fips: "20161"
+  slug: "riley"
+  seat: "Manhattan"
+  page: false
+  agencies:
+    - name: "Riley County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Manhattan Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Kansas State University Police Department"
+      type: Campus
+      url: ""
+
+- name: "Rooks"
+  fips: "20163"
+  slug: "rooks"
+  seat: "Stockton"
+  page: false
+  agencies:
+    - name: "Rooks County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Rush"
+  fips: "20165"
+  slug: "rush"
+  seat: "La Crosse"
+  page: false
+  agencies:
+    - name: "Rush County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Russell"
+  fips: "20167"
+  slug: "russell"
+  seat: "Russell"
+  page: false
+  agencies:
+    - name: "Russell County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Saline"
+  fips: "20169"
+  slug: "saline"
+  seat: "Salina"
+  page: false
+  agencies:
+    - name: "Saline County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Salina Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Scott"
+  fips: "20171"
+  slug: "scott"
+  seat: "Scott City"
+  page: false
+  agencies:
+    - name: "Scott County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Sedgwick"
+  fips: "20173"
+  slug: "sedgwick"
+  seat: "Wichita"
+  page: false
+  agencies:
+    - name: "Sedgwick County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Wichita Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Derby Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Park City Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Valley Center Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Goddard Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Haysville Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Bel Aire Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Maize Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Wichita State University Police Department"
+      type: Campus
+      url: ""
+
+- name: "Seward"
+  fips: "20175"
+  slug: "seward"
+  seat: "Liberal"
+  page: false
+  agencies:
+    - name: "Seward County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Liberal Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Shawnee"
+  fips: "20177"
+  slug: "shawnee"
+  seat: "Topeka"
+  page: false
+  agencies:
+    - name: "Shawnee County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Topeka Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Sheridan"
+  fips: "20179"
+  slug: "sheridan"
+  seat: "Hoxie"
+  page: false
+  agencies:
+    - name: "Sheridan County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Sherman"
+  fips: "20181"
+  slug: "sherman"
+  seat: "Goodland"
+  page: false
+  agencies:
+    - name: "Sherman County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Smith"
+  fips: "20183"
+  slug: "smith"
+  seat: "Smith Center"
+  page: false
+  agencies:
+    - name: "Smith County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Stafford"
+  fips: "20185"
+  slug: "stafford"
+  seat: "St. John"
+  page: false
+  agencies:
+    - name: "Stafford County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Stanton"
+  fips: "20187"
+  slug: "stanton"
+  seat: "Johnson City"
+  page: false
+  agencies:
+    - name: "Stanton County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Stevens"
+  fips: "20189"
+  slug: "stevens"
+  seat: "Hugoton"
+  page: false
+  agencies:
+    - name: "Stevens County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Sumner"
+  fips: "20191"
+  slug: "sumner"
+  seat: "Wellington"
+  page: false
+  agencies:
+    - name: "Sumner County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Wellington Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Thomas"
+  fips: "20193"
+  slug: "thomas"
+  seat: "Colby"
+  page: false
+  agencies:
+    - name: "Thomas County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Trego"
+  fips: "20195"
+  slug: "trego"
+  seat: "WaKeeney"
+  page: false
+  agencies:
+    - name: "Trego County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Wabaunsee"
+  fips: "20197"
+  slug: "wabaunsee"
+  seat: "Alma"
+  page: false
+  agencies:
+    - name: "Wabaunsee County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Alma Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Wallace"
+  fips: "20199"
+  slug: "wallace"
+  seat: "Sharon Springs"
+  page: false
+  agencies:
+    - name: "Wallace County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Washington"
+  fips: "20201"
+  slug: "washington"
+  seat: "Washington"
+  page: false
+  agencies:
+    - name: "Washington County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Wichita"
+  fips: "20203"
+  slug: "wichita"
+  seat: "Leoti"
+  page: false
+  agencies:
+    - name: "Wichita County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Wilson"
+  fips: "20205"
+  slug: "wilson"
+  seat: "Fredonia"
+  page: false
+  agencies:
+    - name: "Wilson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Fredonia Police Department"
+      type: Municipal PD
+      url: ""
+
+- name: "Woodson"
+  fips: "20207"
+  slug: "woodson"
+  seat: "Yates Center"
+  page: false
+  agencies:
+    - name: "Woodson County Sheriff's Office"
+      type: Sheriff
+      url: ""
+
+- name: "Wyandotte"
+  fips: "20209"
+  slug: "wyandotte"
+  seat: "Kansas City"
+  page: false
+  agencies:
+    - name: "Wyandotte County Sheriff's Office"
+      type: Sheriff
+      url: ""
+    - name: "Kansas City Police Department"
+      type: Municipal PD
+      url: ""

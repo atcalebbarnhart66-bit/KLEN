@@ -1,0 +1,234 @@
+.wrap {
+  max-width: $max-width-page;
+  margin: 0 auto;
+  padding: 0 $space-4;
+}
+
+@media (min-width: $breakpoint-md) {
+  .wrap {
+    padding: 0 $space-6;
+  }
+}
+
+.prose {
+  max-width: $max-width-prose;
+}
+
+main {
+  display: block;
+}
+
+.section {
+  padding: $space-7 0;
+}
+
+.section--tight {
+  padding: $space-5 0;
+}
+
+.section--alt {
+  background: $color-paper-alt;
+}
+
+// -----------------------------------------------------------------------
+// Header / nav
+// -----------------------------------------------------------------------
+.site-header {
+  background: $color-navy-950;
+  color: $color-white;
+  position: relative;
+}
+
+.site-header__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-4 0;
+  gap: $space-4;
+}
+
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  color: $color-white;
+  text-decoration: none;
+}
+
+.site-header__brand:hover {
+  color: $color-white;
+}
+
+.site-header__mark {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.site-header__title {
+  font-family: $font-heading;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.15;
+}
+
+.site-header__subtitle {
+  display: block;
+  font-family: $font-body;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-slate-400;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: $touch-target;
+  height: $touch-target;
+  background: transparent;
+  border: 1px solid rgba($color-white, 0.35);
+  border-radius: $radius-sm;
+  color: $color-white;
+  cursor: pointer;
+}
+
+.nav-toggle__icon {
+  width: 22px;
+  height: 16px;
+  position: relative;
+}
+
+.nav-toggle__icon span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle__icon span:nth-child(1) { top: 0; }
+.nav-toggle__icon span:nth-child(2) { top: 7px; }
+.nav-toggle__icon span:nth-child(3) { top: 14px; }
+
+.nav-toggle[aria-expanded="true"] .nav-toggle__icon span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__icon span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__icon span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (min-width: $breakpoint-lg) {
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.site-nav {
+  display: none;
+  border-top: 1px solid rgba($color-white, 0.12);
+}
+
+.site-nav.is-open {
+  display: block;
+}
+
+.site-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: $space-3 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+}
+
+.site-nav__list a {
+  display: block;
+  padding: $space-3 $space-2;
+  min-height: $touch-target;
+  display: flex;
+  align-items: center;
+  color: $color-white;
+  text-decoration: none;
+  border-radius: $radius-sm;
+  font-weight: 600;
+}
+
+.site-nav__list a:hover,
+.site-nav__list a:focus-visible {
+  background: rgba($color-white, 0.08);
+  color: $color-white;
+}
+
+.site-nav__list a[aria-current="page"] {
+  color: $color-accent;
+}
+
+@media (min-width: $breakpoint-lg) {
+  .site-nav {
+    display: block !important;
+    border-top: none;
+  }
+
+  .site-nav__list {
+    flex-direction: row;
+    padding: 0;
+    gap: $space-2;
+  }
+
+  .site-nav__list a {
+    padding: $space-2 $space-3;
+    min-height: auto;
+  }
+}
+
+// -----------------------------------------------------------------------
+// Footer
+// -----------------------------------------------------------------------
+.site-footer {
+  background: $color-navy-950;
+  color: rgba($color-white, 0.82);
+  margin-top: $space-8;
+}
+
+.site-footer a {
+  color: $color-white;
+}
+
+.site-footer__grid {
+  display: grid;
+  gap: $space-6;
+  padding: $space-7 0 $space-6;
+}
+
+@media (min-width: $breakpoint-md) {
+  .site-footer__grid {
+    grid-template-columns: 1.2fr 1fr 1fr;
+  }
+}
+
+.site-footer h2 {
+  color: $color-white;
+  font-size: $fs-md;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: $space-3;
+}
+
+.site-footer p {
+  color: rgba($color-white, 0.75);
+  font-size: $fs-sm;
+}
+
+.site-footer__bottom {
+  border-top: 1px solid rgba($color-white, 0.15);
+  padding: $space-4 0;
+  font-size: $fs-sm;
+  color: rgba($color-white, 0.6);
+}

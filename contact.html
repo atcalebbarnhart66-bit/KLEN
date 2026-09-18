@@ -1,0 +1,90 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+extra_js: contact
+description: Reach the Kansas Law Enforcement Network. Messages are sent directly from your own email application.
+---
+<div class="page-header">
+  <div class="wrap">
+    <h1>Contact KLEN</h1>
+    <p>Send a message to the network using the form below.</p>
+  </div>
+</div>
+
+<div class="wrap section">
+  <div class="prose">
+    <div class="form-note">
+      <p>
+        Submitting this form opens your device&rsquo;s default email
+        application with a pre-filled message addressed to KLEN &mdash; no
+        information is sent to or stored by this website.
+      </p>
+      <p>
+        If you use webmail (such as Gmail or Outlook.com in a browser) and a
+        desktop mail app doesn&rsquo;t open, please email us directly at
+        <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+      </p>
+    </div>
+
+    <div class="form-status form-status--error" id="form-status" role="alert"></div>
+
+    <form id="contact-form" novalidate data-contact-email="{{ site.contact_email }}">
+      <div class="form-grid form-grid--two">
+        <div class="field" data-field="first-name">
+          <label for="first-name">First Name <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="first-name" name="first-name" autocomplete="given-name" required aria-required="true" aria-describedby="first-name-error">
+          <p class="field__error" id="first-name-error">Please enter your first name.</p>
+        </div>
+        <div class="field" data-field="last-name">
+          <label for="last-name">Last Name <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="last-name" name="last-name" autocomplete="family-name" required aria-required="true" aria-describedby="last-name-error">
+          <p class="field__error" id="last-name-error">Please enter your last name.</p>
+        </div>
+      </div>
+
+      <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+        <div class="field" data-field="rank">
+          <label for="rank">Rank <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="rank" name="rank" required aria-required="true" aria-describedby="rank-error" placeholder="e.g. Deputy, Sergeant, Detective">
+          <p class="field__error" id="rank-error">Please enter your rank.</p>
+        </div>
+        <div class="field" data-field="agency">
+          <label for="agency">Agency <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="agency" name="agency" required aria-required="true" aria-describedby="agency-error" placeholder="e.g. Reno County Sheriff's Office">
+          <p class="field__error" id="agency-error">Please enter your agency.</p>
+        </div>
+      </div>
+
+      <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+        <div class="field" data-field="email">
+          <label for="email">Email Address <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" aria-describedby="email-error">
+          <p class="field__error" id="email-error">Please enter a valid email address.</p>
+        </div>
+        <div class="field" data-field="phone">
+          <label for="phone">Phone Number <span class="hint" style="display:inline;">(optional)</span></label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="field" data-field="message" style="margin-top: 1.5rem;">
+        <label for="message">Message <span class="required-mark" aria-hidden="true">*</span></label>
+        <textarea id="message" name="message" required aria-required="true" aria-describedby="message-error"></textarea>
+        <p class="field__error" id="message-error">Please enter a message.</p>
+      </div>
+
+      <div class="advisory">
+        <h2>Before you send</h2>
+        <p>
+          Do not submit case-sensitive information, CJIS-regulated data,
+          personally identifiable information about third parties, or
+          anything otherwise restricted from public disclosure. This form is
+          not a secure or encrypted channel.
+        </p>
+      </div>
+
+      <button type="submit" class="btn btn--primary">Send Message</button>
+    </form>
+  </div>
+</div>

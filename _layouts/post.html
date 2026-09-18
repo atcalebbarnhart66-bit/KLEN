@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article>
+  <div class="page-header post-header">
+    <div class="wrap prose">
+      <p class="breadcrumb"><a href="{{ '/news/' | relative_url }}">News</a> / {{ page.category }}</p>
+      <h1>{{ page.title }}</h1>
+      <div class="post-header__meta">
+        <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+        <span aria-hidden="true">&middot;</span>
+        <span>By {{ page.author | default: site.author }}</span>
+        <span aria-hidden="true">&middot;</span>
+        <a class="category-tag" href="{{ '/news/' | relative_url }}?category={{ page.category | slugify }}">{{ page.category }}</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="prose post-body">
+      {{ content }}
+    </div>
+
+    <div class="prose post-footer">
+      <p><a href="{{ '/news/' | relative_url }}">&larr; Back to all news</a></p>
+    </div>
+  </div>
+</article>

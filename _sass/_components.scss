@@ -1,0 +1,563 @@
+// -----------------------------------------------------------------------
+// Buttons
+// -----------------------------------------------------------------------
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2;
+  min-height: $touch-target;
+  padding: $space-3 $space-5;
+  border-radius: $radius-sm;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: $fs-md;
+  font-family: $font-body;
+  line-height: 1.2;
+}
+
+.btn--primary {
+  background: $color-accent;
+  color: $color-accent-contrast;
+}
+
+.btn--primary:hover {
+  background: $color-accent-dark;
+  color: $color-accent-contrast;
+}
+
+.btn--outline {
+  background: transparent;
+  border-color: currentColor;
+  color: $color-navy-950;
+}
+
+.btn--outline:hover {
+  background: $color-navy-950;
+  color: $color-white;
+}
+
+.btn--on-dark {
+  border-color: $color-white;
+  color: $color-white;
+}
+
+.btn--on-dark:hover {
+  background: $color-white;
+  color: $color-navy-950;
+}
+
+// -----------------------------------------------------------------------
+// Hero
+// -----------------------------------------------------------------------
+.hero {
+  background: linear-gradient(160deg, $color-navy-950 0%, $color-navy-800 100%);
+  color: $color-white;
+  padding: $space-8 0;
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: $fs-sm;
+  color: $color-accent;
+  font-weight: 700;
+  margin-bottom: $space-3;
+}
+
+.hero h1 {
+  color: $color-white;
+  max-width: 18ch;
+}
+
+.hero__lede {
+  font-size: $fs-lg;
+  color: rgba($color-white, 0.88);
+  max-width: 48ch;
+  margin-bottom: $space-6;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+}
+
+// -----------------------------------------------------------------------
+// Value props
+// -----------------------------------------------------------------------
+.value-grid {
+  display: grid;
+  gap: $space-5;
+}
+
+@media (min-width: $breakpoint-md) {
+  .value-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.value-card {
+  background: $color-white;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-lg;
+  padding: $space-5;
+}
+
+.value-card__icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: $space-4;
+  color: $color-accent-dark;
+}
+
+.value-card h3 {
+  margin-bottom: $space-2;
+}
+
+.value-card p {
+  color: $color-ink-soft;
+  margin-bottom: 0;
+}
+
+// -----------------------------------------------------------------------
+// Post cards
+// -----------------------------------------------------------------------
+.card-grid {
+  display: grid;
+  gap: $space-5;
+}
+
+@media (min-width: $breakpoint-md) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: $color-white;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-lg;
+  padding: $space-5;
+  height: 100%;
+}
+
+.post-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+  align-items: center;
+  font-size: $fs-sm;
+  color: $color-slate-500;
+  margin-bottom: $space-3;
+}
+
+.category-tag {
+  display: inline-block;
+  background: $color-paper-alt;
+  color: $color-navy-800;
+  border: 1px solid $color-cream-border;
+  border-radius: 999px;
+  padding: 0.2em 0.75em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.category-tag:hover {
+  background: $color-navy-950;
+  color: $color-white;
+}
+
+.post-card h3 {
+  font-size: $fs-lg;
+  margin-bottom: $space-2;
+}
+
+.post-card h3 a {
+  color: $color-navy-950;
+  text-decoration: none;
+}
+
+.post-card h3 a:hover {
+  color: $color-accent-dark;
+}
+
+.post-card p {
+  color: $color-ink-soft;
+  margin-bottom: $space-4;
+  flex-grow: 1;
+}
+
+.post-card__link {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+// -----------------------------------------------------------------------
+// CTA band
+// -----------------------------------------------------------------------
+.cta-band {
+  background: $color-navy-900;
+  color: $color-white;
+  border-radius: $radius-lg;
+  padding: $space-7 $space-5;
+  text-align: center;
+}
+
+.cta-band h2 {
+  color: $color-white;
+}
+
+.cta-band p {
+  color: rgba($color-white, 0.85);
+  max-width: 50ch;
+  margin: 0 auto $space-5;
+}
+
+// -----------------------------------------------------------------------
+// Page header (interior pages)
+// -----------------------------------------------------------------------
+.page-header {
+  background: $color-paper-alt;
+  border-bottom: 1px solid $color-cream-border;
+  padding: $space-6 0;
+}
+
+.page-header p {
+  color: $color-ink-soft;
+  max-width: 60ch;
+  margin-bottom: 0;
+}
+
+// -----------------------------------------------------------------------
+// News listing / filters
+// -----------------------------------------------------------------------
+.news-layout {
+  display: grid;
+  gap: $space-6;
+}
+
+@media (min-width: $breakpoint-lg) {
+  .news-layout {
+    grid-template-columns: 220px 1fr;
+    align-items: start;
+  }
+}
+
+.filter-panel {
+  background: $color-white;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-md;
+  padding: $space-4;
+}
+
+.filter-panel h2 {
+  font-size: $fs-md;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: $space-3;
+}
+
+.filter-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-panel li + li {
+  margin-top: $space-1;
+}
+
+.filter-panel a {
+  display: block;
+  min-height: $touch-target;
+  display: flex;
+  align-items: center;
+  padding: $space-2 $space-2;
+  border-radius: $radius-sm;
+  text-decoration: none;
+  color: $color-ink;
+}
+
+.filter-panel a:hover,
+.filter-panel a[aria-current="true"] {
+  background: $color-paper-alt;
+  color: $color-accent-dark;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-5;
+}
+
+.news-list .post-card {
+  flex-direction: column;
+}
+
+@media (min-width: $breakpoint-md) {
+  .news-list .post-card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: $space-5;
+  }
+
+  .news-list .post-card__body {
+    flex: 1;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: $space-6;
+  gap: $space-3;
+  flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  min-height: $touch-target;
+  padding: 0 $space-4;
+  border-radius: $radius-sm;
+  border: 1px solid $color-cream-border;
+  text-decoration: none;
+  color: $color-navy-950;
+  font-weight: 600;
+}
+
+.pagination a:hover {
+  background: $color-navy-950;
+  color: $color-white;
+}
+
+.pagination .is-disabled {
+  color: $color-slate-400;
+  border-color: transparent;
+}
+
+// -----------------------------------------------------------------------
+// Single post
+// -----------------------------------------------------------------------
+.post-header {
+  padding: $space-6 0 $space-4;
+}
+
+.post-header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+  align-items: center;
+  color: $color-slate-500;
+  font-size: $fs-sm;
+  margin-bottom: $space-3;
+}
+
+.post-body {
+  padding-bottom: $space-8;
+}
+
+.post-body img {
+  border-radius: $radius-md;
+  margin: $space-5 0;
+}
+
+.post-body h2 {
+  margin-top: $space-6;
+}
+
+.post-body h3 {
+  margin-top: $space-5;
+}
+
+.post-footer {
+  border-top: 1px solid $color-cream-border;
+  padding-top: $space-5;
+  margin-top: $space-6;
+}
+
+// -----------------------------------------------------------------------
+// Forms
+// -----------------------------------------------------------------------
+.form-note {
+  background: $color-paper-alt;
+  border: 1px solid $color-cream-border;
+  border-radius: $radius-md;
+  padding: $space-4;
+  margin-bottom: $space-6;
+}
+
+.form-note p {
+  margin-bottom: $space-2;
+}
+
+.form-note p:last-child {
+  margin-bottom: 0;
+}
+
+.form-grid {
+  display: grid;
+  gap: $space-5;
+}
+
+@media (min-width: $breakpoint-md) {
+  .form-grid--two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-weight: 700;
+  margin-bottom: $space-2;
+}
+
+.field .hint {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+  margin-bottom: $space-2;
+}
+
+.field input,
+.field textarea,
+.field select {
+  font: inherit;
+  font-size: $fs-md;
+  padding: $space-3;
+  min-height: $touch-target;
+  border: 1px solid $color-slate-400;
+  border-radius: $radius-sm;
+  background: $color-white;
+  color: $color-ink;
+}
+
+.field textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible,
+.field select:focus-visible {
+  outline: $focus-ring;
+  outline-offset: 1px;
+  border-color: $color-accent;
+}
+
+.field.has-error input,
+.field.has-error textarea,
+.field.has-error select {
+  border-color: $color-error;
+}
+
+.field__error {
+  color: $color-error;
+  font-size: $fs-sm;
+  margin-top: $space-2;
+  display: none;
+}
+
+.field.has-error .field__error {
+  display: block;
+}
+
+.required-mark {
+  color: $color-error;
+}
+
+.advisory {
+  border: 2px solid $color-navy-800;
+  background: $color-navy-950;
+  color: $color-white;
+  border-radius: $radius-md;
+  padding: $space-4 $space-5;
+  margin: $space-6 0;
+}
+
+.advisory h2 {
+  color: $color-white;
+  font-size: $fs-md;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: $space-2;
+}
+
+.advisory p {
+  color: rgba($color-white, 0.9);
+  margin-bottom: 0;
+  font-size: $fs-sm;
+}
+
+.form-status {
+  border-radius: $radius-md;
+  padding: $space-4;
+  margin-bottom: $space-5;
+  display: none;
+}
+
+.form-status.is-visible {
+  display: block;
+}
+
+.form-status--error {
+  background: $color-error-bg;
+  border: 1px solid $color-error;
+  color: $color-error;
+}
+
+// -----------------------------------------------------------------------
+// Alerts / callouts
+// -----------------------------------------------------------------------
+.callout {
+  border: 1px solid $color-cream-border;
+  background: $color-white;
+  border-radius: $radius-lg;
+  padding: $space-6;
+  text-align: center;
+}
+
+.callout p {
+  color: $color-ink-soft;
+  max-width: 60ch;
+  margin: 0 auto $space-5;
+}
+
+// -----------------------------------------------------------------------
+// Placeholder box (Blog, agency contact/social placeholders)
+// -----------------------------------------------------------------------
+.placeholder-box {
+  border: 2px dashed $color-slate-400;
+  border-radius: $radius-md;
+  padding: $space-4;
+  color: $color-ink-soft;
+  font-size: $fs-sm;
+  background: $color-paper-alt;
+}
+
+.placeholder-box strong {
+  color: $color-navy-800;
+}
+
+.breadcrumb {
+  font-size: $fs-sm;
+  color: $color-slate-500;
+  margin-bottom: $space-3;
+}
+
+.breadcrumb a {
+  color: $color-slate-500;
+}

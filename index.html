@@ -1,0 +1,83 @@
+---
+layout: default
+title: Home
+description: >-
+  KLEN connects Kansas law enforcement professionals across the state with
+  news, agency reference information, and interagency cooperation.
+---
+<section class="hero">
+  <div class="wrap">
+    <p class="hero__eyebrow">Kansas Law Enforcement Network</p>
+    <h1>Connecting Kansas law enforcement, statewide.</h1>
+    <p class="hero__lede">
+      KLEN links officers, deputies, and agency staff across all 105 Kansas
+      counties &mdash; sharing timely news, reliable agency information, and
+      a direct channel for interagency cooperation.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ '/news/' | relative_url }}">Read the News</a>
+      <a class="btn btn--on-dark" href="{{ '/contact/' | relative_url }}">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="value-grid">
+      <div class="value-card">
+        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <rect x="6" y="8" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M12 16h20M12 22h20M12 28h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <h3>News &amp; Updates</h3>
+        <p>Original reporting and commentary on training, legislation, officer safety, and the issues shaping Kansas law enforcement.</p>
+      </div>
+      <div class="value-card">
+        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <path d="M22 6l16 6v10c0 10-7 15.5-16 18C13 37.5 6 32 6 22V12z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        <h3>Agency Information</h3>
+        <p>An interactive, county-by-county reference of Kansas law enforcement agencies &mdash; sheriffs, municipal departments, campus, and state.</p>
+      </div>
+      <div class="value-card">
+        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+          <circle cx="15" cy="17" r="5" stroke="currentColor" stroke-width="2"/>
+          <circle cx="29" cy="17" r="5" stroke="currentColor" stroke-width="2"/>
+          <path d="M6 36c1-6 5-9 9-9s8 3 9 9M20 36c1-6 5-9 9-9s8 3 9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <h3>Interagency Cooperation</h3>
+        <p>A shared, independent space where agencies and officers across jurisdictions can connect and coordinate more easily.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <h2>Latest News</h2>
+    <div class="card-grid">
+      {% assign recent_posts = site.posts | limit: 3 %}
+      {% for post in recent_posts %}
+      <article class="post-card">
+        <div class="post-card__meta">
+          <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+          <a class="category-tag" href="{{ '/news/' | relative_url }}?category={{ post.category | slugify }}">{{ post.category }}</a>
+        </div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 26 }}</p>
+        <a class="post-card__link" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Reach the network</h2>
+      <p>Have a tip, a correction, or a question for KLEN? Send a message and we&rsquo;ll route it appropriately.</p>
+      <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Go to Contact</a>
+    </div>
+  </div>
+</section>
