@@ -34,6 +34,14 @@
 # agencies (Kansas Highway Patrol, KBI, etc.) are not county-specific and
 # live separately in _data/state_agencies.yml.
 #
+# IMPORTANT CAVEAT ON THE WIKIPEDIA SOURCE: the tooling used to build this
+# file cannot directly load en.wikipedia.org (network policy blocks it),
+# so that page could only be checked through search-result summaries, not
+# a full read of its list. Every specific agency name pulled from it this
+# way was verified against an independent source before being added. This
+# means the reverse check -- "is every agency on that Wikipedia page also
+# in this file" -- has NOT been fully done and cannot be claimed as done.
+#
 # Please still verify every entry -- especially department names,
 # jurisdiction boundaries, and current operational status -- before
 # publishing contact details or links. Entries with a known, specific
@@ -153,6 +161,9 @@
       url: ""
     - name: "Andover Police Department"
       type: Municipal PD
+      url: ""
+    - name: "Butler Community College Police Department"
+      type: Campus
       url: ""
 
 - name: "Chase"
@@ -1438,4 +1449,7 @@
       url: ""
     - name: "Kansas City Police Department"
       type: Municipal PD
+      url: ""
+    - name: "Kansas City Kansas Community College Police Department"
+      type: Campus
       url: ""
