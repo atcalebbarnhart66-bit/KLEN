@@ -1,10 +1,10 @@
 .agency-explorer {
   display: grid;
-  gap: $space-6;
+  gap: $space-4;
 }
 
 .map-search {
-  margin-bottom: $space-5;
+  margin-bottom: 0;
 }
 
 .map-search label {
@@ -37,7 +37,7 @@
 }
 
 .mobile-county-select {
-  margin-bottom: $space-5;
+  margin-bottom: 0;
 }
 
 .mobile-county-select label {
@@ -202,13 +202,13 @@
 // Full accessible list below the map
 // -----------------------------------------------------------------------
 .county-directory {
-  margin-top: $space-7;
+  margin-top: $space-6;
 }
 
 .county-directory__grid {
   display: grid;
-  gap: $space-5;
-  margin-top: $space-5;
+  gap: $space-3;
+  margin-top: $space-4;
 }
 
 @media (min-width: $breakpoint-md) {
@@ -223,31 +223,38 @@
   }
 }
 
+@media (min-width: $breakpoint-xl) {
+  .county-directory__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .county-directory__item {
   border: 1px solid $color-cream-border;
   border-radius: $radius-md;
-  padding: $space-4;
+  padding: $space-3;
   background: $color-white;
 }
 
 .county-directory__item h3 {
-  font-size: $fs-md;
-  margin-bottom: $space-1;
+  font-size: $fs-sm;
+  font-weight: 700;
+  margin-bottom: 0.15rem;
 }
 
 .county-directory__item .county-seat {
-  font-size: $fs-sm;
+  font-size: 0.8rem;
   color: $color-slate-500;
-  margin-bottom: $space-3;
+  margin-bottom: $space-2;
 }
 
 .county-directory__item ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: $fs-sm;
+  font-size: 0.8rem;
 }
 
 .county-directory__item li {
-  padding: $space-1 0;
+  padding: 0.15rem 0;
 }

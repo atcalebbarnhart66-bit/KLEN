@@ -27,6 +27,11 @@
       .replace(/"/g, "&quot;");
   }
 
+  function formatPopulation(value) {
+    if (!value) return "unavailable";
+    return Number(value).toLocaleString("en-US");
+  }
+
   function renderPanel(slug) {
     var county = bySlug[slug];
     if (!county) {
@@ -52,6 +57,7 @@
         '<p class="detail-panel__eyebrow">Kansas County</p>' +
         '<h2 class="detail-panel__title">' + escapeHtml(county.name) + " County</h2>" +
         '<p class="detail-panel__meta">County seat: ' + escapeHtml(county.seat || "Unconfirmed") + " &middot; " +
+          "Projected population: " + formatPopulation(county.population) + " &middot; " +
           (county.agencies ? county.agencies.length : 0) + " agenc" + ((county.agencies && county.agencies.length === 1) ? "y" : "ies") + " on file</p>" +
       "</div>" +
       '<ul class="agency-list">' + agencyItems + "</ul>";

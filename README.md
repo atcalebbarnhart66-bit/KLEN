@@ -102,6 +102,7 @@ Each county looks like this:
   fips: "20155"
   slug: "reno"
   seat: "Hutchinson"
+  population: 61417
   page: false
   agencies:
     - name: "Reno County Sheriff's Office"
@@ -123,6 +124,13 @@ line under `agencies:`, matching the existing format:
 
 `type` should be one of: `Sheriff`, `Municipal PD`, `Campus`, `State`, or
 `Other`.
+
+`population` is shown as "Projected population" on the map's hover/tap
+panel and in the accessible county list, next to the county seat. It's
+a plain number, no commas or quotes (the map panel adds comma
+formatting automatically). To update it, replace the number with a
+current estimate &mdash; see the `POPULATION NOTE` comment near the top
+of `_data/agencies.yml` for where the current figures came from.
 
 **To edit an agency's name:** just change the text after `name:`.
 

@@ -12,7 +12,7 @@ description: An interactive, county-by-county reference of Kansas law enforcemen
   </div>
 </div>
 
-<div class="wrap section">
+<div class="wrap section--tight">
   <div class="agency-explorer">
     <div class="map-search">
       <label for="agency-search">Search by county or agency name</label>
@@ -69,7 +69,7 @@ description: An interactive, county-by-county reference of Kansas law enforcemen
       {% for county in counties_by_name %}
       <article class="county-directory__item" id="list-{{ county.slug }}">
         <h3>{{ county.name }} County</h3>
-        <p class="county-seat">County seat: {{ county.seat | default: "Unconfirmed" }}</p>
+        <p class="county-seat">County seat: {{ county.seat | default: "Unconfirmed" }} &middot; Projected population: {{ county.population }}</p>
         <ul>
           {% for agency in county.agencies %}
           <li>

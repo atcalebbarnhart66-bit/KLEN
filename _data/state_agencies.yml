@@ -5,23 +5,22 @@
 # Rendered on the Agency Information page below the county map.
 #
 # Verified via live web search (official agency sites and Kansas statute
-# references) on 2026-09-18. url is left blank on every entry; fill in
-# each agency's official homepage when ready.
+# references) on 2026-09-18, urls added 2026-09-19.
 #
 # Fields: name, note (short description of jurisdiction/authority), url
 
 - name: "Kansas Highway Patrol"
   note: "Statewide traffic enforcement and criminal interdiction on Kansas highways."
-  url: ""
+  url: "https://kansashighwaypatrol.gov/"
 - name: "Kansas Bureau of Investigation"
   note: "State-level criminal investigation agency, part of the Kansas Attorney General's office."
-  url: ""
+  url: "https://www.kbi.ks.gov/"
 - name: "Kansas Department of Wildlife and Parks, Law Enforcement Division"
   note: "Game wardens with statewide authority over wildlife, boating, and state park law."
-  url: ""
+  url: "https://www.ksoutdoors.gov/programs-services/law-enforcement"
 - name: "Office of the Kansas State Fire Marshal"
   note: "Fire investigation and arson enforcement authority statewide."
-  url: ""
+  url: "https://firemarshal.ks.gov/"
 - name: "Kansas Department of Revenue, Division of Alcoholic Beverage Control Enforcement"
   note: "State agents enforcing alcohol licensing and related law statewide."
-  url: ""
+  url: "https://www.ksrevenue.gov/abcenforcement.html"
