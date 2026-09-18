@@ -48,6 +48,12 @@
     - name: "Allen County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Iola Police Department"
+      type: Municipal PD
+      url: ""
+    - name: "Humboldt Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Anderson"
   fips: "20003"
@@ -57,6 +63,9 @@
   agencies:
     - name: "Anderson County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Garnett Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Atchison"
@@ -165,6 +174,9 @@
     - name: "Chautauqua County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Sedan Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Cherokee"
   fips: "20021"
@@ -211,6 +223,9 @@
     - name: "Clay County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Clay Center Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Cloud"
   fips: "20029"
@@ -234,6 +249,9 @@
     - name: "Coffey County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Burlington Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Comanche"
   fips: "20033"
@@ -243,6 +261,9 @@
   agencies:
     - name: "Comanche County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Coldwater Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Cowley"
@@ -288,6 +309,9 @@
   agencies:
     - name: "Decatur County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Oberlin Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Dickinson"
@@ -356,6 +380,9 @@
   agencies:
     - name: "Elk County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Howard Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Ellis"
@@ -458,6 +485,9 @@
     - name: "Graham County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Hill City Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Grant"
   fips: "20067"
@@ -480,6 +510,9 @@
   agencies:
     - name: "Gray County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Cimarron Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Greeley"
@@ -554,7 +587,7 @@
 - name: "Hodgeman"
   fips: "20083"
   slug: "hodgeman"
-  seat: "Jetmore"
+  seat: "Jetmore" # confirmed 2026-09-18: Jetmore contracts with the Hodgeman County Sheriff's Office; no separate city PD.
   page: false
   agencies:
     - name: "Hodgeman County Sheriff's Office"
@@ -582,6 +615,9 @@
   agencies:
     - name: "Jefferson County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Oskaloosa Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Jewell"
@@ -655,6 +691,9 @@
   agencies:
     - name: "Kingman County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Kingman Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Kiowa"
@@ -731,6 +770,9 @@
     - name: "Linn County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Mound City Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Logan"
   fips: "20109"
@@ -766,6 +808,9 @@
   agencies:
     - name: "Marion County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Marion Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Marshall"
@@ -861,6 +906,9 @@
     - name: "Morris County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Council Grove Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Morton"
   fips: "20129"
@@ -871,6 +919,9 @@
     - name: "Morton County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Elkhart Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Nemaha"
   fips: "20131"
@@ -880,6 +931,9 @@
   agencies:
     - name: "Nemaha County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Seneca Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Neosho"
@@ -914,6 +968,9 @@
     - name: "Norton County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Norton Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Osage"
   fips: "20139"
@@ -924,6 +981,9 @@
     - name: "Osage County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Lyndon Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Osborne"
   fips: "20141"
@@ -933,6 +993,9 @@
   agencies:
     - name: "Osborne County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Osborne Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Ottawa"
@@ -964,7 +1027,7 @@
 - name: "Phillips"
   fips: "20147"
   slug: "phillips"
-  seat: "Phillipsburg"
+  seat: "Phillipsburg" # confirmed 2026-09-18: Phillipsburg contracts with the Phillips County Sheriff's Office; no separate city PD.
   page: false
   agencies:
     - name: "Phillips County Sheriff's Office"
@@ -1026,6 +1089,9 @@
     - name: "Republic County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Belleville Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Rice"
   fips: "20159"
@@ -1035,6 +1101,9 @@
   agencies:
     - name: "Rice County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Lyons Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Riley"
@@ -1062,6 +1131,9 @@
     - name: "Rooks County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Stockton Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Rush"
   fips: "20165"
@@ -1081,6 +1153,9 @@
   agencies:
     - name: "Russell County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Russell Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Saline"
@@ -1181,6 +1256,9 @@
     - name: "Sheridan County Sheriff's Office"
       type: Sheriff
       url: ""
+    - name: "Hoxie Police Department"
+      type: Municipal PD
+      url: ""
 
 - name: "Sherman"
   fips: "20181"
@@ -1203,6 +1281,9 @@
   agencies:
     - name: "Smith County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Smith Center Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Stafford"
@@ -1233,6 +1314,9 @@
   agencies:
     - name: "Stevens County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Hugoton Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Sumner"
@@ -1269,6 +1353,9 @@
   agencies:
     - name: "Trego County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "WaKeeney Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Wabaunsee"
@@ -1335,6 +1422,9 @@
   agencies:
     - name: "Woodson County Sheriff's Office"
       type: Sheriff
+      url: ""
+    - name: "Yates Center Police Department"
+      type: Municipal PD
       url: ""
 
 - name: "Wyandotte"
