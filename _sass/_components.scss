@@ -237,86 +237,8 @@
 }
 
 // -----------------------------------------------------------------------
-// News listing / filters
+// Pagination (used by the "From Around the State" external news list)
 // -----------------------------------------------------------------------
-.news-layout {
-  display: grid;
-  gap: $space-6;
-}
-
-@media (min-width: $breakpoint-lg) {
-  .news-layout {
-    grid-template-columns: 220px 1fr;
-    align-items: start;
-  }
-}
-
-.filter-panel {
-  background: $color-white;
-  border: 1px solid $color-cream-border;
-  border-radius: $radius-md;
-  padding: $space-4;
-}
-
-.filter-panel h2 {
-  font-size: $fs-md;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: $space-3;
-}
-
-.filter-panel ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.filter-panel li + li {
-  margin-top: $space-1;
-}
-
-.filter-panel a {
-  display: block;
-  min-height: $touch-target;
-  display: flex;
-  align-items: center;
-  padding: $space-2 $space-2;
-  border-radius: $radius-sm;
-  text-decoration: none;
-  color: $color-ink;
-}
-
-.filter-panel a:hover,
-.filter-panel a[aria-current="true"] {
-  background: $color-paper-alt;
-  color: $color-accent-dark;
-}
-
-.news-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: $space-5;
-}
-
-.news-list .post-card {
-  flex-direction: column;
-}
-
-@media (min-width: $breakpoint-md) {
-  .news-list .post-card {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: $space-5;
-  }
-
-  .news-list .post-card__body {
-    flex: 1;
-  }
-}
-
 .pagination {
   display: flex;
   justify-content: space-between;
@@ -584,6 +506,12 @@
   margin-top: $space-7;
   padding-top: $space-6;
   border-top: 1px solid $color-cream-border;
+}
+
+.external-news--standalone {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
 }
 
 .external-news__disclaimer {

@@ -61,7 +61,7 @@ description: >-
       <article class="post-card">
         <div class="post-card__meta">
           <span>{{ post.date | date: "%B %-d, %Y" }}</span>
-          <a class="category-tag" href="{{ '/news/' | relative_url }}?category={{ post.category | slugify }}">{{ post.category }}</a>
+          <span class="category-tag">{{ post.category }}</span>
         </div>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html | truncatewords: 26 }}</p>

@@ -21,7 +21,7 @@
     <div class="wrap">
       <ul class="site-nav__list">
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
-        <li><a href="{{ '/news/' | relative_url }}" {% if page.url contains '/news' %}aria-current="page"{% endif %}>News</a></li>
+        <li><a href="{{ '/news/' | relative_url }}" {% if page.url == '/news/' %}aria-current="page"{% endif %}>News</a></li>
         <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
         <li><a href="{{ '/agencies/' | relative_url }}" {% if page.url contains '/agencies' %}aria-current="page"{% endif %}>Agency Information</a></li>
         <li><a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a></li>

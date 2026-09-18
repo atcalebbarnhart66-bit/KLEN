@@ -9,7 +9,11 @@ guide walks through the common tasks in plain language.
 
 ## 1. How to add a new News post
 
-News posts live in the `_posts` folder. Each post is one file.
+News posts live in the `_posts` folder. Each post is one file. Note:
+the `/news/` page itself is now dedicated to the automated "From Around
+the State" external feed (see section 5) &mdash; posts you write here
+appear on the **homepage** (the three most recent, under "Latest
+News") and in the site's RSS feed, not on `/news/` itself.
 
 ### File naming
 
@@ -21,8 +25,8 @@ YYYY-MM-DD-a-short-title.md
 
 For example: `2026-09-20-new-radio-interoperability-grant.md`
 
-The date in the filename controls where the post appears in the
-reverse-chronological News list.
+The date in the filename controls sort order (newest first) for the
+homepage's "Latest News" cards and the RSS feed.
 
 ### Front matter (the block at the top of the file)
 
@@ -35,8 +39,8 @@ date: 2026-09-20 09:00:00 -0500
 category: Training
 author: Your Name or KLEN Staff
 excerpt: >-
-  A one to two sentence summary. This is what shows on the News list and
-  on the homepage cards.
+  A one to two sentence summary. This is what shows on the homepage
+  card for this post.
 ---
 Your article content starts here, written in plain text or Markdown.
 
@@ -52,8 +56,8 @@ Your article content starts here, written in plain text or Markdown.
 ```
 
 `category` should be one of the existing categories (`Training`,
-`Legislation`, `Officer Safety`) or a new one you want to introduce &mdash;
-new categories automatically show up in the News page's category filter.
+`Legislation`, `Officer Safety`) or a new one you want to introduce.
+It's shown as a small label on the post and on its homepage card.
 
 ### Adding images to a post
 
@@ -221,11 +225,12 @@ other files need to change.
 
 ## 5. How the "From Around the State" external news feed works
 
-The News page has a section, below your own posts, that automatically
-links to outside news articles mentioning Kansas law enforcement. KLEN
-does not write these &mdash; they're gathered by keyword search and
-clearly labeled "External" with a disclaimer, linking out to the
-original source rather than reproducing it.
+The `/news/` page is entirely this feed &mdash; it automatically links
+to outside news articles mentioning Kansas law enforcement. KLEN does
+not write these &mdash; they're gathered by keyword search and clearly
+labeled "External" with a disclaimer, linking out to the original
+source rather than reproducing it. (Posts you write yourself, described
+in section 1, live on the homepage and in the RSS feed instead.)
 
 **How it works:** a scheduled GitHub Action (`.github/workflows/fetch-
 external-news.yml`) runs once a day, executes `scripts/
@@ -344,7 +349,7 @@ _agencies/        Generated county pages live here once you turn one on
 .github/workflows/fetch-external-news.yml  Daily external news job
 scripts/fetch_external_news.py  What that job runs (see section 5)
 index.html        Home page
-news/index.html   News listing (paginated, with category filtering)
+news/index.html   News page (the "From Around the State" external feed, paginated)
 blog.html         Blog placeholder page
 agencies/index.html  Agency Information page (map + full directory)
 contact.html      Contact form
