@@ -7,7 +7,124 @@
 # not verify, and does not endorse -- the News page renders them
 # with that disclaimer attached. See README.md for how to change the
 # keyword list, the schedule, or turn this off entirely.
-#
-# This starter file is empty until the workflow runs for the first time
-# (it only fires on the repository's default branch -- see the workflow
-# file's note). The News page handles an empty list gracefully.
+# Last fetched: 2026-09-18 23:01 UTC
+
+- title: "'I led as a person': 1-on-1 with KCPD Chief Stacey Graves before her retirement - KSHB 41 Kansas City"
+  url: "https://news.google.com/rss/articles/CBMizwFBVV95cUxNY1IyYWFqbFRsYm5UajhYa1QtTVFmVWVhT2I3OTN1Tk9XUk44ZFpLTk1IT2dHLXJtNktZQ3RHUHF1V0lRbWhQdzlLWDZBTnpUcWJqRmtvd3dyLUV6VExPM0g1OTYyXzFrZTFaT01fek50UVY4S2FaVzFSc2tacW1NUTdYc3ZQeDdmMHJncFJfM3UyMFBQNXZ0MldFQ2EzQzNoSVoxVDZ2eHFraUtyWE15UmJZbVY2U2xaaXpWRlduWnp3LVJwV3FPdnJiZ3Zoekk?oc=5"
+  source: "KSHB 41 Kansas City"
+  published: "2026-09-18"
+  matched_keyword: "Kansas police department"
+
+- title: "Woman found dead in suitcase at Kansas fire station: Police - ABC News - Breaking News, Latest News and Videos"
+  url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeURLZUZsektIVDVtTkNUX2kyelp3SWV3VDZyWmpyVURxTW1zTVZtaENiS3Y2eXBFT1ZXeHJCVkdseUh1aXducUNJc1BEcGxYNXhCQk9HZXM2RGJfWGJySHlvdHQ4OFhfcXJnNlA0OFdjeDJlNmZzX3ctNlhocXNsRE0yVUpkRHdrUFNZX2RuWG42U2hCRjJxZzFR0gGfAUFVX3lxTE1UelpLOFR0VXdwc3FLWVByck5aZGYzM1AySHg2b3JBQ3c3T0hva1BQT2ducThscFFxVnpKcXBHWVhzTkYtOEcxZlItdDVxWGhTb1E2WGQxbkFWN0NlS0M0Q09UUmlETktWdUlUZFY3dUhkOTBENEVRcTd5Y3NkeTZEbzFxMV9LVmstVnNGQ0NFSm0wZFpOMmhFX29lZTU2VQ?oc=5"
+  source: "ABC News - Breaking News, Latest News and Videos"
+  published: "2026-09-18"
+  matched_keyword: "Kansas police department"
+
+- title: "Police ID body found in suitcase delivered to Kansas fire station - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vTU81WnR0TUxnajBPRENTVDU3S2pneVJ2WG1aOC1FN1FfZUZvaDg5Y2lkeUFuSmRTSFo5UjlLUjczbW45QnkyM2h2LWhaalpXbl9TNm5ra0tQRlRncnZ0MEl6c3dZNkR1UTRrdDdB?oc=5"
+  source: "JC Post"
+  published: "2026-09-18"
+  matched_keyword: "Kansas police department"
+
+- title: "Going on vacation? These KC area police departments offer home watch services - Yahoo"
+  url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWDdIZHlEcWZhdlRGa082VS1rN2tObFo0YWEwcVduMEZYTkJTblJGczFnWXdxNGJQQ29zbjJ2NElqOGNBcjNKMXh1UG5ZN3dDWUJrYWxNY01kWmN6cTh2dVZnZF81WTFSYzM1TzVXNmg0U2hKdk10WUQ3a2dZQWxYMU9pbGJKSUk?oc=5"
+  source: "Yahoo"
+  published: "2026-09-18"
+  matched_keyword: "Kansas police department"
+
+- title: "Topeka man injured after vehicle strikes bridge wall in Shawnee Co. - WIBW"
+  url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUnlMYVlrTG1pZWVfUGRmcDlUeVhZbEdVN2F3RlItNWFkYzJmSzIxWjRBRHhfLVNBU3pOSG9RbnJVS29JVHhLS0lKdTlzdzZMQWUzLThLdXViT1V3OHJsSEF3bUZUU295WWJjanNhY3NWaE5wT2ZLYU1yeXotLXJyRWJicXRVVWFXcFRPSVBudXpoODI0OWxhelFVTGs?oc=5"
+  source: "WIBW"
+  published: "2026-09-18"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "A third of Kansas counties have ICE agreements. Kris Kobach wants more - The Topeka Capital-Journal"
+  url: "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ0tTNFFMSkNRa3BOMEJ3TlV6OWpzaTJxd3EyN3Z2UmZYVmwxZHFXZ2RhaENJdUppeTV4aHNfQlhRZGJTVzdpRHRPUTQ4eG9uYUJBaE5pT3Q3ZTNVbTN5VGNELW43eENjSWpvdjBmeS1mRXplbjd3MmlfZV9wMXhpZjlvOXNRV2JtZElCd3pka1BIUWtRRmVKUzZNWnpFNGVUekpsZWNIcjRuT1J1WnA3Y3I4Y3A5XzBfNHhpZ2h0aHJVb2l1cFlDa2hFVEd2cGhqUlRNZ0RJelk?oc=5"
+  source: "The Topeka Capital-Journal"
+  published: "2026-09-18"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Platte County Prosecutor Eric Zahnd found dead at county courthouse, sheriff says - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE5WN1RlbHlJZEpCUW5Nd3ZWS0Q3NlJPTDBGU2hPMEFJeEk1d1Jhd3NQSU1Zbk9QU0xSNUJNTXUxZVFmaDhlOTRwV1FDR3dCOTE0aEM5a3pCNHhGZFZNa205MkxiNFI3X0Y5Q2Jz0gFrQVVfeXFMTUtCRTRXR0lYbGRwbU5VdTNyOF8xUy1fdnJHeFU2RElvU09tR1dhVHQxeFQ0MGM4TXVqakxCcGY3dTU1MjhSRXdLTF9lUE1JenZDaVNtaGpWZldPQ0VSNDAtNXl4U00zZXE0Rjg?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-17"
+  matched_keyword: "Kansas sheriff"
+
+- title: "NW Kansas woman avoids more jail time for meth possession - Hays Post"
+  url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CUHZCaHVIb1ZiT3c1S0JvTFJmM1FlNFNvRXJsWUJJaG1lcVhJanpXNXZlVjJ2SmZ1QzU5Wi1vclJMaU9TQU1JcDd3TTZLdmdNZ0pReFBPUlpsYXBfeVJOMmFsOG04VmxVNFpNNUxwUmE?oc=5"
+  source: "Hays Post"
+  published: "2026-09-17"
+  matched_keyword: "Kansas sheriff"
+
+- title: "Kansas City police officer found guilty of assault in 2024 Westport incident - kmbc.com"
+  url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY3BzaHF5MFREYXV0NGc0b1NacGliMXZKUXpfM2MxMVBlSE12WXZwcGJhQjh3N25rQzAwTDliS3RDVkFMUTVSM2R0NXZaWVBOQ0pnRVZadlFRQUJyTl9jX21lR2xRb1JRS282MVlHN2V4dXhRcnVxMFI4MGFxM3hfa3F4RGVvYXY4NVNBYThWcjdoR1E?oc=5"
+  source: "kmbc.com"
+  published: "2026-09-17"
+  matched_keyword: "Kansas police department"
+
+- title: "KCPD searching for missing man last contacted Tuesday - KCTV"
+  url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR1R5bmxhRlZaTkhGdmxmNFZ6cWwtVEVYYnBNS3BEcXpBTnBING5Wd2lpOGV6LWtmd0Y5RTlvd3hTLVd4OFZQSkdMX2wxOEduVEJWOTVqVklrOEpWaHd3aUJ5cEstNmJTU0VxRkR4NEpzQlJnLVE2ZEJGS1NfSGdEaXdRUXo1c3dtQ0xr0gGfAUFVX3lxTE5uaXFsMnlqN2dQNVJTQWpKTVpfMFU0SEdvd2JPWkxvbnR5YnAzS1ZwTnhIVlB6RTJJUGNQREVBb29tQXQtNGtSbHFSNDExU0ZrbVdOWER3SU9uQkxZRXAtVkxCTUhaUEdjTU05SWpfM1d5NG4tQi1kLUZEem5EUnJaN3BRMGt3VzloaFF4YklkSXFWYlctWkMtQ1FaNHhDZw?oc=5"
+  source: "KCTV"
+  published: "2026-09-17"
+  matched_keyword: "Kansas police department"
+
+- title: "Kansas City, Missouri, police working to locate missing 47-year-old man - KSHB 41 Kansas City"
+  url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckh5UHMzUEoxMTVpUmt4TTJ4dHRFcHBaMTNKZ19qbnlPdVBELTZ6azNDVXVuZWhLbzBMenhEUWk1YzZ1RS1Qd1NvN1NZRGR1MDA4N1BSUlVGeFdOd2lmV3pGT1VpY1M5QXRMLTZpU2lHWW4yU3NHY1MxUDZOZVJ6azJ6aDBOVzd2aEtvMkpJWEF3WExGcFJMRWJnNG5tS1A4YkFZNFNQRzJnUQ?oc=5"
+  source: "KSHB 41 Kansas City"
+  published: "2026-09-17"
+  matched_keyword: "Kansas police department"
+
+- title: "Kansas City police officer found guilty of assaulting handcuffed man - KCTV"
+  url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0FsSU1MZkc1VXVaTGNFeE5mb3Jsa29MOFZtREFZaDhXNXpJODhSVDk2RmxGaHB2U0Q2b0dzRWNtNHNSRDlOakNxc19lX1BzaWhXTG9BNUZzNmdwNk1IVjhBdm5vVFR2U1ItZ3Y2Q1A1U19idS1mMV9jaVJNVjZXN183N1NUZE0z0gGcAUFVX3lxTFBVYWc5eTFTT1c0Qk5ySTljVFNvLXkyZVRSaERzdGF5OWpCc0JxbXhQdDFrWGxCeXlfR3IzTExmRmlGWGVrSmlyQXB4WnBDNEY1YWNhUnA5Z2pwS2FUTS1pY0VXaFZsclJqOWNDR2xkcHNvM2F2ZFZNZ2pjOU1FanlYZ2F6MnpaOHRDMTJNcElzb09kaGZWZFpWVTJhXw?oc=5"
+  source: "KCTV"
+  published: "2026-09-17"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Kansas City police searching for missing 47-year-old man last contacted Tuesday evening - kmbc.com"
+  url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeUMwLTdLOThTVWE0OGJnbmJDWGg0QlV5RGdQcUFvaUhWRV96dm9HUjJiMUE3MHNYTXZVM21RbzYwcVlOQ3B6eUg0cXlHSEpxWWlqZ3cwU0dmdHJGUG9JTDk1NHVMcGVIME53ZUtZazFNRUtpeXM5T2lUWFVuLWdhQVRBNFVYSllTdy1Kbm1n?oc=5"
+  source: "kmbc.com"
+  published: "2026-09-17"
+  matched_keyword: "Kansas police department"
+
+- title: "Kansas man hospitalized after pickup accident - Hutch Post"
+  url: "https://news.google.com/rss/articles/CBMickFVX3lxTFBGNGJGbFBnQjZQT2g5aWxueFUzT3VQX0lXaF9LbHJzVGtGb0RaRWNGNWhWMmlPbVNtQW45NWM4eUJ0VzNVOEdmLXJtVnFYelFKc2lSYjd3aVVyMlFuMmNIdXYyVE4zeGFNU0EtYjRPZFdQUQ?oc=5"
+  source: "Hutch Post"
+  published: "2026-09-17"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "KCPD Officer Christopher Showalter found guilty in Westport assault trial - FOX4KC.com"
+  url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUYzem5QWWo0LUV3dVotVnMyeWpJTTVwamxVZE9oUW05SmZJT1YzM05lRmhkZUdpNU9HVnJNZXdJcXp0WWs4OTZZSW1hTlF5Wlh0cEE0SDNKWEQxLXpmQ3RfdDVzTFIwMUxqOFJYaG5ONUYtT3o5c0Y2MDdCX0k4OWlBcmtOd2xBY0gtRThnZWs4LUZ2WWlxdFZ6dVRGMVnSAaQBQVVfeXFMTVJsWjk1bUtMeTZxYkt5OGc2bi1PNjdlSDUtU1JqX0xiWGRWdTM3MDRPa3EtbUNtWlhkMVd3WDdELWlUZkZsOXdZT29RcmVOZWxzQWptODN5MGl5c0NXaTAtMDBzaVVSZmpYUER1NmZHOVhhVHJ6WEJIb3NMNW16cUZHNGliRFI2bDcxUFlLNnFZbHNyQ3pFZ19NaHAzQXZXaHpMWFk?oc=5"
+  source: "FOX4KC.com"
+  published: "2026-09-17"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "How national ICE rhetoric is influencing Kansas immigration legislation - The University Daily Kansan"
+  url: "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVmpxZXo4bjNGZGVIaWtRS01NYl96aVZvNEQxMVBNX2t0amo1R1VPVFBoQ0p2NUNCQUdUY2M4UzFiSHZiNzdyc19IZTJvbm0xT25lUkxfMUx0MXF3bjRkSzZiWUVNYkFoQzVPQkFPaWp1XzNTQ1FoWkJ6ZjNES0E1Wld5ZjJiTVE5YWI3S3JjdWVFZ1lOU3RCOFh6WFk3dDhLeUphb05NS3ZCUXdlNkduN2R2d2huN0ZBZzdmaTMzaHdfTVF2WkhoXzRLUmhNUzRsU25TeUhTX20yQ01fV1ctRGNEOA?oc=5"
+  source: "The University Daily Kansan"
+  published: "2026-09-17"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Traffic stop turns into car chase in Kingman, Sedgwick counties - KAKE"
+  url: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSUV4dWY1Q1BvVTQwWVFXMTdndmE2bHhoX2s5dWNCaktmUmpXejh2Mk5DUWo0czlxMnIwZkQ1NmdydXRGZEZnME1PT2NqcElCLVMtSVRwbk1aQ1lGOE5tTWhoVTQ1bEo2elZobExFU0tUNVNKSFdVZGJRaFNTUFZfal92eWgwN1NINnN1SUVrcmVhSTM4cTE1ODJvbXVUOGhCa1FVOER3R015RVNCYkVQOFI1UXlPT1lybHFWcWJMTnA5WXJyNlJwd1lhbXhwc0hid2JyVA?oc=5"
+  source: "KAKE"
+  published: "2026-09-17"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Leavenworth woman killed in two-car crash near Wyandotte County golf course - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0bXd5dC1qelA0LXBuYWZhaTFnMzNCUHBqZjVTS0s2QXE2eEpCX3lWckpkNmJWNFdZelZpamdVNzlhMjkwLXpraW9HSzR6Tkg0YnN6MTlDcXhtTWF2NG5rb2ItS3g2SFowNW9r0gFrQVVfeXFMTmd0XzdsNmZ2bDQ0U1NpNkxKZTlXd0J0LWd4X3o3RGFNM29nZHNxeno1VlMzdjRHRDlweXdpcnNiVUhNZ2hiNGVlVUlkU0pLV1cxTW1RQnJ1dXRubF9BYzBqcU1Sd0pCcTBTVnc?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-17"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Kansas woman killed in crash during improper turn onto highway - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE05LThqNURXbDk5WktaSm1fRkVBR1kzeG12S29scENkMzRYdjlhZkZ4cnZmM3JWREpTS1hKcXhoR2ZvX3JpWDQ3SjVnYUI5bkcyVXE1T2huck5QVWRHeDFiMHB6V3AxN1V0WkFsM3h3?oc=5"
+  source: "JC Post"
+  published: "2026-09-17"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "‘What am I missing, sir?’ Kansas City trial examines alleged excessive force | Porter - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xVnVkbl9qSE5ObWJEWVhSZE12S0dockhNcHprMjczaXZxblFkZ3d5LXZvMVpfLVFSVEVDVV9QemZhNWFIUG5kR3ljODFLUkJCSENFWkdpdlF4am5ZWkhPeWNzZW9PZEXSAWdBVV95cUxPT2EzTlFOYlUxTzE2SWpLeGtiYWh4MmFQMUVRZUhQcXQ0X1BBU19pZThXcHpaNjFSRHZmZUdEN3VpTE50OTdGQ1VhbUQ5S2dQWlY3OWpxMFNOTzItYnJIazM5ZldTWXVF?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-17"
+  matched_keyword: "Kansas police department"
