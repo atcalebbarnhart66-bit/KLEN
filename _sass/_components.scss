@@ -293,6 +293,9 @@
 }
 
 .news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: $space-5;
@@ -324,7 +327,8 @@
 }
 
 .pagination a,
-.pagination span {
+.pagination span,
+.pagination button {
   display: inline-flex;
   align-items: center;
   min-height: $touch-target;
@@ -336,14 +340,25 @@
   font-weight: 600;
 }
 
-.pagination a:hover {
+.pagination button {
+  background: $color-white;
+  font: inherit;
+  font-size: $fs-md;
+  cursor: pointer;
+}
+
+.pagination a:hover,
+.pagination button:not(:disabled):hover {
   background: $color-navy-950;
   color: $color-white;
 }
 
-.pagination .is-disabled {
+.pagination .is-disabled,
+.pagination button:disabled {
   color: $color-slate-400;
   border-color: transparent;
+  cursor: default;
+  background: transparent;
 }
 
 // -----------------------------------------------------------------------

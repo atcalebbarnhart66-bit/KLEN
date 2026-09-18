@@ -248,6 +248,14 @@ results, so you can be as broad or specific as you like.
 **To change how often it runs:** edit the `cron` line in `.github/
 workflows/fetch-external-news.yml`. It's currently set to once a day.
 
+**About the archive:** each run merges new articles into whatever is
+already saved, rather than replacing the list &mdash; so an article
+doesn't vanish just because it scrolled out of Google's current search
+results a few days later. Up to 60 articles are kept in total. The News
+page shows 10 per page with its own "Newer / Older" pager once there
+are more than 10, so older links stay reachable. Edit `MAX_ITEMS` in
+`scripts/fetch_external_news.py` to keep more or fewer.
+
 **To run it manually** (without waiting for the schedule): go to the
 repository's **Actions** tab on GitHub, select "Fetch external news,"
 and click **Run workflow**.

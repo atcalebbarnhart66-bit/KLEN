@@ -10,7 +10,15 @@ this is a link-out aggregator, not a republisher.
 To change what gets pulled in, edit KEYWORDS below. To change how many
 articles are kept, edit MAX_ITEMS. See README.md for the full explanation
 of how this pipeline fits into the site.
+
+Each run MERGES freshly fetched articles into whatever is already in
+_data/external_news.yml, rather than replacing it outright -- Google
+News RSS only returns recent results, so without this an article would
+silently vanish from the site a few days after it ran, even though the
+News page paginates and implies older ones are still browsable. The
+merged archive is capped at MAX_ITEMS so it doesn't grow forever.
 """
+import os
 import re
 import sys
 import urllib.error
@@ -26,7 +34,7 @@ KEYWORDS = [
     "Kansas highway patrol",
 ]
 
-MAX_ITEMS = 20
+MAX_ITEMS = 60
 OUTPUT_PATH = "_data/external_news.yml"
 REQUEST_TIMEOUT = 20
 USER_AGENT = "KLEN-news-fetch/1.0 (+https://github.com/atcalebbarnhart66-bit/KLEN)"
@@ -84,14 +92,64 @@ def parse_rfc822(date_str: str):
         return None
     for fmt in ("%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z"):
         try:
-            return datetime.strptime(date_str, fmt)
+            dt = datetime.strptime(date_str, fmt)
         except ValueError:
             continue
+        # %Z ("GMT", which is what Google News RSS always sends) parses
+        # the text but does NOT attach tzinfo, unlike %z -- normalize both
+        # cases to UTC-aware so every datetime in this script compares
+        # safely against every other one.
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
     return None
+
+
+def parse_iso_date(date_str: str):
+    """Parses the plain YYYY-MM-DD format this script stores in
+    `published`, used when re-sorting an archived entry pulled back in
+    by load_existing() that has no raw RSS pubDate to re-parse."""
+    if not date_str:
+        return None
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
 
 
 def yaml_escape(value: str) -> str:
     return (value or "").replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip()
+
+
+def yaml_unescape(value: str) -> str:
+    return value.replace('\\"', '"').replace("\\\\", "\\")
+
+
+ENTRY_FIELD_RE = re.compile(r'^\s*-?\s*(\w+):\s*"(.*)"\s*$')
+
+
+def load_existing(path: str) -> dict:
+    """Parse this script's own previously-written output. This format is
+    fully controlled by build_yaml() below, so a small line-based reader
+    is enough -- no YAML library dependency needed in the CI runner."""
+    if not os.path.exists(path):
+        return {}
+
+    items = {}
+    current = None
+    with open(path, "r") as f:
+        for line in f:
+            if line.strip().startswith("#") or not line.strip():
+                continue
+            match = ENTRY_FIELD_RE.match(line)
+            if not match:
+                continue
+            key, raw_value = match.group(1), yaml_unescape(match.group(2))
+            if key == "title":
+                current = {"title": raw_value}
+            elif current is not None and key in ("url", "source", "published", "matched_keyword"):
+                current[key] = raw_value
+                if key == "matched_keyword" and current.get("url"):
+                    items[current["url"]] = current
+    return items
 
 
 def build_yaml(parsed: list) -> str:
@@ -123,7 +181,8 @@ def build_yaml(parsed: list) -> str:
 
 
 def main() -> int:
-    all_items = {}
+    all_items = load_existing(OUTPUT_PATH)
+    existing_count = len(all_items)
     had_success = False
 
     for keyword in KEYWORDS:
@@ -141,16 +200,26 @@ def main() -> int:
 
         had_success = True
         for item in items:
-            if item["url"] not in all_items:
-                all_items[item["url"]] = item
+            # A fresh fetch overwrites a stale archive entry for the same
+            # URL (picks up a corrected title, etc.); an archived entry
+            # not seen again today is kept as-is, not dropped.
+            all_items[item["url"]] = item
 
-    if not had_success:
-        print("ERROR: every keyword fetch failed; leaving existing data file untouched.", file=sys.stderr)
+    if not had_success and existing_count == 0:
+        print("ERROR: every keyword fetch failed and there is no existing archive; nothing to write.", file=sys.stderr)
         return 1
+    if not had_success:
+        print(f"WARN: every keyword fetch failed; keeping the existing {existing_count} archived articles unchanged.", file=sys.stderr)
 
     parsed = list(all_items.values())
     for item in parsed:
-        item["_dt"] = parse_rfc822(item["pub_date_raw"]) or datetime.min.replace(tzinfo=timezone.utc)
+        if "_dt" not in item:
+            raw = item.get("pub_date_raw") or item.get("published") or ""
+            item["_dt"] = (
+                parse_rfc822(raw)
+                or parse_iso_date(raw)
+                or datetime.min.replace(tzinfo=timezone.utc)
+            )
 
     parsed.sort(key=lambda x: x["_dt"], reverse=True)
     parsed = parsed[:MAX_ITEMS]
@@ -158,7 +227,7 @@ def main() -> int:
     with open(OUTPUT_PATH, "w") as f:
         f.write(build_yaml(parsed))
 
-    print(f"Wrote {len(parsed)} external articles to {OUTPUT_PATH}")
+    print(f"Wrote {len(parsed)} external articles to {OUTPUT_PATH} ({existing_count} carried over, merged with today's fetch)")
     return 0
 
 

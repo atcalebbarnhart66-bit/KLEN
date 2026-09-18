@@ -74,7 +74,7 @@ description: Reverse-chronological news and commentary for Kansas law enforcemen
       not write, fact-check, or endorse them &mdash; read them with that in
       mind, and follow the link to each outlet for the full story.
     </p>
-    <ul class="external-news__list">
+    <ul class="external-news__list" id="external-news-list">
       {% for article in site.data.external_news %}
       <li class="external-news__item">
         <span class="external-badge">External</span>
@@ -87,6 +87,12 @@ description: Reverse-chronological news and commentary for Kansas law enforcemen
       </li>
       {% endfor %}
     </ul>
+
+    <nav class="pagination" id="external-news-pagination" aria-label="External news pagination" hidden>
+      <button type="button" id="external-news-prev">&larr; Newer</button>
+      <span id="external-news-page-status" aria-live="polite">Page 1</span>
+      <button type="button" id="external-news-next">Older &rarr;</button>
+    </nav>
   </section>
   {% endif %}
 </div>
@@ -123,5 +129,52 @@ description: Reverse-chronological news and commentary for Kansas law enforcemen
   if (noResults) {
     noResults.hidden = visibleCount !== 0;
   }
+})();
+
+(function () {
+  "use strict";
+  var PAGE_SIZE = 10;
+
+  var list = document.getElementById("external-news-list");
+  if (!list) return;
+
+  var items = Array.prototype.slice.call(list.children);
+  var nav = document.getElementById("external-news-pagination");
+  var prevBtn = document.getElementById("external-news-prev");
+  var nextBtn = document.getElementById("external-news-next");
+  var status = document.getElementById("external-news-page-status");
+  var totalPages = Math.ceil(items.length / PAGE_SIZE);
+  var page = 1;
+
+  function render() {
+    var start = (page - 1) * PAGE_SIZE;
+    var end = start + PAGE_SIZE;
+    items.forEach(function (item, index) {
+      item.hidden = index < start || index >= end;
+    });
+    status.textContent = "Page " + page + " of " + totalPages;
+    prevBtn.disabled = page <= 1;
+    nextBtn.disabled = page >= totalPages;
+  }
+
+  if (totalPages > 1) {
+    nav.hidden = false;
+    prevBtn.addEventListener("click", function () {
+      if (page > 1) {
+        page--;
+        render();
+        list.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+    nextBtn.addEventListener("click", function () {
+      if (page < totalPages) {
+        page++;
+        render();
+        list.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
+
+  render();
 })();
 </script>
