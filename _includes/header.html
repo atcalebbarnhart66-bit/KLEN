@@ -1,13 +1,16 @@
 <header class="site-header">
   <div class="wrap site-header__bar">
-    <a class="site-header__brand" href="{{ '/' | relative_url }}">
-      <svg class="site-header__mark" viewBox="0 0 40 40" role="img" aria-label="KLEN shield mark">
-        <path d="M20 2 L36 8 V19 C36 29 29 35.5 20 38 C11 35.5 4 29 4 19 V8 Z" fill="#26262a" stroke="#3b82f6" stroke-width="1.5"/>
-        <path d="M20 8 L30 12 V19.5 C30 26.5 25.5 31 20 33 C14.5 31 10 26.5 10 19.5 V12 Z" fill="none" stroke="#f6f3ec" stroke-width="1.25"/>
-      </svg>
-      <span>
-        <span class="site-header__title">Kansas Law Enforcement Network</span>
-        <span class="site-header__subtitle">KLEN &middot; Independent Network</span>
+    <a class="site-header__brand" href="{{ '/' | relative_url }}" aria-label="KLEN home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48">
+          <path d="M24 3 42 9v14c0 11-7.6 18.5-18 22C13.6 41.5 6 34 6 23V9z" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M24 11v22M13 22h22M17 15l7 7 7-7M17 29l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="22" r="3" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="site-header__wordmark">
+        <span class="site-header__title">KLEN</span>
+        <span class="site-header__subtitle">Kansas Law Enforcement Network</span>
       </span>
     </a>
 
@@ -23,8 +26,9 @@
         <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
         <li><a href="{{ '/news/' | relative_url }}" {% if page.url == '/news/' %}aria-current="page"{% endif %}>News</a></li>
         <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == '/blog/' %}aria-current="page"{% endif %}>Blog</a></li>
-        <li><a href="{{ '/agencies/' | relative_url }}" {% if page.url contains '/agencies' %}aria-current="page"{% endif %}>Agency Information</a></li>
+        <li><a href="{{ '/agencies/' | relative_url }}" {% if page.url contains '/agencies' %}aria-current="page"{% endif %}>Agency Directory</a></li>
         <li><a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a></li>
+        <li class="site-nav__cta"><a href="{{ '/agencies/' | relative_url }}">Find an Agency <span aria-hidden="true">→</span></a></li>
       </ul>
     </div>
   </nav>
