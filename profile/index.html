@@ -1,0 +1,70 @@
+---
+layout: dashboard
+title: Profile
+permalink: /profile/
+extra_js: profile
+require_approved: true
+description: Manage your KLEN profile.
+---
+<div class="form-status form-status--error" id="form-status" role="alert"></div>
+
+<div class="profile-avatar-picker">
+  <img id="avatar-preview" src="" alt="Profile picture" width="88" height="88" hidden>
+  <div class="field" style="margin: 0;">
+    <label for="avatar-input">Profile Picture</label>
+    <input type="file" id="avatar-input" name="avatar" accept="image/*">
+  </div>
+</div>
+
+<form id="profile-form" novalidate>
+  <div class="form-grid form-grid--two">
+    <div class="field">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first-name" disabled>
+    </div>
+    <div class="field">
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" disabled>
+    </div>
+  </div>
+
+  <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+    <div class="field">
+      <label for="rank">Rank</label>
+      <input type="text" id="rank" name="rank">
+    </div>
+    <div class="field">
+      <label for="agency">Agency</label>
+      <input type="text" id="agency" name="agency">
+    </div>
+  </div>
+
+  <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+    <div class="field">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" disabled>
+    </div>
+    <div class="field">
+      <label for="ori">ORI</label>
+      <input type="text" id="ori" name="ori" disabled>
+    </div>
+  </div>
+
+  <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+    <div class="field">
+      <label for="personal-cell">Personal Cell</label>
+      <input type="tel" id="personal-cell" name="personal-cell" autocomplete="tel">
+    </div>
+    <div class="field">
+      <label for="business-cell">Business Cell</label>
+      <input type="tel" id="business-cell" name="business-cell" autocomplete="tel">
+    </div>
+  </div>
+
+  <div class="field" style="margin-top: 1.5rem;">
+    <label for="bio">Bio</label>
+    <textarea id="bio" name="bio"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn--primary" style="margin-top: 1.5rem;">Save Profile</button>
+</form>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Access Pending Approval
+permalink: /pending-approval/
+extra_js: pending
+require_auth: true
+description: Your KLEN account is awaiting approval.
+---
+<div class="wrap section">
+  <div class="callout" style="max-width: 640px; margin: 0 auto;">
+    <svg class="pending-approval__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+      <circle cx="22" cy="22" r="18" stroke="currentColor" stroke-width="2"/>
+      <path d="M22 12v10l7 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h1>Thanks for registering, <span id="pending-name">member</span>.</h1>
+    <p>
+      Your KLEN account has been created and is now awaiting manual
+      approval by KLEN staff. This usually takes up to <strong>24
+      hours</strong>. You&rsquo;ll be able to sign in and reach the member
+      dashboard as soon as your account is approved &mdash; no further
+      action is needed on your part.
+    </p>
+    <p>
+      If it has been longer than 24 hours, please
+      <a href="{{ '/contact/' | relative_url }}">contact KLEN</a> for help.
+    </p>
+    <button type="button" class="btn btn--outline" data-signout>Log Out</button>
+  </div>
+</div>
