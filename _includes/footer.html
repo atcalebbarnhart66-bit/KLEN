@@ -1,37 +1,31 @@
 <footer class="site-footer">
   <div class="wrap site-footer__grid">
-    <div>
-      <h2>About KLEN</h2>
-      <p>
-        The Kansas Law Enforcement Network (KLEN) is an independent network
-        connecting Kansas law enforcement professionals. KLEN is not an
-        official government website and is not affiliated with, operated by,
-        or endorsed by any law enforcement agency, municipality, county, or
-        the State of Kansas.
-      </p>
+    <div class="site-footer__brand">
+      <div class="footer-mark" aria-hidden="true">★</div>
+      <div>
+        <h2>KLEN</h2>
+        <p class="site-footer__tagline">Kansas Law Enforcement Network</p>
+      </div>
+      <p>The Kansas Law Enforcement Network is an independent resource connecting Kansas law enforcement professionals with statewide information and agency reference tools.</p>
     </div>
     <div>
-      <h2>Privacy</h2>
-      <p>
-        This site collects no personal data and sets no cookies. Messages
-        sent from the Contact page are composed and sent directly by your
-        own email application &mdash; nothing is transmitted to or stored on
-        this website.
-      </p>
-    </div>
-    <div>
-      <h2>Navigate</h2>
+      <h2>Explore</h2>
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/news/' | relative_url }}">News</a></li>
         <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-        <li><a href="{{ '/agencies/' | relative_url }}">Agency Information</a></li>
+        <li><a href="{{ '/agencies/' | relative_url }}">Agency Directory</a></li>
         <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-        <li><a href="{{ '/news/feed.xml' | relative_url }}">RSS Feed</a></li>
       </ul>
+    </div>
+    <div>
+      <h2>Important</h2>
+      <p>KLEN is not an official government website and is not affiliated with, operated by, or endorsed by any law enforcement agency, municipality, county, or the State of Kansas.</p>
+      <p><a href="{{ '/news/feed.xml' | relative_url }}">RSS Feed ↗</a></p>
     </div>
   </div>
   <div class="wrap site-footer__bottom">
-    <p>&copy; {{ site.time | date: '%Y' }} Kansas Law Enforcement Network. An independent network &mdash; not a government entity.</p>
+    <p>© {{ site.time | date: '%Y' }} Kansas Law Enforcement Network</p>
+    <p>Independent resource · Kansas</p>
   </div>
 </footer>
