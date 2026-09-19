@@ -1,0 +1,8 @@
+<nav class="dashboard-nav" aria-label="Dashboard">
+  <a href="{{ '/dashboard/' | relative_url }}" {% if page.url == '/dashboard/' %}aria-current="page"{% endif %}>Dashboard</a>
+  <a href="{{ '/dashboard/tools/' | relative_url }}" {% if page.url == '/dashboard/tools/' %}aria-current="page"{% endif %}>Tools</a>
+  <a href="{{ '/dashboard/user-lookup/' | relative_url }}" {% if page.url == '/dashboard/user-lookup/' %}aria-current="page"{% endif %}>User Lookup</a>
+  <a href="{{ '/dashboard/agency-information/' | relative_url }}" {% if page.url == '/dashboard/agency-information/' %}aria-current="page"{% endif %}>Agency Information</a>
+  <a href="{{ '/dashboard/links/' | relative_url }}" {% if page.url == '/dashboard/links/' %}aria-current="page"{% endif %}>Links</a>
+  <a href="{{ '/profile/' | relative_url }}" {% if page.url == '/profile/' %}aria-current="page"{% endif %}>Profile</a>
+</nav>

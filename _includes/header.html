@@ -14,10 +14,32 @@
       </span>
     </a>
 
-    <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-      <span class="visually-hidden">Menu</span>
-      <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
-    </button>
+    <div class="site-header__actions">
+      <div class="site-header__auth" id="header-auth">
+        <div class="auth-buttons" id="auth-buttons">
+          <a class="btn btn--outline btn--sm" href="{{ '/login/' | relative_url }}">Log In</a>
+          <a class="btn btn--primary btn--sm" href="{{ '/register/' | relative_url }}">Register</a>
+        </div>
+        <div class="user-menu" id="user-menu" hidden>
+          <button type="button" class="user-menu__toggle" id="user-menu-toggle" aria-expanded="false" aria-haspopup="true">
+            <img class="user-menu__avatar" id="user-menu-avatar" src="" alt="" hidden>
+            <span class="user-menu__initials" id="user-menu-initials" aria-hidden="true"></span>
+            <span class="visually-hidden">Account menu</span>
+          </button>
+          <div class="user-menu__dropdown" id="user-menu-dropdown">
+            <p class="user-menu__name" id="user-menu-name"></p>
+            <a href="{{ '/dashboard/' | relative_url }}">Dashboard</a>
+            <a href="{{ '/profile/' | relative_url }}">Profile</a>
+            <button type="button" data-signout class="user-menu__signout">Log Out</button>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
   </div>
 
   <nav class="site-nav" id="site-nav" aria-label="Primary">

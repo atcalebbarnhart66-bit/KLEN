@@ -1,0 +1,78 @@
+---
+layout: default
+title: Register
+permalink: /register/
+extra_js: register
+description: Register for KLEN member access.
+---
+<div class="page-header">
+  <div class="wrap">
+    <h1>Register for KLEN Access</h1>
+    <p>Create an account to request access to the KLEN member dashboard. New accounts require manual approval, typically within 24 hours.</p>
+  </div>
+</div>
+
+<div class="wrap section">
+  <div class="prose">
+    <div class="form-status form-status--error" id="form-status" role="alert"></div>
+
+    <form id="register-form" novalidate>
+      <div class="form-grid form-grid--two">
+        <div class="field" data-field="first-name">
+          <label for="first-name">First Name <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="first-name" name="first-name" autocomplete="given-name" required aria-required="true">
+        </div>
+        <div class="field" data-field="last-name">
+          <label for="last-name">Last Name <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="last-name" name="last-name" autocomplete="family-name" required aria-required="true">
+        </div>
+      </div>
+
+      <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+        <div class="field" data-field="rank">
+          <label for="rank">Rank <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="rank" name="rank" required aria-required="true" placeholder="e.g. Deputy, Sergeant, Detective">
+        </div>
+        <div class="field" data-field="agency">
+          <label for="agency">Agency <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="text" id="agency" name="agency" required aria-required="true" placeholder="e.g. Reno County Sheriff's Office">
+        </div>
+      </div>
+
+      <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+        <div class="field" data-field="email">
+          <label for="email">Work or Personal Email <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-required="true">
+        </div>
+        <div class="field" data-field="ori">
+          <label for="ori">ORI <span class="required-mark" aria-hidden="true">*</span></label>
+          <p class="hint">Your agency's Originating Agency Identifier number.</p>
+          <input type="text" id="ori" name="ori" required aria-required="true">
+        </div>
+      </div>
+
+      <div class="form-grid form-grid--two" style="margin-top: 1.5rem;">
+        <div class="field" data-field="password">
+          <label for="password">Password <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="password" id="password" name="password" autocomplete="new-password" required aria-required="true" minlength="8">
+        </div>
+        <div class="field" data-field="confirm-password">
+          <label for="confirm-password">Confirm Password <span class="required-mark" aria-hidden="true">*</span></label>
+          <input type="password" id="confirm-password" name="confirm-password" autocomplete="new-password" required aria-required="true" minlength="8">
+        </div>
+      </div>
+
+      <div class="advisory">
+        <h2>Before you register</h2>
+        <p>
+          Registration is limited to sworn law enforcement personnel and
+          agency staff. All applications are reviewed manually; approval
+          typically takes up to 24 hours.
+        </p>
+      </div>
+
+      <button type="submit" class="btn btn--primary">Create Account</button>
+      <p class="hint" style="margin-top: 1rem;">Already have an account? <a href="{{ '/login/' | relative_url }}">Log in</a>.</p>
+    </form>
+  </div>
+</div>
