@@ -1,63 +1,175 @@
 ---
 layout: default
 title: Home
-description: >-
+description: >
   KLEN connects Kansas law enforcement professionals across the state with
-  news, agency reference information, and interagency cooperation.
+  agency information, statewide news, and interagency resources.
 ---
-<section class="hero">
+
+<section class="hero hero--home">
+  <div class="wrap hero__grid">
+    <div class="hero__content">
+      <div class="hero__eyebrow"><span class="hero__eyebrow-dot"></span> Kansas Law Enforcement Network</div>
+      <h1>One network.<br><span>105 counties.</span><br>One Kansas.</h1>
+      <p class="hero__lede">
+        A modern, independent resource built to make it easier for Kansas law
+        enforcement professionals to find agencies, follow statewide news,
+        and stay connected across jurisdictions.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--large" href="{{ '/agencies/' | relative_url }}">
+          Explore Agencies
+          <span aria-hidden="true">→</span>
+        </a>
+        <a class="btn btn--ghost" href="{{ '/news/' | relative_url }}">Browse Statewide News</a>
+      </div>
+      <div class="hero__note">
+        <span class="status-dot"></span>
+        Independent network &nbsp;·&nbsp; Not a government entity
+      </div>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero-card hero-card--map">
+        <div class="hero-card__top">
+          <span>STATEWIDE DIRECTORY</span>
+          <span class="hero-card__live"><i></i> LIVE RESOURCE</span>
+        </div>
+        <div class="hero-card__state">
+          <svg viewBox="0 0 300 190" role="presentation">
+            <path d="M8 12h90v55h84V12h108v55h-15v54h17v55H185v-17h-88v17H8v-55h13V67H8z"
+              fill="none" stroke="currentColor" stroke-width="2" opacity=".25"/>
+            <path d="M98 12v55M182 67v54M97 67v54M185 121h112M21 67h161"
+              fill="none" stroke="currentColor" stroke-width="1" opacity=".18"/>
+            <circle cx="157" cy="89" r="7" fill="currentColor"/>
+            <circle cx="157" cy="89" r="17" fill="none" stroke="currentColor" opacity=".25"/>
+            <circle cx="157" cy="89" r="28" fill="none" stroke="currentColor" opacity=".12"/>
+          </svg>
+        </div>
+        <div class="hero-card__bottom">
+          <div><strong>105</strong><span>Counties</span></div>
+          <div><strong>Statewide</strong><span>Agency reference</span></div>
+        </div>
+      </div>
+      <div class="hero-card__badge">
+        <span class="badge-shield">★</span>
+        <span><strong>KLEN</strong><small>Connected across Kansas</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--intro">
   <div class="wrap">
-    <p class="hero__eyebrow">Kansas Law Enforcement Network</p>
-    <h1>Connecting Kansas law enforcement, statewide.</h1>
-    <p class="hero__lede">
-      KLEN links officers, deputies, and agency staff across all 105 Kansas
-      counties &mdash; sharing timely news, reliable agency information, and
-      a direct channel for interagency cooperation.
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="kicker">Built for the profession</p>
+        <h2>A central place to find what matters.</h2>
+      </div>
+      <p>
+        KLEN brings practical statewide information into one clean,
+        searchable resource—without pretending to be an official agency.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+      <a class="feature-card feature-card--featured" href="{{ '/agencies/' | relative_url }}">
+        <div class="feature-card__icon">⌖</div>
+        <div>
+          <span class="feature-card__label">DIRECTORY</span>
+          <h3>Find an agency</h3>
+          <p>Explore law enforcement agencies county-by-county with an interactive Kansas map and statewide directory.</p>
+        </div>
+        <span class="feature-card__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="feature-card" href="{{ '/news/' | relative_url }}">
+        <div class="feature-card__icon">▤</div>
+        <div>
+          <span class="feature-card__label">NEWS</span>
+          <h3>What’s happening statewide</h3>
+          <p>Follow links to current coverage from news outlets across Kansas, all in one place.</p>
+        </div>
+        <span class="feature-card__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="feature-card" href="{{ '/contact/' | relative_url }}">
+        <div class="feature-card__icon">↗</div>
+        <div>
+          <span class="feature-card__label">CONNECT</span>
+          <h3>Reach the network</h3>
+          <p>Send a tip, correction, resource suggestion, or general message directly to KLEN.</p>
+        </div>
+        <span class="feature-card__arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--directory">
+  <div class="wrap">
+    <div class="directory-banner">
+      <div class="directory-banner__content">
+        <p class="kicker">Statewide reference</p>
+        <h2>From Cheyenne to Cherokee.</h2>
+        <p>
+          Jump from county to county and quickly see the agencies KLEN has on
+          file. The directory is designed for quick reference on a phone,
+          tablet, or desktop.
+        </p>
+        <a class="text-link" href="{{ '/agencies/' | relative_url }}">Open the agency directory <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="directory-banner__stats">
+        <div><strong>105</strong><span>Kansas counties</span></div>
+        <div><strong>1</strong><span>statewide directory</span></div>
+        <div><strong>24/7</strong><span>online access</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--news">
+  <div class="wrap">
+    <div class="section-heading">
+      <div>
+        <p class="kicker">Across Kansas</p>
+        <h2>Latest statewide coverage</h2>
+      </div>
+      <a class="text-link" href="{{ '/news/' | relative_url }}">View all news <span aria-hidden="true">→</span></a>
+    </div>
+
+    {% if site.data.external_news and site.data.external_news.size > 0 %}
+    <div class="news-preview">
+      {% for article in site.data.external_news limit:3 %}
+      <a class="news-preview__item" href="{{ article.url }}" target="_blank" rel="noopener noreferrer">
+        <div class="news-preview__meta">
+          <span class="external-badge">External</span>
+          {% if article.source and article.source != "" %}<span>{{ article.source }}</span>{% endif %}
+          {% if article.published and article.published != "" %}<span>· {{ article.published }}</span>{% endif %}
+        </div>
+        <h3>{{ article.title }}</h3>
+        <span class="news-preview__read">Read original story ↗</span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="news-preview__disclaimer">
+      KLEN links to third-party reporting. Articles are not written, fact-checked, or endorsed by KLEN.
     </p>
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="{{ '/news/' | relative_url }}">Read the News</a>
-      <a class="btn btn--on-dark" href="{{ '/contact/' | relative_url }}">Get in Touch</a>
-    </div>
+    {% else %}
+    <div class="callout"><p>No external articles yet—check back soon.</p></div>
+    {% endif %}
   </div>
 </section>
 
-<section class="section">
+<section class="section section--final">
   <div class="wrap">
-    <div class="value-grid">
-      <div class="value-card">
-        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-          <rect x="6" y="8" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
-          <path d="M12 16h20M12 22h20M12 28h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        <h3>News &amp; Updates</h3>
-        <p>Original reporting and commentary on training, legislation, officer safety, and the issues shaping Kansas law enforcement.</p>
+    <div class="cta-band cta-band--home">
+      <div>
+        <p class="kicker">Have something to add?</p>
+        <h2>Help keep KLEN useful.</h2>
+        <p>Send a correction, suggest a resource, or let us know about an agency update.</p>
       </div>
-      <div class="value-card">
-        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-          <path d="M22 6l16 6v10c0 10-7 15.5-16 18C13 37.5 6 32 6 22V12z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-        </svg>
-        <h3>Agency Information</h3>
-        <p>An interactive, county-by-county reference of Kansas law enforcement agencies &mdash; sheriffs, municipal departments, campus, and state.</p>
-      </div>
-      <div class="value-card">
-        <svg class="value-card__icon" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-          <circle cx="15" cy="17" r="5" stroke="currentColor" stroke-width="2"/>
-          <circle cx="29" cy="17" r="5" stroke="currentColor" stroke-width="2"/>
-          <path d="M6 36c1-6 5-9 9-9s8 3 9 9M20 36c1-6 5-9 9-9s8 3 9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        <h3>Interagency Cooperation</h3>
-        <p>A shared, independent space where agencies and officers across jurisdictions can connect and coordinate more easily.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <div class="cta-band">
-      <h2>Reach the network</h2>
-      <p>Have a tip, a correction, or a question for KLEN? Send a message and we&rsquo;ll route it appropriately.</p>
-      <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Go to Contact</a>
+      <a class="btn btn--primary" href="{{ '/contact/' | relative_url }}">Contact KLEN <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
