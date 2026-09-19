@@ -1,11 +1,10 @@
 // KLEN design tokens
 // -----------------------------------------------------------------------
 // Dark-first palette: neutral near-black/gray background (not navy-
-// tinted), elevated gray surfaces for cards/panels, a warm-gold accent
-// for links/focus/highlights, and a blue secondary color for buttons
-// and other primary actions. Inspired by modern dark developer-tool
-// UIs (Supabase et al.) while keeping KLEN's own identity rather than
-// borrowing another brand's colors outright.
+// tinted), elevated gray surfaces for cards/panels, and a single blue
+// accent used everywhere -- links, focus states, badges, buttons, and
+// the map's selected-county fill. Inspired by modern dark developer-
+// tool UIs (Supabase et al.).
 
 $color-navy-950: #0a0a0b;   // page background -- neutral near-black
 $color-navy-900: #131315;   // alternate section background
@@ -23,16 +22,20 @@ $color-white: #ffffff;
 $color-ink: #ececee;        // primary body text (neutral off-white, not pure)
 $color-ink-soft: $color-slate-500;
 
-// Primary accent: warm gold, used for links, focus rings, badges, and
-// the map's selected-county fill.
-$color-accent: #eab04a;
-$color-accent-dark: #d99b2b;  // hover/pressed state (still light enough to read)
+// Single accent: blue, used everywhere -- links, focus rings, badges,
+// buttons, and the map's selected-county fill. (Previously a warm gold
+// with a separate blue "secondary" for buttons; consolidated to one
+// blue per request.) Dark text sits on top of it, same pattern the
+// gold used, since #3b82f6 is bright enough for that to pass contrast.
+$color-accent: #3b82f6;
+$color-accent-dark: #337aee;  // hover/pressed state
 $color-accent-contrast: $color-navy-950; // dark text on top of bright accent fills
 
-// Secondary accent: blue, used for buttons and other primary actions.
-$color-secondary: #2563eb;
-$color-secondary-dark: #1d4ed8;  // hover/pressed state
-$color-secondary-contrast: #ffffff; // white text on top of the blue
+// Kept as aliases so nothing else has to change: buttons used to be a
+// separate "secondary" blue, now they're just the accent too.
+$color-secondary: $color-accent;
+$color-secondary-dark: $color-accent-dark;
+$color-secondary-contrast: $color-accent-contrast;
 
 $color-map-fill: #2c2c31;
 $color-map-fill-hover: #47474e;
