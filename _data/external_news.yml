@@ -7,11 +7,77 @@
 # not verify, and does not endorse -- the News page renders them
 # with that disclaimer attached. See README.md for how to change the
 # keyword list, the schedule, or turn this off entirely.
-# Last fetched: 2026-09-26 15:29 UTC
+# Last fetched: 2026-09-27 16:08 UTC
 
-- title: "Sheriff IDs Kansas woman who died in violent attack - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2bDhCWW51WWVFMGVsNmNhQ0szc3BSTlRUcmNCTXBVSnF0aGhYYXBUOE5OREx5SWVrQkl0eEd5WVA5MGplZm5NWTcxR1NnVDdsVHBSVzdlM1dPUlFldHdnSHJVaGFJRDR3cnloN2dR?oc=5"
-  source: "JC Post"
+- title: "Reported ICE enforcement activity in southwest Kansas rattles agriculture advocacy groups - KVOE"
+  url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUTVlYVZ6YVFrSU02R2pYakR6S0t6Y0ZUQm0xZFBTVXFhRW5IVFlYUWl5bGdCTDI0aG5JWXBiX0t4R2tmSlNJcDJQZnNKend0SGNqb3c4Y1Y0VWlmSDV1VnJXaUxzWjJLME1Qa1BDU01IVGJkQ2xaX0pVUnVPTlRYSjBHNElFako0andkdldXSTJFWlFCbUgtdkswUW1UWS1iVU0xYXBrNnphOUVKQVE?oc=5"
+  source: "KVOE"
+  published: "2026-09-27"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Woman dies after being shot, found in KC’s West Waldo gas station parking lot - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xQXhCZXJPQkNROVctZHlPd3dubEhxQlVMWFdBeUNkWDB6YmY2VndMQ1V2eUNCb1Zudmx1RHdhMFJjNFM3ZUFyLWZYQ1ZvTmFfbGJSMVlReDhLOTFxY3BPY0c1bDdaa1NYdk5ObjI4ajBMcUXSAXNBVV95cUxOZ0ZDRUVBZm5kRU9SX1pNUy1kcnA5TTI2OFN0VDhKNGxpWk9uU2xrWXVmN3JZQnFXOG1PMEpDb2x0Z0Q4ZTZjUXZ0T2ZUNW1IWDVkRmRaVTRlaklnZlZNZjBkcXZKdHU3bFd0d2szaDJ4eHA4?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-27"
+  matched_keyword: "Kansas police department"
+
+- title: "LeRoy man killed in Woodson County UTV wreck - KVOE"
+  url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE16WjM1NjRjYWd1VGlfZElqdkJ2WEpuMlk3SlhVM1hGX0xGOFByX29jbmRNQ1czTzhpenJmdUI4dlBCUzZETUllcHV0bkVDYjBpVlpiZkluWWpLa3l3Sm0wamJvbjVQQ3hfcVZ5MF9qUm9iQ2RZSnBhZHJ2TzRIUQ?oc=5"
+  source: "KVOE"
+  published: "2026-09-27"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Man dies following early Sunday morning shooting in Kansas City - FOX4KC.com"
+  url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUzRueWI4c1Z2T3pueEhWcXJpNEwtODJZSTJBZHBJS2pyLXM0QW5pMEREdGM1N0s2bzV1VGZmT1Q2TVBDOGF2V0hhMWRPYTNJUWQtb0tpSWdJN3BiXzJWc1M4cW9mRzhCajJXeWxJS2xZSHJNbmtEWDk5TnJsbWJoX1lZSlE3UTlEcFp2S0d2TmZCUdIBlwFBVV95cUxPMlFhN1NEcU9ydTktTEhRRzNYemp0UVoxSkVTM1ZDeWduZXNlbm1tempCRTV2QkFFZDBKTDlpTlNQRmJobzVzVHhxSUtDaTZyYUhISjRSSTFqdVRYUzRXNnlfWHc2TS1HUHFxRGVSUTloZllpeFV1cEk1RmtLaG14ZFprMXNGcFE4czdMM2lIQWl5WV9iYUhR?oc=5"
+  source: "FOX4KC.com"
+  published: "2026-09-27"
+  matched_keyword: "Kansas police department"
+
+- title: "Kansas man dies in ATV accident - Hays Post"
+  url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RemRkbDRFVFV2Z0R1RUJycnJUa0tOcjd1NGM1VUZQMXBORG5ieWJvYnJ3dlVTU0FEVFdPeVk0X0pSR2tVSms0LTBUWkVNbXhfUUFHT0FiWDh4QXZYQVpfYllTRkRtQjBpb2NmV1JIc0w?oc=5"
+  source: "Hays Post"
+  published: "2026-09-27"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Independence holds an open house to meet four new police chief finalists | Opinion - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RaVlOSTBwZFlBTjhHN3M0UFlueGMtZ3p0b0h3VzFKNHdvd1BEYkJsQnZrYjAtU3BZNkY1LXZDY04xNE5ZS2R6ZTF3LTZjSnpiYXdRV0Nha1hrR3l1TXBCcXJreTZBV0XSAWdBVV95cUxQeGxmdUh5WWlGTDNjdVlLaFdXbTVuNG5KNUtUbzl6N2JRYkc0RlA0Y1BlQUNxY1lfRWxITDBFdVRMcW45cUlIaEg2VHdlRHMwUDZBQ1hsVjZWV0N6Ymp3T19CUGIwVC1z?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-27"
+  matched_keyword: "Kansas police department"
+
+- title: "Ex-Independence police chief has received more than $192,000 in severance, records show - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpdUtXcXBISExqQ1JnRHRXREdFckp1VW9ZYVA5WHdDZEsyVjg2cHo4cWdWdl91QmI2RDdFVFUtbGYxQ3VMMEdyTFB2NUFhVjYtVWdXNWZtc0tQTVFUX2VwNGR2eWVLRmdBWjJRSkYzNWpQeFdQZDNiX3l0UUk2d9IBfkFVX3lxTE43bW8wTFRCZl9oa1lKY1NvUmMwYVJ5OWtwWGF4bzdoeDMyZWtZV3NMN2tHUjI4YzNVa3NuNlRQeFY4TE00cThKY0NnNlA2dkpic29jbFdSMFF2TXFxX3MyZ0dvckIyb0JhZjBlOTVoVWQ0SjRQeloyeFVTLVJWZw?oc=5"
+  source: "Kansas City Star"
+  published: "2026-09-27"
+  matched_keyword: "Kansas police department"
+
+- title: "Kansas City police searching for missing 74-year-old man - FOX4KC.com"
+  url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLXNJNmNIdUlnejlnd3Bna2M1a1hCWkxmdGhZajRoZUVjcm1rMGFjZ0FTOHJuWjZQdVU4Vk8xb0ZzN1k4SktVSFp4R05IZjBMaERhYlJwNk9zWl9hTzEySWNmUGo3UHhrSkdCTmlYdm5LNTFVc0IwQ2l6a1pfRFZPRk5uc1RzZ0pZaTUw0gGQAUFVX3lxTE1hR2M3RFN3ekRoN1NYTDFmSzZ4R3VydUhPQWJyS1doYWtxRC1pS1JXdkFWMXVJSmF6cndhUDEyTlZhLVNJdFRBRERfbi1EUlQ4SzE2X044a2Q5RHdWWUVvenllQjNqRkRIVnZUUmhOQ2M4ZVRjZGdtbnJIdnlzUjVmN1hXOG1Lb29maGI0bDdXdw?oc=5"
+  source: "FOX4KC.com"
+  published: "2026-09-27"
+  matched_keyword: "Kansas police department"
+
+- title: "Multi-Vehicle Crash, Rescue - KSAL News"
+  url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LOEZLbExUM1BpMmJ5Y3JzMTlOTHhoenZPMXN4WmRwVzRzQ1ZWOU9HUFAta0FqTXg4WndkS254VHJ2WkhyMmZPeWdWcktKUEFWTTNESks3aEdDd25n?oc=5"
+  source: "KSAL News"
+  published: "2026-09-26"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Suspect in custody after shooting leaves three dead in southeast Wichita: Police - KAKE"
+  url: "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZmhmZ0hzQWxWS0xYcmQ3SC1Eb2RfblpaaWVRRGlodFVINHpLWHdZa0tXUURfOGJfY3Zkd3VJcTc1SU1CdzIteFFLaldfU0VNdkpCR0pjU3ZYcExWaHVpeS1SSHA3SDc4QUVXS2FuX01Ia3Y2emJab3J5UmMtaENZV2Q3QndjdUx1ZGY2YkdENzZmVUtZRGRFTWhHRVFTN0RMV1YydmQtSlZZOFBobzRXZUdKQWNhZFQ3VFduR2FFbGNGWjBVT1dvcTRWRl85bVNJcExvOHpfbi1ieE1NU1lzODhhLUtvZDc2dUtj?oc=5"
+  source: "KAKE"
+  published: "2026-09-26"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Sheriff IDs Kansas woman who died in violent attack - Great Bend Post"
+  url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sRmF2THhhZEtHM183blZRbHQzYktKU3ZVUENCeFR6SzkxXzJBTlJ4aG94VGJ1M0hRd3pWVlN4TENYMHBWV2JWM1I5VTJVYkdWTERvQllKVXNjRkU4b2JWYVZYM21VUGlmUDhUTTFFdEMyUmN0YjU4?oc=5"
+  source: "Great Bend Post"
+  published: "2026-09-26"
+  matched_keyword: "Kansas sheriff"
+
+- title: "Sheriff IDs Kansas woman who died in violent attack - salinapost.com"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hc1FwS1RtMjRHSldEVXhRNWc1b1R4YUtmQl9URHdQR21MdnIyZkdtd1dOSUFnM21wcWpJajc4X0owUG1zQ1ZKY0NWX0J6dDhSUUg1dVA4TmVHaDlPV3A3em9xQ3ItaENOTnJqa1ZIMGNCdlE?oc=5"
+  source: "salinapost.com"
   published: "2026-09-26"
   matched_keyword: "Kansas law enforcement"
 
@@ -27,6 +93,12 @@
   published: "2026-09-26"
   matched_keyword: "Kansas police department"
 
+- title: "Sheriff IDs Kansas woman who died in violent attack - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2bDhCWW51WWVFMGVsNmNhQ0szc3BSTlRUcmNCTXBVSnF0aGhYYXBUOE5OREx5SWVrQkl0eEd5WVA5MGplZm5NWTcxR1NnVDdsVHBSVzdlM1dPUlFldHdnSHJVaGFJRDR3cnloN2dR?oc=5"
+  source: "JC Post"
+  published: "2026-09-26"
+  matched_keyword: "Kansas law enforcement"
+
 - title: "Ranchers accuse Trump administration of disrupting beef supply, as prices rise - The Washington Post"
   url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeDNiQTZUMFR1M2x3ZTVRU1poU1Q1OTFKT0RON1dDaWF6Qk1pWk54N25vMXpqRWtnY18yNXFBRlp5MVJnQkZLTXY1NEw0VElKM1oxOVVhQmNRZGFjMm5SQWxrajUwYWQxOU9xMS1yaUNWdmtQNUNxNExYb2JMSF9HczQ1ekFWMEM2SjBTbGdBWkxDQ3pucjU1Ti1GRmFqeTRXaHM0UF8tM3J4eEY3VmxZV3Z5U3JjejFCZjd0YVFhSGc?oc=5"
   source: "The Washington Post"
@@ -35,6 +107,12 @@
 
 - title: "2 dead after Jeep travels off I-435, through fence before hitting semi-trailer in northeast KC - KMBC"
   url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORjJVWEZMYkoyU29ic0pXOXhwb0NRUDNXcEVLMDZDdUV2cl9jVl90d3dWbjRXMHdXZFRSLTgtb24zd2RVQnIzWDQteFdIZk9UaEdwZmtzaFloZXNVc19Lb2RvSmRxbmxwemNDb194d1puejZLWkhBVDdJRDlMNDAwVWZaWXN0QmdnaXlF?oc=5"
+  source: "KMBC"
+  published: "2026-09-25"
+  matched_keyword: "Kansas police department"
+
+- title: "Johnson County Community College police officer charged with rape, sodomy - KMBC"
+  url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaXk5Z0p5T0lteEJMTFNBSlo4Zm93WDhySEtFOVdyZHdVRHh5VVl3Y3AzTTdXODVYMEFmUzdkaDV2MjktM1ZhWGJPdEFiZFNOdXdmOWlPSjIzYzJhbFlGNjg4a0xoTkVXam44Mko3UjEwZnJvaTV0alFBaDdmUGowOUk2MjVkRHVzYWZreEVlRTZmWm8?oc=5"
   source: "KMBC"
   published: "2026-09-25"
   matched_keyword: "Kansas police department"
@@ -63,45 +141,15 @@
   published: "2026-09-25"
   matched_keyword: "Kansas police department"
 
-- title: "Kansas leaders seek ICE coordination - iolaregister.com"
+- title: "Kansas leaders seek ICE coordination - The Iola Register"
   url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdTVXV2JCMVVIUndTQWVNUlFfUkUzTnQyVFE3Q2JTSnJvTGpWZHpZOVUtV3k0TTBldjNZZFItS0NzazdkX1BEdnc0dG5RQWJ3N2JGWFJjOURwUjRscjlaU21MUGFtNTBzSHFrQ1lQRnNFVExNRXNVSVhadFJTdVY0OUh2Z0VWZ2Vf?oc=5"
-  source: "iolaregister.com"
+  source: "The Iola Register"
   published: "2026-09-25"
   matched_keyword: "Kansas law enforcement"
 
 - title: "Reports of ICE presence in southwest Kansas concerns agriculture, meatpacking industries - High Plains Journal"
   url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmlQREUtTm5yVm1oX2lmTUtnU2hOdDRpSjFoVDZ1TFlGLTZBLU44UXkyWEhXcUN1dnB5S09yUnVzVGxxaUtsUm9KLWF6WF9CRmRpUmFtaXhfbjlJRFJhTmNGUkdMMjRjQ2h1TFljR0dGMDJjc2RYVkZrUFBsTHVDNXBONlE?oc=5"
   source: "High Plains Journal"
-  published: "2026-09-25"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Lawrence woman injured after vehicle hydroplanes and crashes - WIBW"
-  url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG9KaExNaUFMbGo1NkJzTHRSbTBpR3RsZm9BRzI4eWIySF9GWkhnNXNHS3hMelA5X0NTRDU2NjJ1SWYzVzdRbVBoUDVOOXlCYUhaUXpCdU5hbkp0VEtTOXFacHNMMHBMNmZCN1pJV2JlbTJ4UDB3cVBWN0RwbHVUQ0JxUDUxYldtWTlKQmktZTbSAaQBQVVfeXFMUExtSXRvWnJ0dVdEQ2lwR1BuVGNEdTY2dTZ2SU1EU09QWVhWVkp5bS1hNFFZUFU1eWgtZ1dMYWtFWjd3eGxZZ256QzA4X1JWWHZxNWQyTWIzMFhJN0hONmZWQmFFSjh0Uk5CRTlKRi1qeG9ISjRQR3NJOWxOTnNYSUZxbllWYWNVSzJKVFhWWEtKN01mTURNU3UxQ1puSzJjWGZDRFQ?oc=5"
-  source: "WIBW"
-  published: "2026-09-25"
-  matched_keyword: "Kansas highway patrol"
-
-- title: "Single-vehicle crash in Johnson County leaves Eudora woman injured - WIBW"
-  url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJlb192VFZJb3lfcWtXSUkteHg5TDJyeG03eU5IcmNPR1U4c2M1WGpsZkVCa2E3X1RLdjN5bG43UTAwQktYLXdmeGhUa3hKaUdTQ0daYlpleU1TT09VMFBkQUxEaG4tMUdaejNTS285ZmpOUldwSnpBejM5bFRPaUJfQ0pVUUIwZXd5U3lreHFqRTBIdXVXY2d1ajLSAbABQVVfeXFMUFZVaXNCa0xjR1lsZWZOd1hibHpiR1Y0VUdlYzJneW5wVFBZazlQMV9iaGpOMXZtOWJVbF9fdzdPNGNBVEJwVl9GMkZsN0hlbmlkaUZKWVVfTWVLRWtyeUtlMTFpaGVuYmJ5ZkZQRDNIb3g4SS1zZmhiREw5aklscVJ4aUt1bW9yUzhycjEzVVB0V0dHb3A4NkkxOHV0SFdjTDEwMkZ1MGN6bFBNbDdyRFQ?oc=5"
-  source: "WIBW"
-  published: "2026-09-25"
-  matched_keyword: "Kansas highway patrol"
-
-- title: "Platte County police dog helps catch fleeing Kansas man - Northwest MO Info"
-  url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxPakpMQlBvS0FhQUZYeFNZbWc5V2o0LXFmUUIwUGtIa05pbXBHcmRjT3BwSWlnNXA4WHR1eGVBRkQxU3JRTmxHYVhCNnI0SGtzT1h5UGNWcHVBYmRPZkJORG9MbUlZVVhBV3c1VXp3c3I2RE03ZUZkU1ZzdTFEX3pJb0oxcy1KcjYyWTgxU2MyWlEzelZDbUdvM3ZMMThPQ2ZJ?oc=5"
-  source: "Northwest MO Info"
-  published: "2026-09-25"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Sentencing Day: Kansas man hid 5 days after fatal DUI crash - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hWm1mSWRsMGMwUld5Q0tqbk9xblNMMEpFSFdLdllDUXZmemhKRnBDcTRrNGRHQktHMF9taU82TXZJRjRYSmwxeW5mYUR1TF9uSkRiVGxsNTU5a0t3dHpiYlY3Z1UzbDFscXF6SVZB?oc=5"
-  source: "JC Post"
-  published: "2026-09-25"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Kansas man arrested after deputies recover 500 pounds of stolen copper - KAKE"
-  url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQnkwZTVDRS10U1JlaHBHbGhPbXhpT1FBSmZhN0ZCY25rR1Q4LUp3SFpxRXYydkotdVhZU3MtVFlCSUhGRzJWSmMzczA3YTY5T2FlbzRsaVlfcjhqX0ZuenBXMzdEeUxKclNZNWJTRnFiTXpGZTRSZWVhSGFuek5ZMnFaWWdZa3pFUjR6U0RucHk0djFNM3ZhQUdlcF9OSDF4MlFjN09VRHF4WXlsV3c0TjRZQVR0TnJSYXhReXJNampnbTBZME5ucUdrSXJ6Y2FHRFd6bzk1a3d1XzVxYUl3?oc=5"
-  source: "KAKE"
   published: "2026-09-25"
   matched_keyword: "Kansas law enforcement"
 
@@ -135,21 +183,27 @@
   published: "2026-09-25"
   matched_keyword: "Kansas police department"
 
-- title: "Kansas man killed in car, pickup crash - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DR2RRR2lEbHIySkpRTXRtMUtpUEpZaTctaHlRb2QzMENHcWpldUhMWVlsNy1tVXY2UXl6VG5MZkR3d3R5RlhoZERZVVhMZjRHbG82WjFibU0yNnpoZ2xlNExsWEVEVmtUOVMtWGln?oc=5"
-  source: "JC Post"
-  published: "2026-09-25"
-  matched_keyword: "Kansas highway patrol"
-
 - title: "New ICE enforcement reported near major beef plants in Kansas - meat+poultry"
   url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxPckJMaDFyTWQzRGd5bUFWcW5GdGpSZ1dDWlR0dzUwUzRScTRlaWFHYmdtZDE4NVpJcVFWOVJwcVhYZ3BpRmN0NFJxRkppTFRodWlrXzVEQlMxNmJiUmJoNzNIZzkyclhYdUtfWEV5OUM3ekJJZ0NhdTlhQlBBS3diei1BejQ3cW1ENkRMWkI5WTQwVEFwZVJsenZJTnpoN2VMbFV0ZkdXQQ?oc=5"
   source: "meat+poultry"
   published: "2026-09-25"
   matched_keyword: "Kansas law enforcement"
 
+- title: "Kansas man killed in car, pickup crash - salinapost.com"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SSFFXTXM1aE1GSzBFT2ZCdldMX3E5ZlJvV0VkRTVCVDRhYUVIcURSQjI2Y0daSDVDYnd5TTJ1T3ZnWUs3Y0Y1czVXSzVteGF0a0NJc24xMzBhNFQ5UVNzV0FpeWMxdmFMS3VrX1FOb2RQX1k?oc=5"
+  source: "salinapost.com"
+  published: "2026-09-25"
+  matched_keyword: "Kansas highway patrol"
+
 - title: "Opinion: The cowardice of masked law enforcement: Recent Kansas immigration raids remind us why faces matter - Kansas Reflector"
   url: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY1kyOUJCSjJpV19qa3ppZVdvang4SEdaUjUzaDNXbm9nazEwQ0JqbHBfRVppWmE5ZkZmNjFWd3dXYW8yM2tCU0p1RlN4RzFxRGFrODZZeXB5cmtoUmw0eDRub05xOGVhS3dROFVnZnR3LVJXR0ZvLXlQQnBTQjZ1WHNTUkozcnVjMVBVY2liU1VpaURwajdwc1J6X01zWTB3aGF2dTFDM3hsNmlNM0RGaUZRYVhzUHplRV9lZ3hnZ293R2g1eXNrbUFHNDR1V2ZHRVZFTw?oc=5"
   source: "Kansas Reflector"
+  published: "2026-09-25"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "DHS secretary says ICE is not conducting worksite operations in Kansas - KAKE"
+  url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOTI2VktLVExUX05QenZVaW1WZWwzdkpYRmExYWlzYmhtSWgxbml2WmRoQmtxWEdTRVNaNXRqWkw2LWFCY0hGT2NxNjMzTE9QeEtMSC1QcGVlR3VsS2VzbWh0OFJhQnpSRDdNRHd4cmRfb2d5OXYwb1hzN2F2MmxYdDBrVmJ1aUJhaWZuOVpFcEZtOUlFdjNKQlQ4TlVsaTl4YUU5WVo0U2Fad2JjN0RaMTZTVHZMdmt4dlk1b05JRVRIcVdWV3VaRDFydGhUZEprdU45MGVIanhmR3AyMXI4?oc=5"
+  source: "KAKE"
   published: "2026-09-25"
   matched_keyword: "Kansas law enforcement"
 
@@ -177,6 +231,42 @@
   published: "2026-09-25"
   matched_keyword: "Kansas law enforcement"
 
+- title: "Lawrence woman injured after vehicle hydroplanes and crashes - WIBW"
+  url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUG9KaExNaUFMbGo1NkJzTHRSbTBpR3RsZm9BRzI4eWIySF9GWkhnNXNHS3hMelA5X0NTRDU2NjJ1SWYzVzdRbVBoUDVOOXlCYUhaUXpCdU5hbkp0VEtTOXFacHNMMHBMNmZCN1pJV2JlbTJ4UDB3cVBWN0RwbHVUQ0JxUDUxYldtWTlKQmktZTbSAaQBQVVfeXFMUExtSXRvWnJ0dVdEQ2lwR1BuVGNEdTY2dTZ2SU1EU09QWVhWVkp5bS1hNFFZUFU1eWgtZ1dMYWtFWjd3eGxZZ256QzA4X1JWWHZxNWQyTWIzMFhJN0hONmZWQmFFSjh0Uk5CRTlKRi1qeG9ISjRQR3NJOWxOTnNYSUZxbllWYWNVSzJKVFhWWEtKN01mTURNU3UxQ1puSzJjWGZDRFQ?oc=5"
+  source: "WIBW"
+  published: "2026-09-25"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Single-vehicle crash in Johnson County leaves Eudora woman injured - WIBW"
+  url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJlb192VFZJb3lfcWtXSUkteHg5TDJyeG03eU5IcmNPR1U4c2M1WGpsZkVCa2E3X1RLdjN5bG43UTAwQktYLXdmeGhUa3hKaUdTQ0daYlpleU1TT09VMFBkQUxEaG4tMUdaejNTS285ZmpOUldwSnpBejM5bFRPaUJfQ0pVUUIwZXd5U3lreHFqRTBIdXVXY2d1ajLSAbABQVVfeXFMUFZVaXNCa0xjR1lsZWZOd1hibHpiR1Y0VUdlYzJneW5wVFBZazlQMV9iaGpOMXZtOWJVbF9fdzdPNGNBVEJwVl9GMkZsN0hlbmlkaUZKWVVfTWVLRWtyeUtlMTFpaGVuYmJ5ZkZQRDNIb3g4SS1zZmhiREw5aklscVJ4aUt1bW9yUzhycjEzVVB0V0dHb3A4NkkxOHV0SFdjTDEwMkZ1MGN6bFBNbDdyRFQ?oc=5"
+  source: "WIBW"
+  published: "2026-09-25"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Platte County police dog helps catch fleeing Kansas man - Northwest MO Info"
+  url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxPakpMQlBvS0FhQUZYeFNZbWc5V2o0LXFmUUIwUGtIa05pbXBHcmRjT3BwSWlnNXA4WHR1eGVBRkQxU3JRTmxHYVhCNnI0SGtzT1h5UGNWcHVBYmRPZkJORG9MbUlZVVhBV3c1VXp3c3I2RE03ZUZkU1ZzdTFEX3pJb0oxcy1KcjYyWTgxU2MyWlEzelZDbUdvM3ZMMThPQ2ZJ?oc=5"
+  source: "Northwest MO Info"
+  published: "2026-09-25"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Sentencing Day: Kansas man hid 5 days after fatal DUI crash - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hWm1mSWRsMGMwUld5Q0tqbk9xblNMMEpFSFdLdllDUXZmemhKRnBDcTRrNGRHQktHMF9taU82TXZJRjRYSmwxeW5mYUR1TF9uSkRiVGxsNTU5a0t3dHpiYlY3Z1UzbDFscXF6SVZB?oc=5"
+  source: "JC Post"
+  published: "2026-09-25"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Kansas man arrested after deputies recover 500 pounds of stolen copper - KAKE"
+  url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQnkwZTVDRS10U1JlaHBHbGhPbXhpT1FBSmZhN0ZCY25rR1Q4LUp3SFpxRXYydkotdVhZU3MtVFlCSUhGRzJWSmMzczA3YTY5T2FlbzRsaVlfcjhqX0ZuenBXMzdEeUxKclNZNWJTRnFiTXpGZTRSZWVhSGFuek5ZMnFaWWdZa3pFUjR6U0RucHk0djFNM3ZhQUdlcF9OSDF4MlFjN09VRHF4WXlsV3c0TjRZQVR0TnJSYXhReXJNampnbTBZME5ucUdrSXJ6Y2FHRFd6bzk1a3d1XzVxYUl3?oc=5"
+  source: "KAKE"
+  published: "2026-09-25"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Kansas man killed in car, pickup crash - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DR2RRR2lEbHIySkpRTXRtMUtpUEpZaTctaHlRb2QzMENHcWpldUhMWVlsNy1tVXY2UXl6VG5MZkR3d3R5RlhoZERZVVhMZjRHbG82WjFibU0yNnpoZ2xlNExsWEVEVmtUOVMtWGln?oc=5"
+  source: "JC Post"
+  published: "2026-09-25"
+  matched_keyword: "Kansas highway patrol"
+
 - title: "Two confirmed dead after crash near warehouse district in Northeast Kansas City - FOX4KC.com"
   url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWhoS2tGZzA2WVlFY2JyM09lcUdMY3VSU0pIei05MDJEZS1MeTdwcVh6M0dEQU5IWDE4OVZPMXRmNjhaeC1kUURXV3psci1NVVZaSHFTSDc5dUM2Z0pLRnlYY1hfcXVvVWdTdlRUX0xZTmVNXzRBYkRMc0VRSkNKQnI2RFFPNWZBdWpYdW5iUzRPc0cyUXFqeEx0WW1aWHh4c3p6NExMY9IBrAFBVV95cUxPRDcyUHoxU2thY3lpeXlweTlWZFJ0emIxUWI2U2xUU08ydXhmNGZkNjU3YUl0UE03amM5N0JvSEhDZ2tidVhtVWM5a0tTSURyVk5BR1k5REhJbmU1Y0s0LXFKZFFBN3pYQUJBSGFBdHlSUWhHbzZ1SHlrSXY4UldlQmZMUldFeTdJdXJaT3QtempsZFRMX3B0QXctSTVtZmZyNkhvWHlUN184WTUw?oc=5"
   source: "FOX4KC.com"
@@ -187,7 +277,7 @@
   url: "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTl9qNGFXM25JNndjbzNwUHJ5TG5RNllQc2x1TnZBNWpiZTB6MXM0X2JZcGpvWEdtd1BSNnpkTHZsY2ZrcnVuS1BaWFlKV1A3QV8yTUlieFl1akVsSVJHU3RTUEZXOTNKVXpvSUFvWXBpd0pWN01uT1J3WGZyNGJMXzRubUpDS3Z6aThRVGhNMnczTVk5VkxObDN6bHFFVkJRdHRkNFJUZTZiTkdCRFZ0QTZ5Q045ZTNYZFlpVlM1TXNFZFJEV1c3bThqSnV6SExJVG4yMzEzZ3prSDd6VDNmOGtQaWVWZEhRYkdvVw?oc=5"
   source: "KAKE"
   published: "2026-09-24"
-  matched_keyword: "Kansas sheriff"
+  matched_keyword: "Kansas police department"
 
 - title: "ICE activity in southwest Kansas draws response from Sen Jerry Moran, Sen. Roger Marshall - KMBC"
   url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGFkc2ROY3dBaUg4MGRMai01VmJBZzF3MFpVYXJ5VVNGT2h0bHBjSnVJSEx0akppRGJpYzBMMVotVzZEVFo1cFBHZVlfYmZsM0w5NjlONms0TUtPVFhyQm5Jb0pDQUItMnY4eDZPbjcwdi1IRU5ZbU96RW9UcmNZT0hlakx4VjV5Qm5OQS1qNzE3ZFVHYkUtUmNnalZrZG56Z1A5OE5B?oc=5"
@@ -267,104 +357,14 @@
   published: "2026-09-24"
   matched_keyword: "Kansas police department"
 
-- title: "Police ID victim of fatal shooting that saw Kan. school bus hit - Salina Post"
+- title: "Police ID victim of fatal shooting that saw Kan. school bus hit - salinapost.com"
   url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aMVRJSU1Fc0F2aXB0MnFiVllGTjVrSUprWTllZmNKallwUXA3aGpHMkZEeFZPTnJkSUNud2lmTkh5TGlXemVNNGJXc05iNU9kT1dVOUR2VmtfTjhMVEJJRjZyZVQyZVhBVk0wVWhERTNyMVk?oc=5"
-  source: "Salina Post"
+  source: "salinapost.com"
   published: "2026-09-24"
   matched_keyword: "Kansas law enforcement"
 
 - title: "Officer injured in motorcycle crash after trying to pull over speeding car in school zone - KCTV"
   url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNWdHekV0SkdwcmoxdXB1Yk15QUZQWFZuZVJGLVdWRE5jTXlWamNQamJ6eXNkNVFSdGhKMm1JR1l1VXIwRDBwbGdNZ19DR0F5SHJsYm9PVlYzN2VnU1hGT0pLOWlTUHowNndoa3B1czlhbkdQR2pleXFYU3I4REU5ZDdZNUpPU2loQWxySjdWd2hUR0MxUTEweEJnLVVhN1k?oc=5"
   source: "KCTV"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "Serial killer found guilty of 4 murders along Kansas City trail - True Crime News"
-  url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRDlDQ21MX0hKU1lsNmZKcjd1Z3VwRGp5VEtMQkVmbDFidzdHWEdka1RPa0k0dXBHZ1FXSk9yNGI5bXhELXcwT0dWZGpZSG9kMTdZUlJjSmtMSVlqYTktZEotNndYbTladXRhZzliUEZhS3JPSHN2Smdlb1FaQmpoN3BFTzAzc0dhTWpPM2UwLUdNUGs1SmE5eTA1VW1BVFY5YjM0?oc=5"
-  source: "True Crime News"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "2 People Brought a Suitcase to a Fire Station and Said There Was a Body Inside. It Was a Missing Grandmother - People.com"
-  url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUDRFUWpXMWtPdWZ4alNvOE5WZzBJVGl6RzgxclFfTTg1Wnp0c1JkV1BQVlpEMTBVRTJhMWtVRDltdmJYRzhQeEtHMUR3VE55UTlHaEJQWXdTZV9QdmlVdmJWbDcxdm9iMkJDdHNyVWNUWHpob1YtMjVWdTBoRXhfYS1UWm5KQ3ZxZ2c?oc=5"
-  source: "People.com"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "Kansas Senate race gets so tight Republicans are denouncing ICE - Daily Kos"
-  url: "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejcxOFIyUUtTb0NYVVlSOXJWbFpOTnkwSUQ5T1l6Nm5PWmkxNXU0cmlueDY0N0NSZ0lINDdFTFplTnpITkhmUmxuWjdkNkhXS1JTMmlWX2dRTEZHakV4QV9zVnp0Z0hPMXFISk9nOTRvMVJnWmVvRXJzaWZQZlVLZFhkLWZXSnotZy1KdXVaT2V4TTJkRW9kUWFqZWxOWDRXOENRY2xZa0dndVREYXEtYUg5SkZ0UlNpRmhNeGo5OF9KNXh1bHc?oc=5"
-  source: "Daily Kos"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Woman found dead in suitcase left at fire station: ‘This is just evil’ - NJ.com"
-  url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNmNrLVZ6R2NDQl9TWVNlTmxnZ21jTjNhMGZMc1h4aWZBVTd3ZVZRNU9lWG5uT0FpSUcwWjZNZU5qekF5RGtGMHVnYV9jUExjQk84WEt0QVlCU19lci1GWjVoemdPWHZhS2dYQXhZT0hPeXhPYTdwMUxtaENfWFB6Z3FhVDA1dkVsSHVDWjJZTlJPSkVNYXVET015bVExWVpFeS1SR0xUc9IBuwFBVV95cUxNRksxV0ZIbVpKWUxaMndqRDlqUHRCT3kwZUF6a2dIT281VV9RdUdJRmFzTnU3dEx6amZSWWpjT3V6RGp4cVozT0kzejJaemRaclBFZ2I2a0s5eVBQMXQxYlZucnB3aWEwX1BkVHQ3enQ3eThGdlJqSG9YQWZHakpOUDRpb25ES013N2R6RkhCOFVZNkFKSWZWOXk4WldsVm1zNTZVNGdXNHI5RXpOMXRlUEYyQnBpTi1KM25r?oc=5"
-  source: "NJ.com"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "Kansas City, Missouri, motorcycle officer sent to hospital following crash - KSHB 41 Kansas City"
-  url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT2kybkJJUzhuMWh1UnJDZkhsLUhrWXZ4cDZUc011azlGbDA2ZEZ6ZDItWUIzTEV3UE1mZTNqeHJ5N1RyOFl5ckNaUTdrS05zbXdzdG1ySmdxcHN2YjBJRzdIT0RaZ2dyTHJtdWd5UmdlLS12Z0QwV1gxZm1JTzZNTm5aOA?oc=5"
-  source: "KSHB 41 Kansas City"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "Senators Marshall, Moran encourage ICE cooperation with local law enforcement amid operations in SW Kansas - KWCH"
-  url: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRVB5U0xjTWdBOHVNdlQ5OG5FdDJOUnI5c1p5RXRqd19DTkZYVlBvTmhVTXdsdE5Tb1pXNzdKNEQ4blN1a3l6QS0xUlluRGxoZjJrNnlhZTdyakpqVmp6cmlVaVN2RDRlVUJoVUVPTlBmR3ZHNVhTM3JlOWVfRjd5RmRVUHJtWHBJQ0stR0M3NHR6NnNMYVRLSGo3VElUOUJfNlEwTmYwNGVjT0NZSmRCOTRhTEg3VF9FS3ZqLUxBWUsyYnJ2YTNKLVdrOGk5c2ht0gHkAUFVX3lxTFBZbk1IMDEtVjBFZHlEeHhmaGpKbm0wQWg2VDlRZUFrcmVrajZvNWoxS2VtcGQ3M05YVjNjWkhMYUx2YUFRdy1nd2Y3M3BRTU9mQUFKVDRta0lhckdSRFMwYXBDaWt1eDVCbG1HTnJ2b0hqQ2VGS0hxWkxuTEVNYmhNd1pWSHRhM19JRW53RmlUb2JmVUhOQ1MxdFNGdjdpUVlxT0dzcDd0VF9yVGRfNzRucE0yZklkdDRVSjdIMVZ0SHNDTGZLZzFJS1JfT05VZXl2SW9DeDZwUjE4SmU3bE11dXFvbw?oc=5"
-  source: "KWCH"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Senate rivals strike similar tone on southwest Kansas ICE operations - Newstalk KZRG"
-  url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUpWN2ZIdkVDNmc4Q0FPa29XT1IyTXlrMjZNdV9tVDN5MEczWF9sRkE2MEljWHhkQ1VkR041UWR1bjZlWWRJMlJ4RWtoajJPVVBRdFpUVVZGR0tXd1NrRnJYcl9BRkJ3MjY2NEpETUpvNDFfRkQ5U0kyLVJHMzZjRDJEMzEtWDZKa3BGblBmc2J4SnFmQjE3enE5VUtMWWFfNFhhOVZka1l4TGtXd2c?oc=5"
-  source: "Newstalk KZRG"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Moran, Marshall respond to report of ICE agents in SW Kansas - Great Bend Post"
-  url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fd05xa1MzR2wxeEVsaVBYdjhLdFp0WDR0eU1XYUtOVzBYbjRJZUVUdmp3bDhoRWVPdzdVQ0F2MDdCc05ONzFwX3dhRUl0VG5CdmlCaVpxVVZDc2tMMUotRTl0UENMZndCS3RqT01WanFEWE44cFI4?oc=5"
-  source: "Great Bend Post"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Moran, Marshall respond to report of ICE agents in SW Kansas - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KNHR0MnVuTGdkSUFNSk5pamhlbVVpN05RVnE0My16cGQxNnA1aFBCY3dELXMzMnRveXo5cGt1YWloa2RwaHJtUkFaeDJGZTRfbUxhN1VBd2VoNFNNX0xqbDdKSHpxVFlOdkFEd1Bn?oc=5"
-  source: "JC Post"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Escaped inmate with ties to the Ozarks remains at large - KY3"
-  url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdlJkd0NBb0JHalg1eGlyUlh4akNKMnVORm5tVVBfQkdZeGp4YkRRRXRiTTY3bGtzbW1ZTXQwbUIzWDVINC1QX0N1RXFGZVpZcGplTkhjQmtnVFN3dVdlWVR1VFIxcGJqMFdySURzSllsd0plZ3A0SHdWcjc4Q18zT3RKZ9IBlwFBVV95cUxPQWp0elJBa19mbU5uUEp3Q1ZnTXBvMGFROFlmeFRMaUk5cVJzV1VJU2FBMlF1cXJTeU9EdmUwNWJ6anRzYW91anl3d0hHZEdKR2VESHF3bDk2QmdOb0lhU1JlbWZoUDl4RVhpRzRNbG9PaEZoMDNyZzlYOEVWbnp5TDdtcnA2LWw3NU5uS1c1N2hDN0xVT21N?oc=5"
-  source: "KY3"
-  published: "2026-09-24"
-  matched_keyword: "Kansas police department"
-
-- title: "AAA, Kansas Highway Patrol urge parents to keep children in car seats longer as use declines with age - KAKE"
-  url: "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQME5VaVdmcVpHaXUwUTV0SURYWEpkM25ULTBHR1dFMHgwRUZZZ3VoTGpPejIwSHV5TDRNaklZQ1pyY3BpVW55NVJYWkVzSFpvWHdkVTgzVTUyZXd1dG1mM2YxeVRDYVMzUFRPaVYzdDZLMjJuekRJQmE5aEdSbF83U0Y4ZHR3SlFXdzVNUGJIejVZYkdMUnBKMWo5Rl9rOXFKOGR2T0s0VGVqX3V2OFdPRHFKb0luT29xZjhfRnd6UEpjY0RpS3RPeFkwT0xxeDV3UXJsaU5qb28yUjAxTlFsUmYyLVU0UFZmdzJMUmFTWQ?oc=5"
-  source: "KAKE"
-  published: "2026-09-24"
-  matched_keyword: "Kansas highway patrol"
-
-- title: "Opinion: Kobach's politics of tragedy underline our nation's immigrant crime double standard - Kansas Reflector"
-  url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1MwZXoyVTZtNXhYZm82c0I5dE9ndS1WdC1iNG9xRlFiYXdyT2toZ1dzMDctVXV1VkV5d1FGRTlmYXRMSno5ekxHY01hWWJibkhOWHhUdmlsV3NjaF82WkVsd1ZjOW41TEhRcUxlRjZ6M3pOUE9VRkxJTTRmZ2ZGU2ZTNUNxQ242Y1VNUk80dWhWWkFyRVZVczIzc2FLVUlCR09ER3RCVXNjUDctSkFlNEh3U0dLQ0p2QkUtMlRn?oc=5"
-  source: "Kansas Reflector"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Roger Marshall speaks out against ICE as GOP fears it could lose Kansas - Yahoo"
-  url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUmw1TEVoT3dndDMwdlk3NTRfZU8tNkVJMWJxaUtGTHF6Y244V2lsSnRRRVNvOHdiVXZfcDN6UFhZM05aSUdFOGJzaS14aW5aZ2xpMVdaMjVsMElCVG1OR3NjXzIxMUdEVElEZkV6N3B1TXItSVV6Ym9QSTBXOE5qUHdJVGRJMWNqOEZLSTVkbFo?oc=5"
-  source: "Yahoo"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Halo Act: Kansas law bars approaching local, federal officers within 25 feet - ABC News - Breaking News, Latest News and Videos"
-  url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2xHWGhWUkVFX092cHNFMUUxeXh6TXpKMkZ5S291NmFwMkVuM3V6NDRmb3BWRFFJT2dxTWVrOUlaX0xPVWRud2lmTWFqb2F3WEl2Y2JVVzY2bS14VXhmVUduVWhITDFSRWN5b0hVQXpPR29ZLVlwcngxc0hiaklyU3ZHSWlWWWhjV3h5SXoxR0JjZkZTcDdj0gGcAUFVX3lxTFBBSFpHTG1BZ2Z4RjEzc1g2SFlPZXpUV01QY0FTT1Roc29PODRyRGdNZ1d0bENpVlgwbUVocS12djBveW9hdGtpQXYyVlN0eUdwR3dPaS12WDZVSlhIZVgyVkZUb1RCS25yNzdnUHlVNVZnczU3aTVJS19YdHp1NkRVUi1jS2ZqcUdkTmdJbTd4TU1xcjJGTHdoZVB3ZQ?oc=5"
-  source: "ABC News - Breaking News, Latest News and Videos"
-  published: "2026-09-24"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Daily News- Sept. 25, 2026 - Riley County Police Department"
-  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zRVNycjd2MTlXNWdGNFloQkJnWGtpZDNSMl9tNXN5cXVNVXBwVmt4Nk5KdXdQTExtRHo0alhFbEk2aGlXRXJsNFBfbUlaakh6N2RybzF2YWw0bmFZWjR6YkcyckFQSGY2LXM0?oc=5"
-  source: "Riley County Police Department"
   published: "2026-09-24"
   matched_keyword: "Kansas police department"
