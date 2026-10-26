@@ -7,11 +7,53 @@
 # not verify, and does not endorse -- the News page renders them
 # with that disclaimer attached. See README.md for how to change the
 # keyword list, the schedule, or turn this off entirely.
-# Last fetched: 2026-10-25 15:21 UTC
+# Last fetched: 2026-10-26 18:01 UTC
 
-- title: "Suspect captured after multi-county Kan. law enforcement search - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PbHZXWGxPa180RTB1aGNvUHFBUUNZbXVnV0JNZUNIaEdYSVpnQ2p6cVRpYjNEM2wtWEVvYWJKWHRuNXV4cnRManRaRVBVU2pkQTRPMHI5ckRiT29hbHdkWHRENi1LVHhGbWZ0YUh3?oc=5"
-  source: "JC Post"
+- title: "Sumner County Sheriff’s weekly jail bookings: Oct. 19 – Oct. 26, 2026 - Sumner NewsCow"
+  url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYzVneXRtZWVWaFV6czY3M2ZWeXRza0xjVE9helNDczVRRWk1RDdYTzFnY2pLTDlJdTY5b2ZkOUJEWEJXdXJxcmw2dmlFUDMzOTdCeXhoYV84YkJGSk9PU2RaZFdUd3k1V20yVTk1dVM4ZDNHaVpUZUdVWTVXUGdZOW92cFZOR2pQSEFfMDg0NzBiLUx2SEFXTA?oc=5"
+  source: "Sumner NewsCow"
+  published: "2026-10-26"
+  matched_keyword: "Kansas sheriff"
+
+- title: "Fighting the fentanyl crisis in Kansas communities | Opinion - The Hutchinson News"
+  url: "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVlBITFZjVFhQa0JEWGl1OFNjOTZ6czVpWFpfbW5HNmwtY2hIaDBnQ25TeG9CRXNaLU9ManQ1Yy1YX24tZVRGLW1hZ3BSTTFPTC1lckc1MlQwYjItQjNMWmFjdDRGeGdvR3ViWEVuRkV2R3RidWs4U21FVFVMbktKOUNEa3MtS3dBeXZCUXlXRndRbFd1ME9fS3BKaUkxNGVTZ0hKSll4dEpKdXNKaVhEbWFSWERzR3hjWC05dExHUXdMYTFM?oc=5"
+  source: "The Hutchinson News"
+  published: "2026-10-26"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Cherokee County Sheriff warns of rising deer-related car crashes - FourStatesHomepage.com"
+  url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzRHI4Wi0xNTAydE1DY3E1dGdmTjNFUkEyMnBVeHBvWFNOWXR2ekdrbmRlSDk3dGVIeFN0ejl5Y3Q3LUpzTmY3dmtlM21tVGJ2SzhEMWJIbFN0UUhfNEVxdThqWWdZdXlVQ25VTm5kZnJ2WjZLVldlN3h30gF_QVVfeXFMT19HNk02UVk4bk9kclo3MkJManZiZVBtbUIzZHAzN0k5MjhWaXpyVDVrazBMWGhsLXBReUtjaFAzUnktVE5IWENxZVlEYnhYUWdteGF5Z3VrcFExMnQySkxfeUFrM0MzNDBLWXdEdUxMV0dqeWpUSEVsYzBPZ2xqbw?oc=5"
+  source: "FourStatesHomepage.com"
+  published: "2026-10-26"
+  matched_keyword: "Kansas sheriff"
+
+- title: "Kansas Highway Patrol urges drivers to watch for deer - KOAM News Now"
+  url: "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOYUp6S0ZOVTQzb1pMOHFrWjcybEN2cVNjUkVwVXlCWVd1QTRDcDI2c3dOUnhhMUJwZnMzTTNNOFNmVXR0RDI1OUdrNkdrN29hblBwTlB4RjhqcVp5cTlXVURRSl9wTXdvMnFneFlYQ2tEbERaeWNCbEllenlVbFpONm9SSjRFX0RCby1yOGVhZzRXRTQ0cC1qOGE2Z0pmUUIydktPNEFUQ2UwMlBwTTVsU1hMdzJrM04wS1pPUXdObmJQV1YzR1NhOVE3Vkc4VGRLelg3MGR3MjBIS1dVQjBsX2xCU3E?oc=5"
+  source: "KOAM News Now"
+  published: "2026-10-25"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Three individuals hospitalized following three vehicle accident in Coffey County Saturday - KVOE"
+  url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3V1WjhQVHFCRTVodGxqazhLU3NRdDVkbEhOT1VjVEd6emhkVUFhc2czSDVJYkpuX1U1N2wtbHpmUnBiZXFlZ1psUTRTZkVscktuOElCLW9hUzVyMVRWVGc2QTV5bDlUS3o5NHR4dXVvVE9oUl9iRVp5QUJKTTRSeXB1aThQcEUwX05hYlF6Um9YeXU3ZWVib1FoN1d4cC1xeWZPSWVHcFA2OF9DVEh3RVBOQ2VGaGM?oc=5"
+  source: "KVOE"
+  published: "2026-10-25"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Independence police seek help finding SUV connected to killing of electrician - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xck85UC1nNUhaYzBIcVl2WXVwTzdkVktLMUpoaEw2RUUyV0lMY1NvRkk1bDBfQkRpOGJJZVljTnJ1eVpMRjVfeW11c2tVUDJfSkRpRGdwaUVCZ0I4MzBLT0x4S1RLT0Y3ekFpdFFaVDZsLVnSAXNBVV95cUxOY2FCeUJiMVdjOE5zMkxsWnBXTDZ6OW1qNU51MGxjTlFOTnB6M3lmY2ItZmtVTkQxUEthakY3VFdWTzVvZVRJY1FpLVp3M1l1NC13QUl3LURvTUJGVFF3TW05c2tfYWg2VS0xRUJiMHh2OFBV?oc=5"
+  source: "Kansas City Star"
+  published: "2026-10-25"
+  matched_keyword: "Kansas police department"
+
+- title: "Missouri, Kansas officials warn drivers to stay alert for deer this fall - FOX4KC.com"
+  url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUW1FSFJaWGFoYU9WZ19nenMzQjBsSjlpaG4tOWtjc2w0dFVQMzNHUmdwdUVkbDVXMjUzM0hsRV9LbThPa2tqMlJaRlBBbWZ3NldUWHlScm9KUDJDNkhPdXpVQmtkMUdDTDdWNzl1ZzQ1WjVBQmpVZmVvVnJhakNZWm9PcEU5eXgtWlR5ODZZR3ljVkgwUk9yUXlfUy3SAaIBQVVfeXFMT1RwLWZTZWk0aEhOclRlUmlGbURLUXhhbHp6T2Z0YnQySERtRktkbms0Um55YWw5X3J4eGlOQUZPa1F2b1BOeGtBaUxXZ2E1UkdOZkQ4Z1E3UmhvUV9fWHNHUzQ5ZVlaZjRKLXBnbmczWEZ0TlZqYmVScVRxZ3hWSnRrSFlnWG5qVzZ6ZGhhdU83WHF2SVctSmRYMWN0RDhEVjlB?oc=5"
+  source: "FOX4KC.com"
+  published: "2026-10-25"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Suspect captured after multi-county Kan. law enforcement search - Salina Post"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRMF9MX1hobHJKenVkVGs1M2J4cXU5MzNNY2cwMVN0bHYxalFiaEMwSUsyb1JRTTJjSkhMMTR3VGtnN1hoR1VzeHJ3ZmdlMmkyeFZ3ajZUUFVjOXg1cXMzWTRORGk2VmV3WHFWWm1ZRGJRNzA?oc=5"
+  source: "Salina Post"
   published: "2026-10-25"
   matched_keyword: "Kansas law enforcement"
 
@@ -21,9 +63,15 @@
   published: "2026-10-25"
   matched_keyword: "Kansas law enforcement"
 
-- title: "Sheriff: Kansas man used fake stories to scam churches - JC Post"
-  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5eThKdGZ6bzdLTlZkV2tndmd4eVU1MVF3aHU3MHNUVktrUV9kakxwTnlKalJaSVVVQnJNTGtGdl9iYmM5aHBzME8xR3dORVpOQzlGejhSdVRkUmExNldHT0x1Rm1RLU1xd0VBcXZn?oc=5"
-  source: "JC Post"
+- title: "FAMU homecoming: Police confirm shooting near Bragg Stadium - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3OFE4cXUzdlJTX1ZGUmJzaWMyVVp3ZDVyYnpQNG9yR3NUX29iVzQ1ZzRyZ1gzUE1uSm5WZl9zZE1CT25BWWgxT0duSXpQX0NJQnBsTGNKejZXalltN3RXZll0Rjl3ZkNPWnhndGh0d2M?oc=5"
+  source: "Kansas City Star"
+  published: "2026-10-25"
+  matched_keyword: "Kansas police department"
+
+- title: "Sheriff: Kansas man used fake stories to scam churches - Salina Post"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JOGpsTVloRjVvV3JZSW9tN0Z1RFJ4SXFCUjhXbko3Sm00dEZ3N3Z6UDdlZWl5QmRLbU1TWnBSUEJJM1lCbjUyeTN0bE14VHpTUHc5bFdBU0R5dE9fbHlhVTRRWTlzcVZITlJ5VG1RWWR3V2s?oc=5"
+  source: "Salina Post"
   published: "2026-10-25"
   matched_keyword: "Kansas sheriff"
 
@@ -32,6 +80,18 @@
   source: "FOX4KC.com"
   published: "2026-10-25"
   matched_keyword: "Kansas police department"
+
+- title: "Suspect captured after multi-county Kan. law enforcement search - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PbHZXWGxPa180RTB1aGNvUHFBUUNZbXVnV0JNZUNIaEdYSVpnQ2p6cVRpYjNEM2wtWEVvYWJKWHRuNXV4cnRManRaRVBVU2pkQTRPMHI5ckRiT29hbHdkWHRENi1LVHhGbWZ0YUh3?oc=5"
+  source: "JC Post"
+  published: "2026-10-25"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Sheriff: Kansas man used fake stories to scam churches - JC Post"
+  url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5eThKdGZ6bzdLTlZkV2tndmd4eVU1MVF3aHU3MHNUVktrUV9kakxwTnlKalJaSVVVQnJNTGtGdl9iYmM5aHBzME8xR3dORVpOQzlGejhSdVRkUmExNldHT0x1Rm1RLU1xd0VBcXZn?oc=5"
+  source: "JC Post"
+  published: "2026-10-25"
+  matched_keyword: "Kansas sheriff"
 
 - title: "Kansas City police searching for missing 3-year-old boy - FOX4KC.com"
   url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUVY5Z2hTeEtLak9FSjBpTzVackpwWjlIYWo5NnREVVFSUkJRUG0zOHB4RUNoTnBkRzAtNFpLbmw2akhyVGVpN1l2ejJNMDd5TEZJdWR2Sm1rbXlOTXlPT3RSbm5sNlN5Nm9GdExTVGxlN3FScG8wZFRoMDNhY3BmcEtETm9zMTTSAYwBQVVfeXFMTUVTaE9vUUJHOVpIU09zSFZ2RDdYMFlDM1JXUEt1STZpNzg4dnVqNFdDOWphYjI4RnRjamc1SkVSR012TTR4ZWVpanlJU0taNTBnV3djc1JkRGx1elJDd3pUbnA0WlpGXzlPbGpFRDBLclVybWptSXl4QjhRRGVJOFJRWjkyMi1OYW1xbUg?oc=5"
@@ -45,15 +105,15 @@
   published: "2026-10-24"
   matched_keyword: "Kansas police department"
 
+- title: "Nevada man dead after crash in southeast Kansas - KAKE"
+  url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQVBCcTJ6UlY0WUhMQm1NQ0Zrdjh2dVZrSVdhUmZqVXJBUXRINTFDbXB4eEFtN0Vib2EyQjZicGowUzZXOEMxdEktRk1JWjktQWFoVEJLUXFndE1lbG5FbVRVVTBJV0RHcTc3LTlJdjFkbUkwcEVoWHlHLXp5bExfamZFNk41S0JYdno5TEl5MW9vTFo0Rmxya280TktaTGQ1amtuZDk0bkJfSTFWYWVLWWw1V25iTnl3ejktX1lVelA?oc=5"
+  source: "KAKE"
+  published: "2026-10-24"
+  matched_keyword: "Kansas highway patrol"
+
 - title: "Driver dies after vehicle runs off road, hits tree in south Kansas City - Kansas City Star"
   url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zM1lHblVTQlhJQllSZmZyc3hsZFhMUktMTDVMWnlOSzl3T2lyaksyQ0ZKSHFJbXRMdko1QTRYb0VFRzZjTHV5V184bnREQmpyRWhkb3J1M2o3UElCRVNOVXFqNlVpa0ZkT0840gFrQVVfeXFMTS1BcDMyMHVyU2ttYXB5MlBSejgzeWx4V2NmUFdybnJCMTZHMXp6RWctVmMwQWNzUVVSb3Mza3pnMW02YnFBZUJpVEVUMDlmbGI2ZEZBaVhWMXpRR0ZBZjdVc2htZlBSck96WWM?oc=5"
   source: "Kansas City Star"
-  published: "2026-10-24"
-  matched_keyword: "Kansas police department"
-
-- title: "Driver dies after striking tree in single-vehicle crash Saturday morning - KSHB 41 Kansas City"
-  url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTlBFRnU0bGxkTXFHSWt0QWRZM0x3eU5FRFNFTVl0elFjejVYNjViV0J6dDNYR0hUdTZuOGI4cjhSUVRBVFlMZnNKQk13RFVmRldmVjh4N1libTM3OGNlb3A3ZzdiamlVNFUwUlhJV185Ym9feGw4R1hCY2o2amtkT0ZmMHl0eUlmaHp6SklZWjNpbVl2cVNPNlp3cUhzaGZfRDA0dEZBSQ?oc=5"
-  source: "KSHB 41 Kansas City"
   published: "2026-10-24"
   matched_keyword: "Kansas police department"
 
@@ -69,11 +129,23 @@
   published: "2026-10-24"
   matched_keyword: "Kansas highway patrol"
 
+- title: "Salina Officers Graduate From Academy - KSAL News"
+  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rQW9PY2w5Z3drY2o5RFR3U3BWRnVmbEM0SEJYb2xKc1gtSmxlQk9zUHdBcUI5UVZrRDhxOXVvem5ERmVnRUNsYnI2Z0xoZHp5LW5aWDR1ellmVDRhQnU0LUVhOEpSZGlDeVQw?oc=5"
+  source: "KSAL News"
+  published: "2026-10-24"
+  matched_keyword: "Kansas police department"
+
 - title: "Rider, Passenger Killed in Motorcycle Crash - KSAL News"
   url: "https://news.google.com/rss/articles/CBMickFVX3lxTE14Mm8xY2ZhZENaOVdCeW1vZGVYSDM5X09BaWtLX3JnVWxfbFh2STBiR3VaWVZVU0l1bkt3WkxJSHdidVBfSnVlNFh0bGxXUFlBZGdaeFczLWJfM1lzUlh6a0JXOE1ORm14X0F6ZnJRdVRKZw?oc=5"
   source: "KSAL News"
   published: "2026-10-24"
   matched_keyword: "Kansas highway patrol"
+
+- title: "Missouri businesswoman and single mom killed when police SUV responding to emergency crashes into her Audi - Fox News"
+  url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG9UNUVRVmxQTTdRQUJuZm0tajRQU21jbkZuTXRrd2RrZHR6anNwZjdBOU4yenAwNmZLVmlnNnJHVVVyaW9RVEZEV3hSUFNzc2hLWDQ1dEVQX21NQzNhTmR0VWJfS2VrelpjRGdJRDExcFJ6SkF5ajN0RUZRU2l3aFRaVVVwejBTSzh1bWlxOG9HVS1KWUNzN05lRjhFTzRoZllqT1Z1RjVIUVhnSUVsOUVB0gG3AUFVX3lxTE1DbHlIcjZLS0pncGUxclluazFnZ1gzNFRhdzNRdUJXTmYweGFBN0JUc3djZXlfaXBKQXlfdWwzOElaOE1COG1PVzNvQTU5WGcxV0R1VkZOcHoxWTlBcG9WVE5FaGpzekNMd0tmeWkzalZjUHlBdnpRSGZvbElUVXJldHN6WDJ1a3JlaXB4ZlEtSktXVFlCUUVVTXBQc25jQnZtNkN3akRoNUxxcjVwS0dFRlBnTEIyNA?oc=5"
+  source: "Fox News"
+  published: "2026-10-24"
+  matched_keyword: "Kansas law enforcement"
 
 - title: "Two dead after Montgomery County crash, KHP says - KAKE"
   url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT0dSN1hpSjFiS0lBMWVNWTFINDJmN3B3Qlp6SDRDQWt3Nk1vYjBDQnN6U3h5djRwcXFHeUdjR2o1TzhoVlVwN3g5SG9LcGhlZ09GUXlnTmhYNDkxcnB0VzVjMFA0Xzk1NHNzaDVWa0NPOTFNWFpuNGtoZmVrVzVDV3J5aVFqb2swUlM4d09EWl9KT2ZTVy10R3BqTVRHQ1poNXNjcEF0VFhFbDlaR3pUZlRuQjc1a2RqdTNxS0tuQk4?oc=5"
@@ -87,17 +159,17 @@
   published: "2026-10-24"
   matched_keyword: "Kansas highway patrol"
 
+- title: "Driver dies after striking tree in single-vehicle crash Saturday morning - KSHB 41 Kansas City"
+  url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTlBFRnU0bGxkTXFHSWt0QWRZM0x3eU5FRFNFTVl0elFjejVYNjViV0J6dDNYR0hUdTZuOGI4cjhSUVRBVFlMZnNKQk13RFVmRldmVjh4N1libTM3OGNlb3A3ZzdiamlVNFUwUlhJV185Ym9feGw4R1hCY2o2amtkT0ZmMHl0eUlmaHp6SklZWjNpbVl2cVNPNlp3cUhzaGZfRDA0dEZBSQ?oc=5"
+  source: "KSHB 41 Kansas City"
+  published: "2026-10-24"
+  matched_keyword: "Kansas police department"
+
 - title: "Kansas couple killed in head-on motorcycle accident - JC Post"
   url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuQzJNLTNsVzJZN1lEUm5ub3l4b1JpT3p6aXBoV0hwTmplcnR6dHBWT2tYWngzdWdLcVRScnBFNF9QVzJrQzVLSS11OWRieWZIYThoS19rVF8tOXMtTnluYndfX3lxZnd5cWs1Z0dB?oc=5"
   source: "JC Post"
   published: "2026-10-24"
   matched_keyword: "Kansas highway patrol"
-
-- title: "Salina Officers Graduate From Academy - KSAL News"
-  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rQW9PY2w5Z3drY2o5RFR3U3BWRnVmbEM0SEJYb2xKc1gtSmxlQk9zUHdBcUI5UVZrRDhxOXVvem5ERmVnRUNsYnI2Z0xoZHp5LW5aWDR1ellmVDRhQnU0LUVhOEpSZGlDeVQw?oc=5"
-  source: "KSAL News"
-  published: "2026-10-24"
-  matched_keyword: "Kansas police department"
 
 - title: "364th Basic Training Class graduates from Kansas Law Enforcement Training Center - KU News"
   url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVXQwR2c3aU5rQk9LZkJGMWpDLWpXYkd4Ujk1QTM0TTRVNUhVVUdxRWhEcGxZYk53b3ZnVFlEYWlaOXN2WjJRV0pJakxwYklHamtId3RRY2IwXzBMbGRXM1YxTWEwdjU3cS1PR2xPcVIwTHp3NnFkTWhFbmZqVlhnMXlLM0w4VFpNanc5MlQ2NFRYTGtyc3FweUc2bDZYaHMyY1gtWFpyMk5XM1hjN3h1SlduZw?oc=5"
@@ -111,27 +183,21 @@
   published: "2026-10-23"
   matched_keyword: "Kansas highway patrol"
 
-- title: "Thursday evening shooting leaves one man dead; police looking for suspect - FOX4KC.com"
-  url: "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2VhdlcycjByZGV1Wld2SlRlUzJSSV9MWWs4ZlhramEzQTM1OXRCZzg4Z0N1WmRMTWNRN3NlT0RKVjRhQzVhNXprMS1aU29HaDY0UE1QU0JTNnltY3lxTExPQkpVZmhFSnNndTJILThkeEM2T0xJbEhfV19yOXZwNUR6VkhtRXlCbVZYSVZmbmhpNEhIZE9raGtyWkFiUdIBowFBVV95cUxNTk90S1M2VEt4ckVwdjVPcHNETThzS2pmbC1MWkQ4M1ZYdTBaX2dLYWNKbGpKdEpqY1ZhZ29wbE02NlpORWRjbXdpUVZkMGd5dS1vazRSNFZHY2dnZkpuaGJYQUxUVDJmbjFlYTBEWVcwdV9lN3A5dHNRN09GZjlqNjYxUjNuZUp0VzhsRTN1VXlMSDZvZ1h6TjF2R0IzMHlHcS1j?oc=5"
-  source: "FOX4KC.com"
-  published: "2026-10-23"
-  matched_keyword: "Kansas police department"
-
-- title: "Northland residents weigh in on what they want from KCPD’s next police chief - KSHB 41 Kansas City"
-  url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXhLTzBUTkgweTVFN2c4VGV0cWlYLW9GYW1SMlE5U2xYMnN4cklTdGJQQ0Myd0ZudGpOSFpWV093XzFwSHNPYVY4cVVEd0Y1WUt0TzFUaHo3MXd2bC15VE9yRWNBTGw2R0ZSY2gzUUdsbTJnTkdNQmpKNlFNQ2tONE1Cb0ZhUXBKb3htM0o5cDUtZ0xFclFMUGcybjVKRC1wUHNkYkxHYlJXZ09sNU1GeGxyUUFlS25hSDRVNk41U2pJZUd6VURxWnZ6N2xSZw?oc=5"
-  source: "KSHB 41 Kansas City"
-  published: "2026-10-23"
-  matched_keyword: "Kansas police department"
-
 - title: "Police ID man murdered in Midtown-Westport shooting - KSHB 41 Kansas City"
   url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZnNLU2dWVGcyRXVFVFRpVG15X1ZtYkhYZmVHcjRqRHdGT0pOX3pyMUJfeWdHYzVCZEpOMHZZZnlWTkRheF92MkFMbVk0QWJEbHRSZFJ1WTFTcEZZdlR2X2c1QlprNVFQQ2hnX05PYktkbHlfUHRxY0pnek1PTW91QUxnMXhBNnY4NjB2MGpIZnlpbmFzN21ISUVNNHZTM2ZF?oc=5"
   source: "KSHB 41 Kansas City"
   published: "2026-10-23"
   matched_keyword: "Kansas police department"
 
-- title: "Kansas City's temporary ‘World Cup’ jail to be permanent solution as city scraps new building plan - KCUR"
-  url: "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYW1KN3pJT25rcmVYYWFkZnpNUkVmVnpZc3g4eEV2LVg2aC1sTUZ3T0ZPRFJRUjkzcF9mRXJPa3BnSUFHQjl2REtOcmlMcW1ScnlsYUFBQXNKUEsyUkFucHZEMXRuMjJZVE9mY0VWeUc0TDBZdGxUUTlNSkg3ZFlvLUZQSHlUa1VJa0cwcU0wOTFja1ZBbmVub0xWNnhXRGY4b1hsRlZiUGlqZzhvRFR4TkVtZ0dBZnZtRERTcll6dmVYMHZyMzE0Z2hSYkthRlprS1FYbk1UQTBicmZ3aHgtbEtuY3JDa2R1NnNqZGdQWWp0Z1k?oc=5"
-  source: "KCUR"
+- title: "Thursday evening shooting leaves one man dead; police looking for suspect - FOX4KC.com"
+  url: "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2VhdlcycjByZGV1Wld2SlRlUzJSSV9MWWs4ZlhramEzQTM1OXRCZzg4Z0N1WmRMTWNRN3NlT0RKVjRhQzVhNXprMS1aU29HaDY0UE1QU0JTNnltY3lxTExPQkpVZmhFSnNndTJILThkeEM2T0xJbEhfV19yOXZwNUR6VkhtRXlCbVZYSVZmbmhpNEhIZE9raGtyWkFiUdIBowFBVV95cUxNTk90S1M2VEt4ckVwdjVPcHNETThzS2pmbC1MWkQ4M1ZYdTBaX2dLYWNKbGpKdEpqY1ZhZ29wbE02NlpORWRjbXdpUVZkMGd5dS1vazRSNFZHY2dnZkpuaGJYQUxUVDJmbjFlYTBEWVcwdV9lN3A5dHNRN09GZjlqNjYxUjNuZUp0VzhsRTN1VXlMSDZvZ1h6TjF2R0IzMHlHcS1j?oc=5"
+  source: "FOX4KC.com"
+  published: "2026-10-23"
+  matched_keyword: "Kansas police department"
+
+- title: "One man killed after argument escalates to gunfire in Kansas City, police say - Kansas City Star"
+  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE82RE9GRnQ5VXUyZGFmU3IzbkI2N093dTB3dGxUR0d3cmR5dFpheFNxcXc4bW41YWluSU1wSnY2OVJHT2RWT2FFTkpTcm5jWkJhWkFYNnVNazVOQ3d0WW9vS2RTZEJURlNERXkxZjlNU1piSGPSAXNBVV95cUxONDJ2S1BoV21WU1A3Z0NpbXVqbzdnQ1ZuWWJYOXZ6NjVaZUZoeTJDdHQtMTgxYmozc0RhY1B3UDREWDZXWUlYbnlxU0ItRlVOWF8xN1lTU0JKTW1oUkpWV014SmJ1bVNxVENUVkI3VEJkYzcw?oc=5"
+  source: "Kansas City Star"
   published: "2026-10-23"
   matched_keyword: "Kansas police department"
 
@@ -147,6 +213,12 @@
   published: "2026-10-23"
   matched_keyword: "Kansas police department"
 
+- title: "Kansas City's temporary ‘World Cup’ jail to be permanent solution as city scraps new building plan - KCUR"
+  url: "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYW1KN3pJT25rcmVYYWFkZnpNUkVmVnpZc3g4eEV2LVg2aC1sTUZ3T0ZPRFJRUjkzcF9mRXJPa3BnSUFHQjl2REtOcmlMcW1ScnlsYUFBQXNKUEsyUkFucHZEMXRuMjJZVE9mY0VWeUc0TDBZdGxUUTlNSkg3ZFlvLUZQSHlUa1VJa0cwcU0wOTFja1ZBbmVub0xWNnhXRGY4b1hsRlZiUGlqZzhvRFR4TkVtZ0dBZnZtRERTcll6dmVYMHZyMzE0Z2hSYkthRlprS1FYbk1UQTBicmZ3aHgtbEtuY3JDa2R1NnNqZGdQWWp0Z1k?oc=5"
+  source: "KCUR"
+  published: "2026-10-23"
+  matched_keyword: "Kansas police department"
+
 - title: "Overland Park Police Department shares details in trio of trail attacks - FOX4KC.com"
   url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHhkck9VeUFyc3lZX3ZmRTV0RENNczFpbVV2RFFicEVsemJ5aUdSYjNzbUYtUnRLQmRZdzRidzJNLXRQWlV6SkNLZTFpUXV4U3NJYVM3M1MzQ29IWndyMS1vOU9JVm4xa3pfTUpOT3JyWWxDbHVRQ1pXVEJyZVdNb2JaMjRIOFRMTHViSnowczJZUdIBlwFBVV95cUxPcWhFVmNraU1Idk9aZVdDZUc3ajg2alctUEl1X1haTDY3RVdKay0yX3lvOVE4QXVkdnlzbF9OLVY1R2pRZTd0ZkNkM1dIY0h0LUx0SjZPX0luVlZOUENRYzhVWmFVdHZ1ck1uQ2Y0a2hVZnU4bFNzRndacHA3NGcyVmh6MHBfYjdLMkZucUdjQWMzaVlod2h3?oc=5"
   source: "FOX4KC.com"
@@ -159,21 +231,15 @@
   published: "2026-10-22"
   matched_keyword: "Kansas police department"
 
-- title: "Police find car linked to former UMKC volleyball player's murder - Hays Post"
-  url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE16VEdFRWxSb2ZLdkhjNWJtVnpKbjB1dVFyelJ0b2ZoMEFBOUlETDI3bkM5T1RoRTZhYUoyRmFjTlRESUhnc2xLMFk1ZWFuSXdjNTIxLU1mVVA1RHVfSktObWU4NHU5ZmNGby1jdXlYZG0?oc=5"
-  source: "Hays Post"
+- title: "Northland residents weigh in on what they want from KCPD’s next police chief - KSHB 41 Kansas City"
+  url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYXhLTzBUTkgweTVFN2c4VGV0cWlYLW9GYW1SMlE5U2xYMnN4cklTdGJQQ0Myd0ZudGpOSFpWV093XzFwSHNPYVY4cVVEd0Y1WUt0TzFUaHo3MXd2bC15VE9yRWNBTGw2R0ZSY2gzUUdsbTJnTkdNQmpKNlFNQ2tONE1Cb0ZhUXBKb3htM0o5cDUtZ0xFclFMUGcybjVKRC1wUHNkYkxHYlJXZ09sNU1GeGxyUUFlS25hSDRVNk41U2pJZUd6VURxWnZ6N2xSZw?oc=5"
+  source: "KSHB 41 Kansas City"
   published: "2026-10-22"
-  matched_keyword: "Kansas law enforcement"
+  matched_keyword: "Kansas police department"
 
 - title: "OCSO arrest man accused of kidnapping, making death threats against Kansas woman - KOKI FOX 23"
   url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZF9hWU9SdTJNYmV0NmQ3ajRRbjY3MTR1T0gtWUdQOFByRk40RTVsd2lDTmZaaUxEWEdmNWxBS2VZcFFIRU1meDdxaC0tMG5hUzBOelgxRHh1aGJwWUJrMnVUcEdqUUR2R1dHUGFHOGt0dHJUbGJxMF9Fck1aZ3pCdG5KT0R0RkgwSEZrMFIyNWJIS3k1RmZ5X2lQMVRNWW1EMkFyOFJ2UHpCeE43?oc=5"
   source: "KOKI FOX 23"
-  published: "2026-10-22"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "2026 Voter Guide: Kansas Attorney General - The University Daily Kansan"
-  url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjRmZ2o5SFBSTkFWaHBtSUNsLWJ6aVVkM05ZaWJxU3laUEtiSkw2N2k1MGg2ZHJUVko5aGRMRVMzZ0hXS0gzRW93bUU5cWF2MnFrbTJ5cklqZC1YaFFkLTk3bEVsblFWaTlHZUxNaDQzQ0w1a3RDM0hablJScEhQZU9oelZvbHEyU1U1cVFJa0hxcC10MW45YVdydjI5amt2bG9WT1FfUGFIc0VaaVExODVCSk1KQWpXdXc?oc=5"
-  source: "The University Daily Kansan"
   published: "2026-10-22"
   matched_keyword: "Kansas law enforcement"
 
@@ -182,6 +248,48 @@
   source: "Kansas City Star"
   published: "2026-10-22"
   matched_keyword: "Kansas police department"
+
+- title: "Kansas attorney general candidates question rivals on plea bargain, immigrant crime - Kansas Reflector"
+  url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNWdyRE5lOHNzb013RjRtNGFPVDJ0a2ZOMGFXZDR3NWg0emVRd2tSM2xRcUdyY3AtMXk4b1dLd3BZMFJRNTZ0LVhsSzJ3djdSMzFCUk9uMTVmQzhDdERpbWJkcGY1S1BHLTRhNFY4Vm5aaHJKTTRtcUh4aUNsb000U2pKWXNqUnRqUmNLeEpzUmdnRGlyUC1nMTRXYnNlTHNkODJfV1ZhdVhPODNiOVQwMm43S01pdkRZYWpuMkVWdw?oc=5"
+  source: "Kansas Reflector"
+  published: "2026-10-22"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "Woman fatally hit by car while checking mailbox on Kansas road - KSN-TV"
+  url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOXg1dU1UX1I1S29LbHZCaFV0RS1zbG1MdFR1dEJnUG92N054QUFrOFVaVkNhOTVyVWtnQkRGT0M5ZXVYNGF1dldvVmotRjE3aGwyMzBvOGtCNmJKWlRmUzM3NzE4aDBybVJCYXhETlVHMEN3ZTNTN2xCcndvcVJwamthQUNVY05vQWdBQ25ibVZ2MnJtX0ZkbTRxaXpMM0MtbWN5RHBB0gGrAUFVX3lxTE5ET0lOLVVtSjdOWUpYZU5TTHAxb0VNWlVfSndOelZqYVpQU3NKQk9pQUVRTHdhaXg5czBoOWxYR3FQdGVXNDF2UWdBZGtvM2JTNFNSYm1pWkt3d3UtdmxRVHlUdG5QanZNck9YMl9BeUhSMkZMcHhCVC1iVU12RERacjBVN2VyQ0VHQXFPUUVtUHpWaU1KUWRkek5oRzVTUlV1X0JOYnhneFh1dw?oc=5"
+  source: "KSN-TV"
+  published: "2026-10-22"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Car hits, kills Kansas woman getting her mail, patrol says - KAKE"
+  url: "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaEZSbDlQZHVZSGVSTzdfTTVTbm81OEVtZXkyajluOVE4eGU5T1BiZnQ5dmZvNTFvQ21TcUdySV9kMEpoVlBkN0pXX2ZIdTJ5b0d6Z0diRXhJSXU4SWR0RW4wN1lsUGt3UDJIS1VVYzcyOFpxSjZ6OXBxX1ZRZUlaT29pWHNtY0U1ZDBjOTVvSzF6UHFqVVZfVXZ6bEk3SVduRkY0cE41dk1sNjNjaGFveV9GckloOTZnOEZ3MzZsVW1YYzFXaDNGMURZOFE?oc=5"
+  source: "KAKE"
+  published: "2026-10-22"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Rural Dickinson County woman dies after being hit by car while getting mail from her mailbox at end of driveway - KWCH"
+  url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX0lMTXFrSDRvcHdwTVFfdVVVdzNoQnRnMjJxaDZreXQyU1lyRGFjMDJjTXcyNmV4Q1I5anhnTm5OY0hiR0dvUGFzQTdieEZhRERtTXdFV21Db0VGa3RRZzVWeGlldXctcF90eUhwRlFLcjRFV0RLd3hVTGFjUXY4WVVpQWpGb0RHUVNhSnJYeXUyVWlZYnhJUWt6ZzdTNExUcllTTE5sNlh4VzNOOXZmUjZlbXVQZ0xwa0diSWZwN25zbkl3YkdHOC00aTFXZw?oc=5"
+  source: "KWCH"
+  published: "2026-10-22"
+  matched_keyword: "Kansas highway patrol"
+
+- title: "Kansas man accused of using fake stories about dying relatives to scam churches - KMBC"
+  url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxORTRuS2lSRkdWdUdyalliMTh6SFc5ZUFKcmtsd01EdDd4RlNmMkRkUDJzZWRBM01aYTRIYmMzNzhxR2tMTEphemIyMnU2dHFGaXV0a1ZLNHNnNXFWQVlvUTQ5YlpJa0dfSkJRWDRVdjBkNk4ya0lHU3FiRktKYTluUE55NTZRVEp2NGZJU2lsaVU?oc=5"
+  source: "KMBC"
+  published: "2026-10-22"
+  matched_keyword: "Kansas sheriff"
+
+- title: "Police find car linked to former UMKC volleyball player's murder - Hays Post"
+  url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE16VEdFRWxSb2ZLdkhjNWJtVnpKbjB1dVFyelJ0b2ZoMEFBOUlETDI3bkM5T1RoRTZhYUoyRmFjTlRESUhnc2xLMFk1ZWFuSXdjNTIxLU1mVVA1RHVfSktObWU4NHU5ZmNGby1jdXlYZG0?oc=5"
+  source: "Hays Post"
+  published: "2026-10-22"
+  matched_keyword: "Kansas law enforcement"
+
+- title: "2026 Voter Guide: Kansas Attorney General - The University Daily Kansan"
+  url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjRmZ2o5SFBSTkFWaHBtSUNsLWJ6aVVkM05ZaWJxU3laUEtiSkw2N2k1MGg2ZHJUVko5aGRMRVMzZ0hXS0gzRW93bUU5cWF2MnFrbTJ5cklqZC1YaFFkLTk3bEVsblFWaTlHZUxNaDQzQ0w1a3RDM0hablJScEhQZU9oelZvbHEyU1U1cVFJa0hxcC10MW45YVdydjI5amt2bG9WT1FfUGFIc0VaaVExODVCSk1KQWpXdXc?oc=5"
+  source: "The University Daily Kansan"
+  published: "2026-10-22"
+  matched_keyword: "Kansas law enforcement"
 
 - title: "Man using RV bathroom while parked on interstate shoulder killed when dump truck slams into it - CDLLife"
   url: "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY2ZHNGM3UHB2WmFoZ1FWRFJPOXFvcWxMM1cxMUJSSDgtT01tU3gyRTVUSU5ISkh4WTRfNHh4TjlxQVJnSkx4c3JNQmpObHRrWmpLUnd1Q3F0b3RNMWNTRng5V3JGZHZ5TDF2elVLV0xsQ3NmeGh4S3Etd0owMjVBa0p3MlhGLUE0QnlCdmVRdUxCSHhkVmdUMV9teFZJaFB5OEpwZnp1TGVXSlZVT2wwUWN1UEQzUWlhR18zUg?oc=5"
@@ -231,47 +339,17 @@
   published: "2026-10-22"
   matched_keyword: "Kansas police department"
 
-- title: "Kansas attorney general candidates question rivals on plea bargain, immigrant crime - Kansas Reflector"
-  url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNWdyRE5lOHNzb013RjRtNGFPVDJ0a2ZOMGFXZDR3NWg0emVRd2tSM2xRcUdyY3AtMXk4b1dLd3BZMFJRNTZ0LVhsSzJ3djdSMzFCUk9uMTVmQzhDdERpbWJkcGY1S1BHLTRhNFY4Vm5aaHJKTTRtcUh4aUNsb000U2pKWXNqUnRqUmNLeEpzUmdnRGlyUC1nMTRXYnNlTHNkODJfV1ZhdVhPODNiOVQwMm43S01pdkRZYWpuMkVWdw?oc=5"
-  source: "Kansas Reflector"
-  published: "2026-10-22"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Woman fatally hit by car while checking mailbox on Kansas road - KSN-TV"
-  url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOXg1dU1UX1I1S29LbHZCaFV0RS1zbG1MdFR1dEJnUG92N054QUFrOFVaVkNhOTVyVWtnQkRGT0M5ZXVYNGF1dldvVmotRjE3aGwyMzBvOGtCNmJKWlRmUzM3NzE4aDBybVJCYXhETlVHMEN3ZTNTN2xCcndvcVJwamthQUNVY05vQWdBQ25ibVZ2MnJtX0ZkbTRxaXpMM0MtbWN5RHBB0gGrAUFVX3lxTE5ET0lOLVVtSjdOWUpYZU5TTHAxb0VNWlVfSndOelZqYVpQU3NKQk9pQUVRTHdhaXg5czBoOWxYR3FQdGVXNDF2UWdBZGtvM2JTNFNSYm1pWkt3d3UtdmxRVHlUdG5QanZNck9YMl9BeUhSMkZMcHhCVC1iVU12RERacjBVN2VyQ0VHQXFPUUVtUHpWaU1KUWRkek5oRzVTUlV1X0JOYnhneFh1dw?oc=5"
-  source: "KSN-TV"
-  published: "2026-10-22"
-  matched_keyword: "Kansas highway patrol"
-
 - title: "Sedgwick County Sheriff's Office warns of unsafe houses ahead of Halloween - KAKE"
   url: "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYlY1TGU4U2FKU1dCRWZVWFZ2eVlkbm9IeElTaFY5MTZNUDlFc1hMb2h0QnV0SUVyeVVNNnp0cjZwY3dUUGJlMG5ILU1NcktDbHpTNjNFR0VKNnZxbmxCUUpHeHY0cU1LVHVhdk9naURUckFYZGVtWWFSWVlmdVlONFVNenZCVnI3bHhmY2YxaUl4MHEwRE1EOGs3QnpXMGh3U194Ym1tbkx3Q0tkSVNmLXhYWTFOam05U2tQSHJoSU90S2d3ZkJaV29EU1hTOTFjQlBselA0cEkzaHYyOUZFdC0yNA?oc=5"
   source: "KAKE"
   published: "2026-10-22"
   matched_keyword: "Kansas sheriff"
 
-- title: "Car hits, kills Kansas woman getting her mail, patrol says - KAKE"
-  url: "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaEZSbDlQZHVZSGVSTzdfTTVTbm81OEVtZXkyajluOVE4eGU5T1BiZnQ5dmZvNTFvQ21TcUdySV9kMEpoVlBkN0pXX2ZIdTJ5b0d6Z0diRXhJSXU4SWR0RW4wN1lsUGt3UDJIS1VVYzcyOFpxSjZ6OXBxX1ZRZUlaT29pWHNtY0U1ZDBjOTVvSzF6UHFqVVZfVXZ6bEk3SVduRkY0cE41dk1sNjNjaGFveV9GckloOTZnOEZ3MzZsVW1YYzFXaDNGMURZOFE?oc=5"
-  source: "KAKE"
-  published: "2026-10-22"
-  matched_keyword: "Kansas highway patrol"
-
-- title: "Rural Dickinson County woman dies after being hit by car while getting mail from her mailbox at end of driveway - KWCH"
-  url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX0lMTXFrSDRvcHdwTVFfdVVVdzNoQnRnMjJxaDZreXQyU1lyRGFjMDJjTXcyNmV4Q1I5anhnTm5OY0hiR0dvUGFzQTdieEZhRERtTXdFV21Db0VGa3RRZzVWeGlldXctcF90eUhwRlFLcjRFV0RLd3hVTGFjUXY4WVVpQWpGb0RHUVNhSnJYeXUyVWlZYnhJUWt6ZzdTNExUcllTTE5sNlh4VzNOOXZmUjZlbXVQZ0xwa0diSWZwN25zbkl3YkdHOC00aTFXZw?oc=5"
-  source: "KWCH"
-  published: "2026-10-22"
-  matched_keyword: "Kansas highway patrol"
-
 - title: "Car struck and killed Kansas woman getting her mail on rural road - Great Bend Post"
   url: "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4ajJoNGhWaWRpWmd3NU16ZVhXREtkMlZMOFBqLXh5ZjUwa3NpcGhuMEwybEhhRFkzSEZPeHE1TVdKTWo0eXdMd1kwNlpKM25IWGs0djZ5cy1SSU9TbVVtYkRXaU5uTTFINGF6U3FmSVpSNGkzZzFF?oc=5"
   source: "Great Bend Post"
   published: "2026-10-22"
   matched_keyword: "Kansas highway patrol"
-
-- title: "Kansas man accused of using fake stories about dying relatives to scam churches - KMBC"
-  url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxORTRuS2lSRkdWdUdyalliMTh6SFc5ZUFKcmtsd01EdDd4RlNmMkRkUDJzZWRBM01aYTRIYmMzNzhxR2tMTEphemIyMnU2dHFGaXV0a1ZLNHNnNXFWQVlvUTQ5YlpJa0dfSkJRWDRVdjBkNk4ya0lHU3FiRktKYTluUE55NTZRVEp2NGZJU2lsaVU?oc=5"
-  source: "KMBC"
-  published: "2026-10-22"
-  matched_keyword: "Kansas sheriff"
 
 - title: "Car struck and killed Kansas woman getting her mail on rural road - Salina Post"
   url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JRGJHNUhFdlJZTkRwMFlqQzQ0REpUMVdrdzRZaVd1dUNpTHUwRERacTBXWXBmSmJXaXE1NjBDVDZ6djBtV1pRVlNQZ2VSX2ZPeGlYbEhlTHZVTWdnbF9BWUZIYzNXbWx5b08zVXJEMmw3Wk0?oc=5"
@@ -289,82 +367,4 @@
   url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JS0hHeFNXblVvZ1FZY0J4OXJXbk01MmhLTFNzb0tSSU1vN2N1di03Q1pneDNzY3k4RFdkUDJ2YmZXX3lEeFp6VmhaLV90b2dOekhFSU5PQnVTZjR1NnZLQzVZVXpHdjkwY3VrZ2NVc2o?oc=5"
   source: "Hays Post"
   published: "2026-10-22"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "A 14-year-old is missing, last seen in Independence. Have you seen him? - Kansas City Star"
-  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zT3NZM2dMcTRzRzBaY3RDU19jX0phNDNyaHAyZHpPZW9PaGJ6a3ZIUFI5d09vX1lpVW9LZTdVMlloTlMwVXlTWUxJazFKcVpvcW5VcEo1TDFWUWNFdUdERWlNT0hUa0NPd3dn0gFrQVVfeXFMTVhsT3FGWkhYVG1EWlFTNjEzamFJQXZhWksyQmdLWFRoOFZ0N1FyOHdWSzRROV9yZVE5UEdmbkplZXZvelRJczN0TThqTDZtM3A3VE1VRUlUbzFWblF0RW9yMHBWU19ITVJqTHc?oc=5"
-  source: "Kansas City Star"
-  published: "2026-10-22"
-  matched_keyword: "Kansas sheriff"
-
-- title: "National Prescription Drug Take Back Day Set for Oct. 24 - Newstalk KZRG"
-  url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSjBnbmpKZkthbTRBb0l6aExjU0JVNjl5Y1ZQME95OEJ3elk0amlkSnNic1lQYm1Sd2c0M2lvcmVpaXB5Zk14ZVBXSDdrUjRmNDdJdzZzeFZxdHlkQ0lXQWxkaUJhVjNPSWhJRF96Vjl1dVlwN2VKcVZZSWJXMXpTMlA2T3RHa2ZwZ250ZXQ5YmZmdC1FRFp2WEg3ODc1Vy0wMEJv?oc=5"
-  source: "Newstalk KZRG"
-  published: "2026-10-22"
-  matched_keyword: "Kansas police department"
-
-- title: "Moderator Confronts Kansas Democrat Hamilton over Failure to Report Church Camp Pedophile to Police - Breitbart News"
-  url: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWRHMlhIX0tCZWh6MjEzdmJvWWhqZjFiUHZwcmIwR1JnblRkZC1haU41ZTY3QmtLYklrUDlPekdhNjdKS2hPSXAxWThKa0VpYzdvd1lBZ283RUE2WnNjUDVuRzlqcVRjY21kaElyT2VfYl92SGtTUWlRRUZ6bzQ3X2dzd2dFWnM2bmRTMzdDMkJNMVZHRlgzZGthaEVaV0FpMjNBSkhoaGRxcUF2Y0JIUUhmX3hnSmJSbXNvdVVoNUMtV00wbC1MWU9Idm4xaDFZUS03RFlka2d1d2J1cHRz0gHkAUFVX3lxTE1sOTRtUHlRSlFucXlEY0J3SWpjYlR5b0tfZWc1THNsajNWQW12QnRrNjFKVzBTX1lydjdMVEhuS3JmWlJQOHJhdGFqTE9yeGIxbDhGZ2JnbFg3dFh6N1lGTExnQzZWQ0xHb296UG9IN2s2YVFNRkhobWNQd0Z6ZHJNalJqSjdYUHItWVVXbk9LT3FFRms3YlhSM3Q2QmhtbUpWTzRMQ0hTS0p2NDBHRklYQkdsWG5ma2kwSVVONzYyYnpSWlJWUWhLekNRMGp3S0tpcGFuY21YQlNKNXo0WGVOTkhibg?oc=5"
-  source: "Breitbart News"
-  published: "2026-10-22"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Overland Park Police Department investigating series of park, trail assaults - FOX4KC.com"
-  url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOVA4ZmZUSUhzVGxYQ3NkSHRuVGRncW9tV183LS0zRldsbGQ4aFlPMFg2ZVJPeHRTNU1iRUFrU25aYVFjRVlIVlNOSTM2OThBTVRNaGdWeGwtby1Wd21BX3JsckY4M2s1SEhHeTNidUF2cG9jU1VQVUJKcHUzcnVJYUQ2RENjMFVtQ3VZaVZIU3czOE1PRFVfa21KLUFxUG5oN1HSAacBQVVfeXFMUFkxUkxyUGVRS2pMMWhjOG9sSTJVa25KMDNwWG1sVWhQdTExVEk1N29iTE5FQ1VoY2dhenJtanBmc2xoUzZVQkJxbGgxNFBYUFB1Mk16cUJZZHd3RUJiaXdXR1RHbGVRcWZNUW1yV1lIYUVKZVpUaGhsaHB0WlN3Yjc1VDlNUlZZTzFQMFAzVEllcDNadDZ2Qk5ycDRSN01QZlR2cFVBa3c?oc=5"
-  source: "FOX4KC.com"
-  published: "2026-10-21"
-  matched_keyword: "Kansas police department"
-
-- title: "Homicides and non-fatal shootings are down in Kansas City from last year - The Wichita Beacon"
-  url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdWE4RmlHeG1zaTJWT0tzUGxCanZtMlNTdDZRR3psS2NrNWd0M0d5VzJnbmJVd3ZlVlBRYmRqU0I0SUt2MTBpRU4tdzJrTTJPS1JBUWNmazlYTnVRMWdGUzJzLVktekhKTDdCRW5BcjBFZ0daVWFCc0ZLTk9UVWg2Y1JXZEdkSzAxVTZUZ3VJekE5WThSRzM4X3NkZnM0MnNEaTBmV0ttU2UxRzZhQk1DRmdGclBOS2puYUE?oc=5"
-  source: "The Wichita Beacon"
-  published: "2026-10-21"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Man detained in Kansas over suspected threats against Trump — The Guardian - UA.NEWS"
-  url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM2UxY3Z1VVJIVFZTaExBZ0xOeFk3a19IbXBSVjV3SFlTdTRxQ3VwRzF0eWpSMmdZLTFOSnFfSVJoU1ZoLTZocVctaDJRTDBXQjduVmxzREFoRHktVXc2ZzVsUllObDUtRUNROTkyVjhxb3Zpb2hLWE9mR0NSWUdZZUNhdGEwem9kdWUteWlCSWZxSUJ3bHFsQ29HRU1GQkxq?oc=5"
-  source: "UA.NEWS"
-  published: "2026-10-21"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Suspect vehicle in shooting death of former UMKC volleyball player sought by police - Kansas City Star"
-  url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sZmF0WUcwV3A2ZVR4Uk04aEFCU1c0MVllNTlENGJqeFYtTVFFR09KaS1vZUEwaWxBb1gzRVdmamUwdDQzUVFnTkhER2Z3RzROT0ptMkZuSEFKZ1N6X1ZEcHprd3laQ2cxZ3BN0gFrQVVfeXFMT05oSFBHeXBoZ1FGV1V2LW0yVGo5bEszWjQ5T0dYS3hqeHEzY1N2RUVQb3dEQnpoT2dVUHRHNFJkZ2VQbVRmcDVMMXM1TThqbHBYZlUwYXNROU1HRDZuYWlHRlVKM19TSkJaTnc?oc=5"
-  source: "Kansas City Star"
-  published: "2026-10-21"
-  matched_keyword: "Kansas police department"
-
-- title: "Kansas City police seek Nissan Altima in killing of former UMKC volleyball player - KCTV"
-  url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVENIeVVYSnd0eG1FS0dKYnF1NUJoWGxJcWQzYXkwQ19PaE9LMm5yamtqc0lJTUxDWTI5NTF3SDRETExMMEtOSUZKUmszUU5Rbkpsc2h3cGt2YUgyN0lFTFVrNV92UG9kZGtHM3lBQWtsYmg1UC1JaE53NHFKTHZmS296SjZnM2ZlSmEtQVpZN1JRcEVISzRKR1VsMWVKLVh0Q0JGbjRKSWppWUJBVVHSAcIBQVVfeXFMTXJ1NDY3WDYzdGZvWEhkcEx4VUV0aGJQTHkzbU5hQUU4dmRLcEJ3Q1EtQ2tHaEVXU3NqNmNsZ1B3eXVtdlc0NzB6UDlrTmdOalZDWnZGcUhVMlVnVThReEFtcS1TYm5FNWZzb05MLVFwMTRteGpScHhtdmw0U1V6dmxRRU9Ja3B4VFZwQWR0by00N2J6QzVGcmpsSnhOUGFMQ01pUmxpd3BFb2ExYXU1ajRhSkhEOWt5aUNnaXZLWkhCUFE?oc=5"
-  source: "KCTV"
-  published: "2026-10-21"
-  matched_keyword: "Kansas police department"
-
-- title: "Two charged after vehicle stolen in Independence robbery; police pursuit followed - Kansas City Star"
-  url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Ba2JUMmd1T1dYbDRMbXoyN1JRMDJCd01kSXBfVkEzdWZhNTFSYktQTjZOSUp5b1R1cEJ0bjFFcVhmd3JYM1dCOWp2Mjl0VnlmMU55WDNyMWlXUTZSQVlXUFJWcmlsR3E0MEdnbkpRb2U0TU3SAXNBVV95cUxQNTdVUmlvYm45d18tNmtIemh3SURvNGxINVhSdWhaU3Nzc05RYUFieW1KVlNsNEZWdExKVjZRTm5ST2VVUkZndEVTZFRtM3RXR3FQNV9YY2V5MVZrMnQtR3RUaU1VeTBDemI2VV9QZWdtNFhJ?oc=5"
-  source: "Kansas City Star"
-  published: "2026-10-21"
-  matched_keyword: "Kansas law enforcement"
-
-- title: "Kansas City, Kansas, man pleads guilty to 2025 killing of Wyandotte County Deputy Elijah Ming - KCUR"
-  url: "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRXNja2piMUwzYm4xWm1DWE5FbnFRNmpjN2JBNUlydTNJOVBVaHVCOWRjYVJyb2k3aUd6bWhQUl9SNVdrUnRKMk1sR0c3MV9xaVpqcHRsLVpIem92elk0NTIxd0pIZFUyQ3ZjSTBSMktpS3pJNDY0UkRqQS0zWE5jNGxja0FFQTNMVHhPeGtGYkFXZlU5QTZ0bzI4R0trT3JlbGdXUS1ZUWx6NTRGSUJ2eWFiSW5iSmJEVllkUzZoSVU0WVZCQjVj?oc=5"
-  source: "KCUR"
-  published: "2026-10-21"
-  matched_keyword: "Kansas sheriff"
-
-- title: "Kansas City, Kansas, man pleads guilty to 2025 killing of Wyandotte County Deputy Elijah Ming - Kansas Public Radio"
-  url: "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX0w2TTVMY3JxOW5kT3BpZWNGQWtkT3c4ZnhfencwbkhSMWJZeHJzRkhuWWtLbmcyTWh1SDlCd1VvSVJVTE9mcTlGeE9faklScmhZNHRQZUowa00yYXdvbEc0aDJCTGF0VVBzVEdPVlI4Z1NFN3NqYXM0WkhPRHY4VElZel8zN21Vbnhfd09LUFhQQlVfSFRrbFdrVFZLMVVhWVB0Z1JQOVFURDlPRjRDUVNQY2hrWVRXUjY4ampEUGRnWlNGNmVPaGg0a1Y?oc=5"
-  source: "Kansas Public Radio"
-  published: "2026-10-21"
-  matched_keyword: "Kansas police department"
-
-- title: "1 dead, 3 injured in southwest Kansas crash: Patrol - KAKE"
-  url: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMXZUOXRXeTMtMjk0T2NyS1V6TWVyVU83NUJIby0yMTgwRmRnZE1XVHN1Vl81ZzA2bnN2dHYyOG5wMVlpak1rSEZndmlhTWY5VXBlZnUwTlNIOVpaRjcxVk92VWh5SlQ3QlVOQy1zVDdpOFFRcG9FbWhManNNMnphRU41a3pQM0toWHY1WXlsaFlueVB3UmZvem9kZTZyY2h3VEdlLWJEcGpJcTRiekpXcEhnaUF1dnpBUV9DV2RFdjVBZHc?oc=5"
-  source: "KAKE"
-  published: "2026-10-21"
-  matched_keyword: "Kansas highway patrol"
-
-- title: "Wichita Police urge patience, address false claims as they investigate soccer field crash - The Lawrence Times"
-  url: "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKNzFucEl6VjVuX2xnY3RUb0o1ZFgtYWZveElGMjhwcmdTOGtlT0tNd2lkUTQyVWlncHhMOXA4R0VfQkNaOVVadWRnTzlhMWduSUR1eEozaHBmaWNhc0VrVkFfMGdIM2xjVU9mUTVZdGctcUJlZmc?oc=5"
-  source: "The Lawrence Times"
-  published: "2026-10-21"
   matched_keyword: "Kansas law enforcement"
